@@ -10,6 +10,7 @@
 <h2 id="Journals"><a href="#Journals" class="headerlink" title="Journals"></a>Journals</h2><p><strong>[2020]</strong></p>
 <ol>
 <li><strong>Research on information steganography based on network data stream</strong><br> Jiazhong Lu, Weisha Zhang, Ziye Deng, Shibin Zhang, Yan Chang, <strong>Xiaolei Liu*</strong><br> <em>Neural Computing and Applications</em></li>
+<li><strong>Tracking the Insider Attacker: A Blockchain Traceability System for Insider Threats</strong><br> Teng Hu, Bangzhou Xin, <strong>Xiaolei Liu</strong>, Ting Chen, Kangyi Ding, Xiaosong Zhang**<br> <em>Sensors</em></li>
 <li><strong>An equalisation control method for network big data transmission based on parallel computing</strong><br> Jiazhong Lu, Xiaosong Zhang*, <strong>Xiaolei Liu</strong>, Teng Hu, Yu Cao<br> <em>International Journal of Internet Protocol Technology</em></li>
 </ol>
 <p><strong>[2019]</strong></p>
@@ -99,27 +100,6 @@
 一个基于主权区块链的记账系统及方法、一种基于区块链的货运物流应用方法、一种基于收敛加密的数据块动态操作方法、一种抗量子计算攻击的无人机区块链管控策略、一种基于区块链的漫游话费记录和结算方法、基于主权区块链的供应链金融区块链应用方法、基于主权区块链的供应链管理方法、一种基于区块链技术的数字版权管理方法 -->]]></content>
   </entry>
   <entry>
-    <title>Funding</title>
-    <url>/funding/</url>
-    <content><![CDATA[<blockquote>
-<p>All I’m armed with is research. </p>
-<div align="right">– Mike Wallace (1918–2012)</div>
-</blockquote>
-<h2 id="Current-Grants"><a href="#Current-Grants" class="headerlink" title="Current Grants"></a>Current Grants</h2><ol>
-<li><p><strong>Title:</strong> Research on Security Analysis and Detection Technology of Artificial Intelligence Algorithm<br> <strong>Agency/Program:</strong> Director of Computer Application Research Institute Foundation<br> <strong>Duration:</strong> 2020.01 ~ 2021.12<br> <strong>PI:</strong> Xiaolei Liu</p>
-</li>
-<li><p><strong>Title:</strong> Research on Trusted and Secure Embedded Software System Based on Android<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2019.01 ~ 2020.06<br> <strong>PI:</strong> Xiaolei Liu</p>
-</li>
-</ol>
-<h2 id="Past-Grants"><a href="#Past-Grants" class="headerlink" title="Past Grants"></a>Past Grants</h2><ol>
-<li><p><strong>Title:</strong> Research on Intelligent Audit Technology for Android Malware<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2018.01 ~ 2019.01<br> <strong>PI:</strong> Teng Hu (CO-PI: Xiaolei Liu)</p>
-</li>
-<li><p><strong>Title:</strong> Research on Sensitive Data Protection Mechanism for MapReduce<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2016.01 ~ 2016.12<br> <strong>PI:</strong> Xiaolei Liu</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>Brief Bio</title>
     <url>/bio/</url>
     <content><![CDATA[<blockquote>
@@ -128,6 +108,26 @@
 </blockquote>
 <p><strong>Email: isxiaolei AT foxmail DOT com</strong><br><a href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a></p>
 <p>Xiaolei Liu is an assistant research fellow in Institute of Computer Application. He received the Ph.D. degree and M.S. degree in software engineering from the University of Electronic and Technology of China (UESTC). His research interests include AI security, Adversarial Example and Swarm Intelligence Optimization Algorithm. His homepage is at <a href="https://xiaolei.tech">https://xiaolei.tech</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Funding</title>
+    <url>/funding/</url>
+    <content><![CDATA[<blockquote>
+<p>All I’m armed with is research. </p>
+<div align="right">– Mike Wallace (1918–2012)</div>
+</blockquote>
+<h2 id="Current-Grants"><a href="#Current-Grants" class="headerlink" title="Current Grants"></a>Current Grants</h2><ol>
+<li><strong>Title:</strong> Research on Security Analysis and Detection Technology of Artificial Intelligence Algorithm<br> <strong>Agency/Program:</strong> Director of Computer Application Research Institute Foundation<br> <strong>Duration:</strong> 2020.01 ~ 2021.12<br> <strong>PI:</strong> Xiaolei Liu</li>
+</ol>
+<h2 id="Past-Grants"><a href="#Past-Grants" class="headerlink" title="Past Grants"></a>Past Grants</h2><ol>
+<li><p><strong>Title:</strong> Research on Trusted and Secure Embedded Software System Based on Android<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2019.01 ~ 2020.06<br> <strong>PI:</strong> Xiaolei Liu</p>
+</li>
+<li><p><strong>Title:</strong> Research on Intelligent Audit Technology for Android Malware<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2018.01 ~ 2019.01<br> <strong>PI:</strong> Teng Hu (CO-PI: Xiaolei Liu)</p>
+</li>
+<li><p><strong>Title:</strong> Research on Sensitive Data Protection Mechanism for MapReduce<br> <strong>Agency/Program:</strong> Sichuan Science and Technology Program<br> <strong>Duration:</strong> 2016.01 ~ 2016.12<br> <strong>PI:</strong> Xiaolei Liu</p>
+</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
