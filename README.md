@@ -1,6 +1,3 @@
-## xiaolei's Personal Website
+## xiaolei Liu's Academic Homepage
 
-Somewhere between nowhere & goodbye.
-
-Built with [Hexo](https://hexo.io/) & Theme-[ayer](https://github.com/Shen-Yu/hexo-theme-ayer).
-
+The secret of success is to do the common things uncommonly well. - John D. Rckefeller (1839-1937)
