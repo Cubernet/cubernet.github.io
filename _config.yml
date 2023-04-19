@@ -53,7 +53,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   - vendor/gems/
 #   - vendor/ruby/
 include:
-  - _pages
+  - .nojekyll
 
 # Markdown Processing
 # kramdown:
