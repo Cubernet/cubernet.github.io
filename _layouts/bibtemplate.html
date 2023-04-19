@@ -1,0 +1,51 @@
+---
+---
+<div>
+  {% if entry.short %}
+  <font id="conf">[{{ entry.short }}]</font>
+  {% endif %}
+
+  {{reference | replace_first:'.','<br>
+</div>' | replace_first:'.','<br>' | replace:'Xiaolei Liu','<i>Xiaolei Liu</i>'}}
+
+{% assign bibtest = false %}
+{% if entry.file %}
+{% assign bibfile = "/papers/" | append: entry.file %}
+{% for file in site.static_files %}
+{% if file.path contains bibfile %}
+{% assign bibtest = true %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if entry.file or entry.link or entry.code %}
+<br>
+{% endif %}
+
+{% assign first_line = false %}
+{% if entry.file %}
+{% assign first_line = true %}
+{% endif %}
+{% assign second_line = false %}
+{% if entry.file or entry.link %}
+{% assign second_line = true %}
+{% endif %}
+
+
+{% if entry.file %}
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank">[PDF]</a>
+{% endif %}
+
+{% if entry.link %}
+{% if first_line %}
+|
+{% endif %}
+<a href="{{ entry.link }}" target="_blank">[Link]</a>
+{% endif %}
+
+{% if entry.code %}
+{% if second_line %}
+|
+{% endif %}
+<a href="{{ entry.code }}" target="_blank">[Source Code]</a>
+{% endif %}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0 0 0 10px;
+    background: #FFFFFF;
+    height: 100%;
+    width: 97%;
+}
+
+h1 {
+    font-size: 200%;
+    padding: 30px 0 15px 0;
+}
+
+h2 {
+    font-size: 140%;
+    padding: 10px 0 10px 0;
+}
+
+h2 a {
+    font-size: 100%;
+}
+
+
+h3 {
+    font-size: 110%;
+    padding: 10px 0 3px 20px;
+}
+
+ul {
+    padding-left: 60px;
+    line-height: 1.3em;
+}
+
+p {
+    padding: 0 0 20px 10px;
+    line-height: 1.7em;
+    letter-spacing: 0px;
+    font-size: 125%;
+    margin-right: 10px;
+}
+
+a {
+    background-color: transparent color:#000000;
+}
+
+a:hover {
+    color: #B30B0B;
+    background-color: transparent
+}
+
+a:active {
+    color: #B30B0B;
+    background-color: transparent
+}
+
+#conf {
+    font-size: small;
+    color: blue;
+    font-weight: bold;
+}
+
+
+ol.bibliography {
+    margin: 12px 0 0 0;
+}
+
+ol.bibliography li {
+    padding: 0 0 12px 0;
+}
+
+ol.bibliography div {
+    padding-bottom: 3px;
+}
+
+ol.bibliography b {
+    font-size: 115%;
+}
+
+ol.bibliography a {
+    font-size: small;
+    font-weight: bold;
+}
+
+
+
+div.title {
+    margin: 20px 0 0 60px;
+}
+
+div.blocks {
+    margin: 10px 10px 20px 20px;
+    line-height: 1.3em;
+}
+
+div.indent {
+    margin: 5px 5px 5px 20px;
+    width: 80%;
+}
+
+ul.blocks {
+    padding-left: 18px;
+}
+
+hr {
+    margin: 1.5em 0;
+}
