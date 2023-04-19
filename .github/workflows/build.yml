@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
         with:
-        ref: source
+          ref: source
       - name: Build Jekyll site
         run: |
           set -xo pipefail
