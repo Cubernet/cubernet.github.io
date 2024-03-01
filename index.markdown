@@ -19,7 +19,7 @@ Email: lxl at ieee dot org
 My research team has multiple openings for <b>Research/Software Engineers, Research Assistants, Research Interns</b>, please drop me an email for more information.
 <br>
 <br>
-For Master applicants, please visit the website of <a href="https://site.gscaep.ac.cn/" target="_blank">CAEP graduate school</a> and contact me.
+For Master applicants, please visit the website of <a href="https://zsxx.gscaep.ac.cn/" target="_blank">CAEP graduate school</a> and contact me.
 </div>
 
 
@@ -28,7 +28,7 @@ For Master applicants, please visit the website of <a href="https://site.gscaep.
 ## Research
 
 <div class="blocks">
-I am interested in the security of computer systems and networks. While I also work on many other projects, my current research focus is the security of artificial intelligence, which broadly involves research on attack and defense for AI algorithm, explainable AI (XAI), data privacy protection, algorithm bias, AIGC security, etc.
+I am interested in the security of computer systems and networks. While I also work on many other projects, my current research focus is the security of artificial intelligence, which broadly involves research on attack and defense for AI algorithms, explainable AI (XAI), data privacy protection, algorithm bias, AIGC security, etc.
 </div>
 
 ---
@@ -47,6 +47,10 @@ I am interested in the security of computer systems and networks. While I also w
 ## Students:
 
 ### Master Students:
+
+- Xingyu Li (GSCAEP)
+
+### Alumni:
 
 - Yixiao Xu (GSCAEP, co-advised with Prof. Lu)
 - Ming Yi (GSCAEP, co-advised with Prof. Yin)
