@@ -9,7 +9,7 @@ layout: default
 <h2>Associate Research Fellow</h2>
 
 <br>
-Email: lxl at ieee dot org
+Email: xiaolei1 at acm dot org
 
 </div>
 
