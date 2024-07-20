@@ -3,11 +3,144 @@
 
 {% include head.html %}
 
+
 <body>
+  <main>
+    <aside class="sidebar" data-sidebar>
 
-  {{ content }}
+      <div class="sidebar-info">
 
-  <!-- {% include footer.html %} -->
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Xiaolei Liu" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Xiaolei Liu">Xiaolei Liu (刘小垒)</h1>
+
+          <p class="title">Associate Research Fellow</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:xiaoleiliu1@acm.org" class="contact-link">xiaoleiliu1@acm.org</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <phone class="contact-link">+1 (213) 352-2795</phone>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chengdu, China</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <!-- <div class="separator"></div> -->
+
+        <!-- <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul> -->
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+        </ul>
+      </nav>
+
+      {{ content }}
+  
+    </div>
+  </main>
+
+
+  <script>
+    // page navigation variables
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    // add event to all nav link
+    for (let i = 0; i < navigationLinks.length; i++) {
+      navigationLinks[i].addEventListener("click", function () {
+        if(navigationLinks[i].innerHTML.toLowerCase() != pages[0].dataset.page){
+          if(navigationLinks[i].innerHTML.toLowerCase() === "about"){
+            window.location.href="/";
+          }else{
+            window.location.href="/"+navigationLinks[i].innerHTML.toLowerCase()+".html";
+          }
+          
+        }
+      });
+
+      if(navigationLinks[i].innerHTML.toLowerCase() === pages[0].dataset.page){
+        navigationLinks[i].classList.add("active");
+      } else {
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+  </script> 
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 

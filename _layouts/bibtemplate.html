@@ -1,12 +1,16 @@
 ---
 ---
-<div>
-  {% if entry.short %}
-  <font id="conf">[{{ entry.short }}]</font>
-  {% endif %}
 
-  {{reference | replace_first:'.','<br>
-</div>' | replace_first:'.','<br>' | replace:'Xiaolei Liu','<i>Xiaolei Liu</i>'}}
+
+<li class="timeline-item">
+  <h4 class="h4 timeline-item-title">
+   
+    {% if entry.short %}
+    <font id="conf">[{{ entry.short }}]</font>
+    {% endif %}
+    {{reference | replace_first:'.','</h4><span>' | replace_first:'.','</span><p class="timeline-text">' | replace:'Xiaolei Liu','<i>Xiaolei Liu</i>'}}
+
+
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -49,3 +53,7 @@
 {% endif %}
 <a href="{{ entry.code }}" target="_blank">[Source Code]</a>
 {% endif %}
+
+</p> 
+ 
+</li>

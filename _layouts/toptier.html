@@ -2,11 +2,21 @@
 layout: default
 ---
 
-<h2><a href="{{ site.url }}">[Homepage]</a> - Publications at Top-tier Conferences and Journal articles</h2>
+<article class="resume active" data-page="resume">
+    <section class="timeline">
+        <div class="title-wrapper">
+        <div class="icon-box">
+            <ion-icon name="star"></ion-icon>
+        </div>
+        <h3 class="h3">Top-tier Conferences and Journal articles</h3>
+        </div>
+        <ol class="timeline-list">
+            {% bibliography --file toptier %}
+        </ol>
+    </section>
+    
+    <span style="color:white">A complete list may be found at <a href="/publications.html">publications</a>.</span>
+</article>
 
-A complete list may be found at <a href="/pubs.html">publications</a>.
 
-{% bibliography --file toptier %}
 
-<br>
-<br>

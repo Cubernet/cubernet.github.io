@@ -2,18 +2,19 @@
 layout: default
 ---
 
-<h2><a href="{{ site.url }}">[Homepage]</a> - Publications</h2>
-
-{% for year in page.years %}
-<p style="background-color:LightGray;height:20px;font-weight:bold">{{ year }}</p>
-{% bibliography --query @*[year={{ year }}] %}
-{% endfor %}
-
-<br>
-<br>
-* Ranking of security conferences can be found <a href="http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm" ,=""
-    target="_blank">here</a> and <a
-    href="http://academic.research.microsoft.com/RankList?entitytype=3&amp;topDomainID=2&amp;subDomainID=2&amp;last=0&amp;start=1&amp;end=100"
-    ,="" target="_blank">here</a>, but note they do not completely reflect my perception of these conferences.
-<br>
-<br>
+<article class="publications active" data-page="publications">
+    
+    {% for year in page.years %}
+    <section class="timeline">
+        <div class="title-wrapper">
+        <div class="icon-box">
+            <ion-icon name="calendar"></ion-icon>
+        </div>
+        <h3 class="h3">{{ year }}</h3>
+        </div>
+        <ol class="timeline-list">
+        {% bibliography --query @*[year={{ year }}] %}
+        </ol>
+    </section>
+    {% endfor %}
+</article>
