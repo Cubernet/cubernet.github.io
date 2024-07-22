@@ -28,7 +28,7 @@ layout: default
     <h3 class="h3">Publications</h3>
     <div class ="blocks">
       <ul class="blocks">
-        <li><a href="/toptier.html" target="_blank">Top-tier Conferences and Journal articles</a></li>
+        <li><a href="/toptier.html">Top-tier Conferences and Journal articles</a></li>
         <li>Complete publications list: <a href="/publications.html">[by_year]</a><a href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" target="_blank">[Google Scholar]</a><a href="https://dblp.org/pid/34/8893-1.html" target="_blank">[dblp]</a></li>
       </ul>
       </div>
