@@ -13,7 +13,7 @@ layout: default
       My research team has multiple openings for <b>Research/Software Engineers, Research Assistants, Research Interns</b>, please drop me an email for more information.
     </p>
     <p>
-      For Master applicants, please visit the website of <a href="https://zsxx.gscaep.ac.cn/" target="_blank">CAEP graduate school</a> and contact me.
+      For Master applicants, please visit the website of <a href="https://zsxx.gscaep.ac.cn/list/13" target="_blank">CAEP graduate school</a> and contact me.
     </p>
   </section>
 
