@@ -41,6 +41,7 @@ layout: default
       <ul>
         <li>Xingyu Li (Class of 2024)</li>
         <li>Cheng Liu (Class of 2024)</li>
+        <li>Zhiqing Hu (Class of 2023)</li>
         <li>Jialin Duan (Class of 2023, co-supervised with Prof. Qin)</li>
       </ul>
     </div>
