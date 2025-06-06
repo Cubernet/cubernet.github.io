@@ -28,12 +28,12 @@ I am interested in the security of software and algorithms. While I also work on
 # 📝 Selected Publications
 ## Conference
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
-  Xingan Gao, Xiaobing Sun, Sicong Ca, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liuo</span>, Xingwei Lin, and Yang Xiang.
+  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.
   In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI]()]
 - `ASE'24` **Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection**.  
-  Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liuo</span>, Xingwei Lin, and Wei Liu.  
+  Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Wei Liu.  
   In *Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE)*, October, 2024.  (<span style="color:red">CCF-A</span>)   
   [[Paper](https://sicongcao.github.io/publications/ASE24/ASE24-Papera.pdf)]
   [[DOI](https://dl.acm.org/doi/10.1145/3691620.3695057)]
