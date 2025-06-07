@@ -30,16 +30,13 @@ My research team has multiple openings for <span style="color:blue">Research Ass
 # 📝 Selected Publications
 ## Conference
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
-  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.
+  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
   In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI]()]
-- `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.
-
-  Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.
-
-  In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)
-
+- `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
+  Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
+  In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI](https://doi.org/10.1145/3658644.3670293)]
 - `ASE'24` **Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection**.  
