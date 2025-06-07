@@ -20,7 +20,7 @@ I am currently an associate research fellow in Chinese Academy of Engineering Ph
 
 I am interested in the security of software and algorithms. While I also work on many other projects, my current research focus is the security of artificial intelligence, which broadly involves research on attack and defense for AI algorithms, explainable AI (XAI), data privacy protection, LLM security, etc. I have published over 40 papers with total <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-My research team has multiple openings for <span style="color:blue">Research Associate/Assistant Professors, Research/Software Engineers, Research Assistants, Research Interns</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
+My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master students</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
 
 
 # 🔥 News
