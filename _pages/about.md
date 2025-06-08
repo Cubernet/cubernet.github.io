@@ -50,7 +50,12 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Teng Hu, Bangzhou Xin, and Run Yang.  
   In *Proceedings 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, June, 2023.  (<span style="color:red">CCF-B</span>)   
   [[Paper]()]
-  [[DOI](https://doi.org/10.1109/ICASSP49357.2023.10095514)] 
+  [[DOI](https://doi.org/10.1109/ICASSP49357.2023.10095514)]
+- `ICME'22` **Targeted Anonymization: A Face Image Anonymization Method for Unauthorized Models**.  
+  Kangyi Ding, Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Yanping Wang, and Xiaosong Zhang.  
+  In *Proceedings 2022 IEEE International Conference on Multimedia and Expo (ICME)*, August, 2022.  (<span style="color:red">CCF-B</span>)   
+  [[Paper]()]
+  [[DOI](https://doi.org/10.1109/ICME52920.2022.9859898)] 
 - `ICASSP'22` **Sparse Adversarial Attack For Video Via Gradient-Based Keyframe Selection**.  
   Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Mingyong Yin, Teng Hu, and Kangyi Ding.  
   In *Proceedings 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, May, 2022.  (<span style="color:red">CCF-B</span>)   
@@ -73,12 +78,32 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Rongke Liu, Dong Wang, Yizhi Ren, Kaitian Guo, Qianqian Qin, and  <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
+  [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)]
+- `TCSS'24` **Backdoor Attack and Defense on Deep Learning: A Survey**.   
+  Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, <span style="color:blue">Xiaolei Liu</span>, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.   
+  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
 - `IEEE Network’24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
   Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper]()]
   [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
+- `IPM’21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
+  Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.   
+  In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)   
+  [[Paper]()]
+  [[DOI](https://doi.org/10.1016/j.ipm.2020.102462)]
+- `TITS’21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
+  Kun Wan, <span style="color:blue">Xiaolei Liu</span>, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.   
+  In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
+  [[Paper]()]
+  [[DOI](https://doi.org/10.1109/TITS.2021.3056426)]
+- `KBS’21` **A low-query black-box adversarial attack based on transferability**.   
+  Kangyi Ding, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.   
+  In *Knowledge-Based Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
+  [[Paper]()]
+  [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
 
 # 🎖 Honors and Awards
 
