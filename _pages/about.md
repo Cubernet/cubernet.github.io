@@ -91,7 +91,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
 - `IPM’21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
   Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.   
-  In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)   
+  In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)<span class='show_paper_citations' data='2ahbtVoAAAAJ:blknAaTinKkC'></span>      
   [[Paper]()]
   [[DOI](https://doi.org/10.1016/j.ipm.2020.102462)]
 - `TITS’21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
