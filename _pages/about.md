@@ -16,12 +16,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an associate research fellow in Chinese Academy of Engineering Physics (CAEP). I got my Ph.D degree from University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)) advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu. From September 2018 to September 2019, I was a visiting scholar at UC Santa Barbara.
+**Research**: I am currently an associate research fellow in Chinese Academy of Engineering Physics (CAEP). My goal is to build trustworthy AI models and software in strong adversarial environments. My current work broadly involves research on attack and defense for AI algorithms, explainable AI (XAI), LLM security, data-driven software security, etc.
 
-I am interested in the security of software and algorithms. While I also work on many other projects, my current research focus is the security of artificial intelligence, which broadly involves research on attack and defense for AI algorithms, explainable AI (XAI), data privacy protection, LLM security, etc.
+**Previously**: I got my Ph.D degree from University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)) advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu. I was a visiting scholar at UC Santa Barbara, where I worked with [Yufei Ding](https://scholar.google.com/citations?user=MiPxo9UAAAAJ).
 
-My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master students</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
-
+**Openings**: My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
 
 # 🔥 News
 - <span style="color:red">[*2025.06*]</span> &nbsp;🎉 One paper is accepted by **USENIX Security**! Congras to Xingan!
