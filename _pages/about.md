@@ -64,19 +64,19 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
 
 ## Journal
-- `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.
+- `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
   Yixiao Xu, Binxing Fang, Mohan Li, <span style="color:blue">Xiaolei Liu</span>, and Zhihong Tian.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)
+  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3518779)]
-- `TIFS'24` **Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model**.
+- `TIFS'24` **Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model**.   
   Rongke Liu, Dong Wang, Yizhi Ren, Kaitian Guo, Qianqian Qin, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)
+  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
-- `IEEE Network’24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.
+- `IEEE Network’24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
   Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)
+  In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper]()]
   [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
 
