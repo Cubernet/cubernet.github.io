@@ -92,7 +92,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)]
 - `TCSS'24` **Backdoor Attack and Defense on Deep Learning: A Survey**.   
   Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, <span style="color:blue">Xiaolei Liu</span>, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.   
-  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">CCF-A</span>)   
+  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](https://cubernet.github.io/publications/TCSS24/TCSS24-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
 - `IEEE Network’24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
@@ -117,7 +117,15 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
 
 # 🎖 Honors and Awards
-
-
+- *2024.12*: 四川省高层次人才计划
+- *2024.04*: 中国电子学会青年人才托举工程计划
+- *2022.11*: GeekPWN G-Outstanding Winner 🏆
+- *2018.05*: China Scholarship Council (CSC) Scholarship
+- *2016.11*: 国家网络安全奖学金（首届）
+  
 # 👨‍💻 Services
-
+- 中国电子学会网络空间安全专委会委员
+- 中国图象图形学学会数字媒体取证与安全专委会委员
+- 《通信技术》期刊执行编委
+- 《网络空间安全科学学报》青年编委
+- 《信息网络安全》青年编委
