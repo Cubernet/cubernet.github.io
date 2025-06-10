@@ -23,12 +23,12 @@ redirect_from:
 **Openings**: My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
 
 # 🔥 News
-- <span style="color:red">[*2025.06*]</span> &nbsp;🎉 One paper is accepted by **USENIX Security**!
+- <span style="color:red">[*2025.06*]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
 - <span style="color:red">[*2025.02*]</span> &nbsp;🎉 One paper is accepted by **计算机研究与发展**!
-- <span style="color:red">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **CCS**!
+- <span style="color:red">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **CCS 2024**!
 - <span style="color:red">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**!
 - <span style="color:red">[*2024.11*]</span> &nbsp;🎉 One survey of backdoor attack and defense on deep learning is accepted by **IEEE TCSS**! 
-- <span style="color:red">[*2024.08*]</span> &nbsp;🎉 One paper is accepted by **ASE**!
+- <span style="color:red">[*2024.08*]</span> &nbsp;🎉 One paper is accepted by **ASE 2024**!
 - <span style="color:red">[*2024.03*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**! 
 
 # 📝 Selected Publications 
@@ -74,11 +74,11 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
 
 ## Journal
-- `计算机研究与发展'25` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
+- `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
   姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
   In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
+  [[Paper](https://crad.ict.ac.cn/cn/article/pdf/preview/10.7544/issn1000-1239.202440265.pdf)]
+  [[DOI](https://doi.org/10.7544/issn1000-1239.202440265)]
 - `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
   Yixiao Xu, Binxing Fang, Mohan Li, <span style="color:blue">Xiaolei Liu</span>, and Zhihong Tian.   
   In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
