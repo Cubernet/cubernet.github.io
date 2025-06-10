@@ -51,6 +51,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Wei Liu.  
   In *Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE)*, October, 2024.  (<span style="color:red">CCF-A</span>)   
   [[Paper](https://cubernet.github.io/publications/ASE24/ASE24-Papera.pdf)]
+  [[Video](https://youtu.be/d8clWq9JC0Y)]
+  [[Code](https://github.com/SnopyArtifact/Snopy)]
   [[DOI](https://dl.acm.org/doi/10.1145/3691620.3695057)]
 - `ICASSP'23` **Sparse Black-Box Inversion Attack with Limited Information**.  
   Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Teng Hu, Bangzhou Xin, and Run Yang.  
@@ -71,8 +73,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   <span style="color:blue">Xiaolei Liu</span>, Kun Wan, Yufei Ding, Xiaosong Zhang, and Qingxin Zhu.  
   In *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, February, 2020.  (<span style="color:red">CCF-A</span>)   
   [[Paper](https://cubernet.github.io/publications/AAAI20/AAAI20-Paper.pdf)]
-  [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
   [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
+  [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
 - `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
