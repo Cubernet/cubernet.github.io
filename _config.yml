@@ -27,8 +27,8 @@ author:
   location         : "Mianyang, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
-  email            : "xiaoleiliu1@acm.org"
+  googlescholar    : #"https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
+  email            : #"xiaoleiliu1@acm.org"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : 
-  orcid            : "https://orcid.org/0000-0001-8510-4025"
+  orcid            : #"https://orcid.org/0000-0001-8510-4025"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
