@@ -20,16 +20,26 @@ redirect_from:
 
 **Previously**: I got my Ph.D degree from University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)) advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu. I was a visiting scholar at UC Santa Barbara, where I worked with [Yufei Ding](https://scholar.google.com/citations?user=MiPxo9UAAAAJ).
 
-> **Openings**: My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
+**Openings**: My research team has multiple openings for <span style="color:blue">Research Assistants, Software Engineers, Research Interns, Postdoc and Ph.D./Master</span>, please drop me an email or visit the website of [CAEP graduate school](https://zsxx.gscaep.ac.cn/list/13) for more information.
+
+> 📌 **非常欢迎考虑报考我的研究生**！在给我写邮件之前，请您先仔细阅读下面的文字，并确认我们在科研观念、兴趣上一致:
+> 
+> 💡 **研究兴趣**：主要研究可信人工智能技术并应用于关基领域，具体包括算法安全、隐私保护、软件脆弱性发现等。   
+> ✨ **招生期望**：希望能够招收算法基础好、编程能力强、英语功底扎实、擅于口头及书面表达的学生。有前期科研经历者加分（学术竞赛、论文发表、课外学术活动等）。   
+> 🎯 **培养目标**：经过精心组织的科研训练，使学生具备扎实的专业知识、缜密的科研思维、较强的动手能力、广阔的学术视野，及独立发现问题、思考问题、解决问题的重要科学素养； 在校期间在世界顶级期刊或会议上发表高水平、有影响力的论文，并有志于毕业后继续从事科研工作。
+> 
+> 🤝 **我的承诺**：1）因我本人始终亲临科研一线，因此会在算法设计、代码编写、实验验证、论文撰写、专利申请、科研成果展示等给予你全方位的有效指导；2）提供浓厚的科研氛围、舒适的科研环境、丰厚的科研奖励、高效的运算设备；3）我几乎不会让你处理报账、递送材料、拿快递等与科研无关的行政事务，从而保证你有充足的、整块的科研时间；4）对于在顶会上发表论文的学生，会提供经费积极资助你参会（只要没出地球）； 5）对于表现优秀的学生，我很乐意向你推荐工作或深造机会。
+> 
+> ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，请不要联系我，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
-- <span style="color:red">[*2025.06*]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
-- <span style="color:red">[*2025.02*]</span> &nbsp;🎉 One paper is accepted by **计算机研究与发展**!
-- <span style="color:red">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **CCS 2024**!
-- <span style="color:red">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**!
-- <span style="color:red">[*2024.11*]</span> &nbsp;🎉 One survey of backdoor attack and defense on deep learning is accepted by **IEEE TCSS**! 
-- <span style="color:red">[*2024.08*]</span> &nbsp;🎉 One paper is accepted by **ASE 2024**!
-- <span style="color:red">[*2024.03*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**! 
+- <span style="color:blue">[*2025.06*]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
+- <span style="color:blue">[*2025.02*]</span> &nbsp;🎉 One paper is accepted by **计算机研究与发展**!
+- <span style="color:blue">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **CCS 2024**!
+- <span style="color:blue">[*2024.12*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**!
+- <span style="color:blue">[*2024.11*]</span> &nbsp;🎉 One survey of backdoor attack and defense on deep learning is accepted by **IEEE TCSS**! 
+- <span style="color:blue">[*2024.08*]</span> &nbsp;🎉 One paper is accepted by **ASE 2024**!
+- <span style="color:blue">[*2024.03*]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**! 
 
 # 📝 Selected Publications 
 
