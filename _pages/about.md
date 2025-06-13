@@ -33,10 +33,10 @@ redirect_from:
 
 # 🔥 News
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
-- <span style="color:red">[2025.02]</span> &nbsp;🎉 One paper is accepted by **计算机研究与发展**!
+- <span style="color:red">[2025.02]</span> &nbsp;🎉 One survey is accepted by **计算机研究与发展**!
 - <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper is accepted by **CCS 2024**!
 - <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**!
-- <span style="color:red">[2024.11]</span> &nbsp;🎉 One survey of backdoor attack and defense on deep learning is accepted by **IEEE TCSS**! 
+- <span style="color:red">[2024.11]</span> &nbsp;🎉 One survey is accepted by **IEEE TCSS**! 
 - <span style="color:red">[2024.08]</span> &nbsp;🎉 One paper is accepted by **ASE 2024**!
 - <span style="color:red">[2024.03]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**! 
 
@@ -132,7 +132,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - <span style="color:red">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
 - <span style="color:red">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
 - <span style="color:red">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
-- <span style="color:red">[2016.11]</span> 🏆 国家网络安全奖学金（首届）
+- <span style="color:red">[2016.11]</span> 🏆 首届国家网络安全奖学金
   
 # 👨‍💻 Services
 - 中国电子学会网络空间安全专委会委员
