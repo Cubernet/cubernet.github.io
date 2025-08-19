@@ -65,25 +65,26 @@ elif not isinstance(pubs, dict):
     obj['publications'] = {}
 
 # 指标字段稳妥读取
-citedby = 0
+citedby = -1
 if isinstance(obj.get('citedby'), int):
     citedby = obj['citedby']
 elif 'citedby' in obj:
     try:
         citedby = int(obj['citedby'])
     except Exception:
-        citedby = 0
+        citedby = -1
 
 # 输出与保存
-print(json.dumps(obj, ensure_ascii=False, indent=2))
-os.makedirs('results', exist_ok=True)
-with open('results/gs_data.json', 'w') as f:
-    json.dump(obj, f, ensure_ascii=False)
-
-shieldio_data = {
-    "schemaVersion": 1,
-    "label": "citations",
-    "message": f"{citedby}",
-}
-with open('results/gs_data_shieldsio.json', 'w') as f:
-    json.dump(shieldio_data, f, ensure_ascii=False)
+if citedby != -1:
+    print(json.dumps(obj, ensure_ascii=False, indent=2))
+    os.makedirs('results', exist_ok=True)
+    with open('results/gs_data.json', 'w') as f:
+        json.dump(obj, f, ensure_ascii=False)
+    
+    shieldio_data = {
+        "schemaVersion": 1,
+        "label": "citations",
+        "message": f"{citedby}",
+    }
+    with open('results/gs_data_shieldsio.json', 'w') as f:
+        json.dump(shieldio_data, f, ensure_ascii=False)
