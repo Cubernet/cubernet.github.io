@@ -73,18 +73,43 @@ elif 'citedby' in obj:
         citedby = int(obj['citedby'])
     except Exception:
         citedby = -1
-print(citedby)
+
+results_dir = 'results'
+os.makedirs(results_dir, exist_ok=True)
+
 # 输出与保存
 if citedby != -1:
     print(json.dumps(obj, ensure_ascii=False, indent=2))
-    os.makedirs('results', exist_ok=True)
-    with open('results/gs_data.json', 'w') as f:
-        json.dump(obj, f, ensure_ascii=False)
     
-    shieldio_data = {
-        "schemaVersion": 1,
-        "label": "citations",
-        "message": f"{citedby}",
-    }
-    with open('results/gs_data_shieldsio.json', 'w') as f:
-        json.dump(shieldio_data, f, ensure_ascii=False)
+    data_path = os.path.join(results_dir, 'gs_data.json')
+    badge_path = os.path.join(results_dir, 'gs_data_shieldsio.json')
+    
+    # 读取已有的 message（如文件不存在或损坏，则视为需要更新）
+    prev_message = None
+    if os.path.exists(badge_path):
+        try:
+            with open(badge_path, 'r', encoding='utf-8') as f:
+                prev = json.load(f)
+                prev_message = str(prev.get('message'))
+        except Exception:
+            prev_message = None
+    
+    current_message = str(citedby)
+    
+    if prev_message == current_message:
+        # 不更新
+        print("No changes: citedby unchanged, skip writing.")
+    else:
+        # 更新两个文件
+        with open(data_path, 'w', encoding='utf-8') as f:
+            json.dump(obj, f, ensure_ascii=False, indent=2)
+    
+        shieldio_data = {
+            "schemaVersion": 1,
+            "label": "citations",
+            "message": current_message,
+        }
+        with open(badge_path, 'w', encoding='utf-8') as f:
+            json.dump(shieldio_data, f, ensure_ascii=False, indent=2)
+    
+        print("Updated: wrote gs_data.json and gs_data_shieldsio.json.")
