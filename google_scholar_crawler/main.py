@@ -113,3 +113,9 @@ if citedby != -1:
             json.dump(shieldio_data, f, ensure_ascii=False, indent=2)
     
         print("Updated: wrote gs_data.json and gs_data_shieldsio.json.")
+else:
+    # 通知 GitHub Actions：本次是否有变化
+    gh_out = os.environ.get('GITHUB_OUTPUT')
+    if gh_out:
+        with open(gh_out, 'a', encoding='utf-8') as f:
+            f.write(f"changed=false\n")
