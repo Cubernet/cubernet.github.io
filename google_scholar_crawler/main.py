@@ -73,7 +73,7 @@ elif 'citedby' in obj:
         citedby = int(obj['citedby'])
     except Exception:
         citedby = -1
-
+print(citedby)
 # 输出与保存
 if citedby != -1:
     print(json.dumps(obj, ensure_ascii=False, indent=2))
