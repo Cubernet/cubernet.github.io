@@ -27,7 +27,8 @@ jobs:
       run: |
         cd ./google_scholar_crawler/results
         git init
-        git config --local user.name "${GITHUB_ACTOR}"
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
         git commit -m "Updated Citation Data"
