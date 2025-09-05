@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaolei Liu (刘小垒)"
-description              : "Associate Research Fellow"
+description              : #"Associate Research Fellow"
 repository               : "Cubernet/cubernet.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,8 +25,8 @@ bing_site_verification   :  213DB93D6D8F9D0F7349E2B180088FF0
 author:
   name             : "Xiaolei Liu (刘小垒)"
   avatar           : "images/photo.png"
-  bio              : #
-  location         : "Mianyang, China"
+  bio              : A coder with passion.
+  location         : #"Mianyang, China"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
