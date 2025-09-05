@@ -25,7 +25,7 @@ bing_site_verification   :  213DB93D6D8F9D0F7349E2B180088FF0
 author:
   name             : "Xiaolei Liu (刘小垒)"
   avatar           : "images/photo.png"
-  bio              : "CAEP"
+  bio              : #
   location         : "Mianyang, China"
   employer         :
   pubmed           : 
