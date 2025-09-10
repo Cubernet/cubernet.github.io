@@ -55,8 +55,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
   Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
   In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
+  [[Paper](https://cubernet.github.io/publications/USENIX25/USENIX25-Paper.pdf)]
+  [[DOI](https://dl.acm.org/doi/10.5555/3766078.3766322)]
 - `ICCV'25` **KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles**.  
   Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, and Wei Lin.      
   In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
