@@ -50,7 +50,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
   In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, Oct, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
+  [[Paper](https://cubernet.github.io/publications/ACMMM25/ACMMM25-Paper.pdf)]
   [[DOI]()]
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
   Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
