@@ -51,7 +51,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
   In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, Oct, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper](https://cubernet.github.io/publications/ACMMM25/ACMMM25-Paper.pdf)]
-  [[DOI]()]
+  [[DOI](https://dl.acm.org/doi/10.1145/3746027.3755611)]
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
   Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
   In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
@@ -60,7 +60,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `ICCV'25` **KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles**.  
   Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, and Wei Lin.      
   In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
+  [[Paper](https://cubernet.github.io/publications/ICCV25/ICCV25-Paper.pdf)]
   [[DOI]()]
 - `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
   Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
