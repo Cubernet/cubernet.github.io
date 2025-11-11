@@ -32,16 +32,16 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
-- <span style="color:red">[2025.11]</span> &nbsp;🎉 Two paper are accepted by **AAAI 2026**!
-- <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper is accepted by **ACMMM 2025**!
-- <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper is accepted by **ICCV 2025**!
-- <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
-- <span style="color:red">[2025.02]</span> &nbsp;🎉 One survey is accepted by **计算机研究与发展**!
-- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper is accepted by **CCS 2024**!
-- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**!
-- <span style="color:red">[2024.11]</span> &nbsp;🎉 One survey is accepted by **IEEE TCSS**! 
-- <span style="color:red">[2024.08]</span> &nbsp;🎉 One paper is accepted by **ASE 2024**!
-- <span style="color:red">[2024.03]</span> &nbsp;🎉 One paper is accepted by **IEEE TIFS**! 
+- <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
+- <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
+- <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **ICCV 2025**!
+- <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **USENIX Security 2025**!
+- <span style="color:red">[2025.02]</span> &nbsp;🎉 One survey has been accepted to **计算机研究与发展**!
+- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **CCS 2024**!
+- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
+- <span style="color:red">[2024.11]</span> &nbsp;🎉 One survey has been accepted to **IEEE TCSS**! 
+- <span style="color:red">[2024.08]</span> &nbsp;🎉 One paper has been accepted to **ASE 2024**!
+- <span style="color:red">[2024.03]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**! 
 
 # 📝 Selected Publications 
 
@@ -50,12 +50,12 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 ## Conference
 - `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
   Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January , 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI]()]
 - `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
   Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January , 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
   [[DOI]()]
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
