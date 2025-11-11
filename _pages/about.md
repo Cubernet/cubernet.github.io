@@ -32,6 +32,7 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2025.11]</span> &nbsp;🎉 Two paper are accepted by **AAAI 2026**!
 - <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper is accepted by **ACMMM 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper is accepted by **ICCV 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper is accepted by **USENIX Security 2025**!
@@ -47,9 +48,19 @@ redirect_from:
 Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 ## Conference
+- `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
+  Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January , 2026.  (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
+- `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
+  Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January , 2026.  (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
-  In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, Oct, 2025.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper](https://cubernet.github.io/publications/ACMMM25/ACMMM25-Paper.pdf)]
   [[DOI](https://dl.acm.org/doi/10.1145/3746027.3755611)]
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
