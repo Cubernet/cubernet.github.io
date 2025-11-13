@@ -51,12 +51,12 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
   Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
   In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
+  [[Paper](https://cubernet.github.io/publications/AAAI26/AAAI26-Papera.pdf)]
   [[DOI]()]
 - `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
   Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
   In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
+  [[Paper](https://cubernet.github.io/publications/AAAI26/AAAI26-Paperb.pdf)]
   [[DOI]()]
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
