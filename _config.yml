@@ -8,7 +8,6 @@
 # Site Settings
 title                    : "Xiaolei Liu (刘小垒)"
 description              : "Associate Research Fellow"
-group_page               : "Neuron Insight Lab (UNIT实验室)"
 repository               : "Cubernet/cubernet.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -26,7 +25,8 @@ bing_site_verification   :  213DB93D6D8F9D0F7349E2B180088FF0
 author:
   name             : "Xiaolei Liu (刘小垒)"
   avatar           : "images/photo.png"
-  bio              : A coder with passion.
+  bio              : #A coder with passion.
+  group_page       : "Neuron Insight Lab (UNIT实验室)"
   location         : #"Mianyang, China"
   employer         :
   pubmed           : 
