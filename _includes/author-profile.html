@@ -11,6 +11,7 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.group_page %}<p class="author__bio"><a href="https://mp.weixin.qq.com/s/Dq2H1J6vBKffd49Zu0VcUQ">{{ author.group_page }}</a></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
