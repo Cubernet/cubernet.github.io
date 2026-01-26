@@ -163,6 +163,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - 中国图象图形学学会数字媒体取证与安全专委会委员
 - 中国系统工程学会网络空间安全与治理专委会委员
 - 中国计算机学会第十三届会员代表
+- 四川省人工智能行业协会专家委员会专家
 - 通信技术期刊执行编委
 - 网络空间安全科学学报青年编委
 - 信息网络安全青年编委
