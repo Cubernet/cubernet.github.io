@@ -32,16 +32,12 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
 - <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **ICCV 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **USENIX Security 2025**!
 - <span style="color:red">[2025.02]</span> &nbsp;🎉 One survey has been accepted to **计算机研究与发展**!
-- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **CCS 2024**!
-- <span style="color:red">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
-- <span style="color:red">[2024.11]</span> &nbsp;🎉 One survey has been accepted to **IEEE TCSS**! 
-- <span style="color:red">[2024.08]</span> &nbsp;🎉 One paper has been accepted to **ASE 2024**!
-- <span style="color:red">[2024.03]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**! 
 
 # 📝 Selected Publications 
 
