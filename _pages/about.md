@@ -108,7 +108,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
   姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
   In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper](/publications/CARD25/CARD25-Paper.pdf)]
+  [[Paper](/publications/CRAD25/CRAD25-Paper.pdf)]
   [[DOI](https://doi.org/10.7544/issn1000-1239.202440265)]
 - `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
   Yixiao Xu, Binxing Fang, Mohan Li, <span style="color:blue">Xiaolei Liu</span>, and Zhihong Tian.   
