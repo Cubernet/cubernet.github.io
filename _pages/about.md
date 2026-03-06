@@ -32,6 +32,7 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
 - <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
 - <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
@@ -105,6 +106,16 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
+- `IoTJ’26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
+  Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
+  In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
+  [[Paper]()]
+  [[DOI](https://doi.org/10.1109/JIOT.2026.3670664)]
+- `电子学报'26` **基于梯度协同与特征融合的加密流量检测**.   
+  卢嘉中, 余坤, <span style="color:blue">刘小垒</span>, 张小松.   
+  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
   姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
   In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
