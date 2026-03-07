@@ -26,7 +26,7 @@ redirect_from:
 > 
 > 💡 **研究兴趣**：我们团队的研究聚焦于可信人工智能技术，包括算法安全、隐私保护、软件脆弱性挖掘等，并将相关方法应用于关键基础设施与高安全场景。     
 > ✨ **招生期望**：如果你算法扎实、能写会算、表达清楚，还愿意把事情做“到位、做漂亮”，我们会很合拍。   
-> 🎯 **培养目标**：经过精心组织的科研训练，使学生具备扎实的专业知识、缜密的科研思维、较强的动手能力、广阔的学术视野，及独立发现问题、思考问题、解决问题的重要科学素养；在校期间在世界顶级期刊或会议上发表高水平、有影响力的论文，并有志于毕业后继续从事科研工作。   
+> 🎯 **培养目标**：经过精心组织的科研训练，使学生具备扎实的专业知识、缜密的科研思维、较强的动手能力、广阔的学术视野，及独立发现问题、思考问题、解决问题的科学素养；在校期间在世界顶级期刊或会议上发表高水平、有影响力的论文，并有志于毕业后继续从事科研工作。   
 > 🤝 **我的承诺**：作为一线科研工作者，我将为你的成长提供全方位支持，包括但不限于：1）亲自指导算法设计、代码实现、实验设计、论文撰写、专利申请、成果展示等全过程；2）提供积极向上的科研氛围、舒适的工作环境、稳定的科研经费与高性能计算资源；3）几乎不会让你处理报账、递送材料、拿快递等与科研无关的事务性工作，让你专注科研；4）对于在顶会上发表论文的学生，会提供经费积极资助你参会（只要没出地球）； 5）对表现优秀的同学，我会积极推荐工作或深造机会，助你拓展未来发展路径。
 > 
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
@@ -106,7 +106,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
-- `IoTJ’26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
+- `IoTJ'26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
   Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
   [[Paper]()]
@@ -136,22 +136,22 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](/publications/TCSS24/TCSS24-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
-- `IEEE Network’24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
+- `IEEE Network'24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
   Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](/publications/MNET24/MNET24-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
-- `IPM’21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
+- `IPM'21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
   Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.   
   In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)     
   [[Paper](/publications/IPM21/IPM21-Paper.pdf)]
   [[DOI](https://doi.org/10.1016/j.ipm.2020.102462)]
-- `TITS’21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
+- `TITS'21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
   Kun Wan, <span style="color:blue">Xiaolei Liu</span>, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.   
   In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](/publications/TITS21/TITS21-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/TITS.2021.3056426)]
-- `KBS’21` **A low-query black-box adversarial attack based on transferability**.   
+- `KBS'21` **A low-query black-box adversarial attack based on transferability**.   
   Kangyi Ding, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.   
   In *Knowledge-Based Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](/publications/KBS21/KBS21-Paper.pdf)]
