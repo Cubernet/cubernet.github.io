@@ -49,12 +49,12 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
   In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
   [[Paper](/publications/AAAI26/AAAI26-Papera.pdf)]
-  [[DOI]()]
+  [[DOI](https://doi.org/10.1609/aaai.v40i38.40445)]
 - `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
   Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
   In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
   [[Paper](/publications/AAAI26/AAAI26-Paperb.pdf)]
-  [[DOI]()]
+  [[DOI](https://doi.org/10.1609/aaai.v40i30.39778)]
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
   In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
