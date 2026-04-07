@@ -48,7 +48,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 ## Conference
 - `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
   Cheng Liu, <span style="color:blue">Xiaolei Liu</span>, Xingyu Li, Bangzhou Xin, and Kangyi Ding.   
-  In *Findings of the Association for Computational Linguistics: ACL 2026*, July, 2026. 
+  In *Findings of the Association for Computational Linguistics: ACL 2026*, July, 2026.   
   [[Paper]()]
   [[DOI]()]
 - `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
