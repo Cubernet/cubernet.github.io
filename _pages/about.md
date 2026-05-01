@@ -32,6 +32,7 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
 - <span style="color:red">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
 - <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
 - <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
@@ -39,13 +40,17 @@ redirect_from:
 - <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **ICCV 2025**!
 - <span style="color:red">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **USENIX Security 2025**!
-- <span style="color:red">[2025.02]</span> &nbsp;🎉 One survey has been accepted to **计算机研究与发展**!
 
 # 📝 Selected Publications 
 
 Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 ## Conference
+- `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
+  Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
+  In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
   Cheng Liu, <span style="color:blue">Xiaolei Liu</span>, Xingyu Li, Bangzhou Xin, and Kangyi Ding.   
   In *Findings of the Association for Computational Linguistics: ACL 2026*, July, 2026.   
