@@ -32,6 +32,8 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
+- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
 - <span style="color:red">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
 - <span style="color:red">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
 - <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
@@ -117,6 +119,16 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
+- `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
+  <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
+  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
+- `计算机学报'26` **基于鲁棒模型引导的迁移性对抗攻击方法**.   
+  陈斌, 印佳丽, 林巍, <span style="color:blue">刘小垒</span>, 于元隆, 纪守领.   
+  In *计算机学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `IoTJ'26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
   Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
@@ -185,3 +197,4 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - 通信技术期刊执行编委
 - 网络空间安全科学学报青年编委
 - 信息网络安全青年编委
+- 重庆邮电大学学报青年编委
