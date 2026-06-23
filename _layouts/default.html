@@ -24,10 +24,37 @@ layout: compress
             {{ content }}
           </section>
         </div>
-        <div>
-          <h1>🗺️ Maps</h1>
-          <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=afafaf&w=300&t=t&d=zsuELgS8w8kYR-AVxqTSEcmznNcvFcob9wjMPaU7PIg&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
-        </div>
+
+        <script>
+  window.__mapLoaded = false;
+
+  window.__showMapTitle = function () {
+    window.__mapLoaded = true;
+
+    var section = document.getElementById('map-section');
+    var title = document.getElementById('map-title');
+
+    if (section) section.style.display = 'block';
+    if (title) title.style.display = 'block';
+  };
+
+  window.__hideMapSection = function () {
+    var section = document.getElementById('map-section');
+    if (section) section.style.display = 'none';
+  };
+</script>
+
+<div id="map-section" style="display: none;">
+  <h1 id="map-title" style="display: none;">️🗺️ Maps</h1>
+
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="https://mapmyvisitors.com/map.js?cl=afafaf&w=300&t=t&d=zsuELgS8w8kYR-AVxqTSEcmznNcvFcob9wjMPaU7PIg&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"
+    onload="window.__showMapTitle()"
+    onerror="window.__hideMapSection()">
+  </script>
+</div>
       </article>
     </div>
 
