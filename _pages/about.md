@@ -32,6 +32,7 @@ redirect_from:
 > ⚠️ **特别提醒**：<span style="color:red">课题组欢迎真正热爱科研、喜欢探索、乐于挑战、想学知识的同学加入。如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受。</span>
 
 # 🔥 News
+- <span style="color:red">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
 - <span style="color:red">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
 - <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
@@ -128,6 +129,11 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
+- `TDSC'26` **NEO: Navigating Entropy in Optimized Black-Box Video Adversarial Attacks**.   
+  <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
+  In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
   <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
   In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
