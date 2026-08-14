@@ -45,7 +45,6 @@ redirect_from:
 - <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
 - <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
-- <span style="color:red">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
 
 # 📝 Selected Publications 
 
@@ -96,7 +95,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, and Wei Lin.      
   In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper](/publications/ICCV25/ICCV25-Paper.pdf)]
-  [[DOI]()]
+  [[DOI](https://doi.org/10.1109/ICCV51701.2025.00297)]
 - `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
   Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
   In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)   
@@ -137,7 +136,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
   In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
   [[Paper]()]
-  [[DOI]()]
+  [[DOI](https://doi.org/10.1109/TDSC.2026.3715804)]
 - `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
   <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
   In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
