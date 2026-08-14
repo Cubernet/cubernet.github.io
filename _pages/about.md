@@ -156,8 +156,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `电子学报'26` **基于梯度协同与特征融合的加密流量检测**.   
   卢嘉中, 余坤, <span style="color:blue">刘小垒</span>, 张小松.   
   In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
+  [[Paper](/publications/AES26/AES26-Paper.pdf)]
+  [[DOI](https://dx.doi.org/10.12263/DZXB.20251021)]
 - `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
   姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
   In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
