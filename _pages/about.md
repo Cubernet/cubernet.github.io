@@ -36,6 +36,7 @@ redirect_from:
 
 
 # 🔥 News
+- <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
 - <span style="color:red">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
 - <span style="color:red">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
 - <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
@@ -132,6 +133,11 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
 ## Journal
+- `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
+  Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
+  In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
+  [[Paper]()]
+  [[DOI]()]
 - `TDSC'26` **NEO: Navigating Entropy in Optimized Black-Box Video Adversarial Attacks**.   
   <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
   In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
