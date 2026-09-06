@@ -1,0 +1,947 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "2ahbtVoAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Xiaolei Liu",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2ahbtVoAAAAJ&citpid=5",
+  "affiliation": "National Interdisciplinary Research Center of Engineering Physics",
+  "interests": [
+    "Data-driven Security",
+    "Trustworthy AI"
+  ],
+  "email_domain": "@acm.org",
+  "homepage": "https://xlliu.org.cn/",
+  "citedby": 1175,
+  "publications": {
+    "2ahbtVoAAAAJ:blknAaTinKkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Transaction-based classification and detection approach for Ethereum smart contract",
+        "pub_year": "2021",
+        "citation": "Information Processing & Management 58 (2), 102462, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:blknAaTinKkC",
+      "num_citations": 306,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9132394809943360072",
+      "cites_id": [
+        "9132394809943360072"
+      ]
+    },
+    "2ahbtVoAAAAJ:_kc_bZDykSQC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "An Insider Threat Detection Approach Based on Mouse Dynamics and Deep Learning",
+        "pub_year": "2019",
+        "citation": "Security and Communication Networks 2019, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:_kc_bZDykSQC",
+      "num_citations": 121,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8562786667497613010",
+      "cites_id": [
+        "8562786667497613010"
+      ]
+    },
+    "2ahbtVoAAAAJ:YOwf2qJgpHMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Adversarial Samples on Android Malware Detection Systems for IoT Systems",
+        "pub_year": "2019",
+        "citation": "Sensors 19 (4), 974, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:YOwf2qJgpHMC",
+      "num_citations": 100,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12399936989363281195",
+      "cites_id": [
+        "12399936989363281195"
+      ]
+    },
+    "2ahbtVoAAAAJ:lSLTfruPkqcC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Weighted-sampling audio adversarial example attack",
+        "pub_year": "2020",
+        "citation": "Proceedings of the AAAI Conference on Artificial Intelligence 34 (04), 4908-4915, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:lSLTfruPkqcC",
+      "num_citations": 67,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3160380793880446836,17303955107912564639",
+      "cites_id": [
+        "3160380793880446836",
+        "17303955107912564639"
+      ]
+    },
+    "2ahbtVoAAAAJ:yD5IFk8b50cC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Backdoor attack and defense on deep learning: A survey",
+        "pub_year": "2024",
+        "citation": "IEEE Transactions on Computational Social Systems 12 (1), 404-434, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:yD5IFk8b50cC",
+      "num_citations": 56,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1333120305556035798",
+      "cites_id": [
+        "1333120305556035798"
+      ]
+    },
+    "2ahbtVoAAAAJ:3s1wT3WcHBgC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Unstoppable attack: Label-only model inversion via conditional diffusion model",
+        "pub_year": "2024",
+        "citation": "IEEE Transactions on Information Forensics and Security 19, 3958-3973, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:3s1wT3WcHBgC",
+      "num_citations": 52,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3301390362694400043",
+      "cites_id": [
+        "3301390362694400043"
+      ]
+    },
+    "2ahbtVoAAAAJ:9ZlFYXVOiuMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Evolution-algorithm-based unmanned aerial vehicles path planning in complex environment",
+        "pub_year": "2019",
+        "citation": "Computers & Electrical Engineering 80, 106493, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:9ZlFYXVOiuMC",
+      "num_citations": 39,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5499929427291579741",
+      "cites_id": [
+        "5499929427291579741"
+      ]
+    },
+    "2ahbtVoAAAAJ:GnPB-g6toBAC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A low-query black-box adversarial attack based on transferability",
+        "pub_year": "2021",
+        "citation": "Knowledge-Based Systems 226, 107102, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:GnPB-g6toBAC",
+      "num_citations": 35,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16720888673452970923",
+      "cites_id": [
+        "16720888673452970923"
+      ]
+    },
+    "2ahbtVoAAAAJ:maZDTaKrznsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Tracking the insider attacker: A blockchain traceability system for insider threats",
+        "pub_year": "2020",
+        "citation": "Sensors 20 (18), 5297, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:maZDTaKrznsC",
+      "num_citations": 30,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5710382909867304731",
+      "cites_id": [
+        "5710382909867304731"
+      ]
+    },
+    "2ahbtVoAAAAJ:cFHS6HbyZ2cC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
+        "pub_year": "2024",
+        "citation": "Proceedings of the 39th IEEE/ACM international conference on automated …, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:cFHS6HbyZ2cC",
+      "num_citations": 27,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10501709118351072852",
+      "cites_id": [
+        "10501709118351072852"
+      ]
+    },
+    "2ahbtVoAAAAJ:D03iK_w7-QYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
+        "pub_year": "2025",
+        "citation": "34th USENIX Security Symposium (USENIX Security 25), 4741-4758, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:D03iK_w7-QYC",
+      "num_citations": 25,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17613968064181352353",
+      "cites_id": [
+        "17613968064181352353"
+      ]
+    },
+    "2ahbtVoAAAAJ:JV2RwH3_ST0C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Securing the private key in your blockchain wallet: a continuous authentication approach based on behavioral biometric",
+        "pub_year": "2020",
+        "citation": "Journal of Physics: Conference Series 1631 (1), 012104, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:JV2RwH3_ST0C",
+      "num_citations": 23,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9540253440577337572",
+      "cites_id": [
+        "9540253440577337572"
+      ]
+    },
+    "2ahbtVoAAAAJ:5nxA0vEk-isC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A black-box attack on neural networks based on swarm evolutionary algorithm",
+        "pub_year": "2020",
+        "citation": "Australasian Conference on Information Security and Privacy, 268-284, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:5nxA0vEk-isC",
+      "num_citations": 23,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11713855653825055853",
+      "cites_id": [
+        "11713855653825055853"
+      ]
+    },
+    "2ahbtVoAAAAJ:u_35RYKgDlwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "An adversarial example defense algorithm for intelligent driving",
+        "pub_year": "2024",
+        "citation": "IEEE Network 38 (6), 98-105, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:u_35RYKgDlwC",
+      "num_citations": 22,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1148940548798414681",
+      "cites_id": [
+        "1148940548798414681"
+      ]
+    },
+    "2ahbtVoAAAAJ:aqlVkmm33-oC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Integrating Traffics with Network Device Logs for Anomaly Detection",
+        "pub_year": "2019",
+        "citation": "Security and Communication Networks, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:aqlVkmm33-oC",
+      "num_citations": 20,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12004765848395295814",
+      "cites_id": [
+        "12004765848395295814"
+      ]
+    },
+    "2ahbtVoAAAAJ:g5m5HwL7SMYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Sparse black-box inversion attack with limited information",
+        "pub_year": "2023",
+        "citation": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and …, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:g5m5HwL7SMYC",
+      "num_citations": 16,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5723960617467797494",
+      "cites_id": [
+        "5723960617467797494"
+      ]
+    },
+    "2ahbtVoAAAAJ:SeFeTyx0c_EC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems",
+        "pub_year": "2024",
+        "citation": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and …, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:SeFeTyx0c_EC",
+      "num_citations": 15,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10553279496529593609",
+      "cites_id": [
+        "10553279496529593609"
+      ]
+    },
+    "2ahbtVoAAAAJ:ZHo1McVdvXMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Anti-attack Intrusion Detection Model based on MPNN and Traffic Spatiotemporal Characteristics",
+        "pub_year": "2023",
+        "citation": "Journal of Grid Computing 21 (60), 2023"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:ZHo1McVdvXMC",
+      "num_citations": 14,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8305554951981562649",
+      "cites_id": [
+        "8305554951981562649"
+      ]
+    },
+    "2ahbtVoAAAAJ:vV6vV6tmYwMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Sparse adversarial attack for video via gradient-based keyframe selection",
+        "pub_year": "2022",
+        "citation": "ICASSP 2022-2022 IEEE international conference on acoustics, speech and …, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:vV6vV6tmYwMC",
+      "num_citations": 14,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14835382957290763038",
+      "cites_id": [
+        "14835382957290763038"
+      ]
+    },
+    "2ahbtVoAAAAJ:UebtZRa9Y70C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Adversarial Attacks Against Profile HMM Website Fingerprinting Detection Model",
+        "pub_year": "2018",
+        "citation": "Cognitive Systems Research, 2018"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:UebtZRa9Y70C",
+      "num_citations": 14,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11460544434659662656",
+      "cites_id": [
+        "11460544434659662656"
+      ]
+    },
+    "2ahbtVoAAAAJ:hMod-77fHWUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Compiler-Based Efficient CNN Model Construction for 5G Edge Devices",
+        "pub_year": "2021",
+        "citation": "IEEE Transactions on Intelligent Transportation Systems, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:hMod-77fHWUC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10732117221727883372",
+      "cites_id": [
+        "10732117221727883372"
+      ]
+    },
+    "2ahbtVoAAAAJ:k_IJM867U9cC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Research on information steganography based on network data stream",
+        "pub_year": "2021",
+        "citation": "Neural Computing and Applications 33 (3), 851-866, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:k_IJM867U9cC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2856676238017700537",
+      "cites_id": [
+        "2856676238017700537"
+      ]
+    },
+    "2ahbtVoAAAAJ:_FxGoFyzp5QC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TLTD: a testing framework for learning-based IoT traffic detection systems",
+        "pub_year": "2018",
+        "citation": "Sensors 18 (8), 2630, 2018"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:_FxGoFyzp5QC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11220994771539312336",
+      "cites_id": [
+        "11220994771539312336"
+      ]
+    },
+    "2ahbtVoAAAAJ:EUQCXRtRnyEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Loopllm: Transferable energy-latency attacks in llms via repetitive generation",
+        "pub_year": "2026",
+        "citation": "Proceedings of the AAAI Conference on Artificial Intelligence 40 (38), 31770 …, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:EUQCXRtRnyEC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12755585927617107349",
+      "cites_id": [
+        "12755585927617107349"
+      ]
+    },
+    "2ahbtVoAAAAJ:a0OBvERweLwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Query-efficient model inversion attacks: An information flow view",
+        "pub_year": "2024",
+        "citation": "IEEE Transactions on Information Forensics and Security 20, 1023-1036, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:a0OBvERweLwC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=798018131446943636",
+      "cites_id": [
+        "798018131446943636"
+      ]
+    },
+    "2ahbtVoAAAAJ:70eg2SAEIzsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A novel steganography method for character-level text image based on adversarial attacks",
+        "pub_year": "2022",
+        "citation": "Sensors 22 (17), 6497, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:70eg2SAEIzsC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1122658754920498315",
+      "cites_id": [
+        "1122658754920498315"
+      ]
+    },
+    "2ahbtVoAAAAJ:BqipwSGYUEgC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "HTTP‐Based APT Malware Infection Detection Using URL Correlation Analysis",
+        "pub_year": "2021",
+        "citation": "Security and Communication Networks 2021 (1), 6653386, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:BqipwSGYUEgC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6110719973496682080",
+      "cites_id": [
+        "6110719973496682080"
+      ]
+    },
+    "2ahbtVoAAAAJ:ufrVoPGSRksC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Enhanced fireworks algorithm for dynamic deployment of wireless sensor networks",
+        "pub_year": "2017",
+        "citation": "2017 2nd International Conference on Frontiers of Sensors Technologies …, 2017"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:ufrVoPGSRksC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8124395138663497491",
+      "cites_id": [
+        "8124395138663497491"
+      ]
+    },
+    "2ahbtVoAAAAJ:fPk4N6BV_jEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Attack detection model for BCoT based on contrastive variational autoencoder and metric learning",
+        "pub_year": "2024",
+        "citation": "Journal of Cloud Computing 13 (1), 125, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:fPk4N6BV_jEC",
+      "num_citations": 8,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13852605631596074742",
+      "cites_id": [
+        "13852605631596074742"
+      ]
+    },
+    "2ahbtVoAAAAJ:M3NEmzRMIkIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Research and analysis of electromagnetic Trojan detection based on deep learning",
+        "pub_year": "2020",
+        "citation": "Security and Communication Networks 2020 (1), 6641844, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:M3NEmzRMIkIC",
+      "num_citations": 8,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17944002506721231836",
+      "cites_id": [
+        "17944002506721231836"
+      ]
+    },
+    "2ahbtVoAAAAJ:RYcK_YlVTxYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A Hybrid Association Rule‐Based Method to Detect and Classify Botnets",
+        "pub_year": "2021",
+        "citation": "Security and Communication Networks 2021 (1), 1028878, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:RYcK_YlVTxYC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8573202863931316708",
+      "cites_id": [
+        "8573202863931316708"
+      ]
+    },
+    "2ahbtVoAAAAJ:O3NaXMp0MMsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Audio injection adversarial example attack",
+        "pub_year": "2021",
+        "citation": "ICML 2021 Workshop on Adversarial Machine Learning, 2021"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:O3NaXMp0MMsC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18345517297100697123",
+      "cites_id": [
+        "18345517297100697123"
+      ]
+    },
+    "2ahbtVoAAAAJ:2P1L_qKh6hAC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "IBD: An interpretable backdoor-detection method via multivariate interactions",
+        "pub_year": "2022",
+        "citation": "Sensors 22 (22), 8697, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:2P1L_qKh6hAC",
+      "num_citations": 5,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3616158345379964923",
+      "cites_id": [
+        "3616158345379964923"
+      ]
+    },
+    "2ahbtVoAAAAJ:xtRiw3GOFMkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "大语言模型安全与隐私风险综述",
+        "pub_year": "2025",
+        "citation": "计算机研究与发展 62 (8), 1979-2018, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:xtRiw3GOFMkC",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1405104121516879921",
+      "cites_id": [
+        "1405104121516879921"
+      ]
+    },
+    "2ahbtVoAAAAJ:35N4QoGY0k4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Targeted anonymization: A face image anonymization method for unauthorized models",
+        "pub_year": "2022",
+        "citation": "2022 IEEE International Conference on Multimedia and Expo (ICME), 1-6, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:35N4QoGY0k4C",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12890350080583416978",
+      "cites_id": [
+        "12890350080583416978"
+      ]
+    },
+    "2ahbtVoAAAAJ:Wp0gIr-vW9MC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A Lockable Abnormal Electromagnetic Signal Joint Detection Algorithm",
+        "pub_year": "2019",
+        "citation": "International Journal of Pattern Recognition and Artificial Intelligence …, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:Wp0gIr-vW9MC",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13906912954776842984",
+      "cites_id": [
+        "13906912954776842984"
+      ]
+    },
+    "2ahbtVoAAAAJ:r0BpntZqJG4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "An equalisation control method for network big data transmission based on parallel computing",
+        "pub_year": "2020",
+        "citation": "International Journal of Internet Protocol Technology 13 (1), 32-38, 2020"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:r0BpntZqJG4C",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1035031634190706643",
+      "cites_id": [
+        "1035031634190706643"
+      ]
+    },
+    "2ahbtVoAAAAJ:bFI3QPDXJZMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation",
+        "pub_year": "2025",
+        "citation": "Proceedings of the 33rd ACM International Conference on Multimedia, 8654-8662, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:bFI3QPDXJZMC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14589117433931404154",
+      "cites_id": [
+        "14589117433931404154"
+      ]
+    },
+    "2ahbtVoAAAAJ:qxL8FJ1GzNcC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Network intrusion feature map node equalization algorithm based on modified variable step-size constant modulus",
+        "pub_year": "2019",
+        "citation": "International Journal of Pattern Recognition and Artificial Intelligence 33 …, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:qxL8FJ1GzNcC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16008034970596421771",
+      "cites_id": [
+        "16008034970596421771"
+      ]
+    },
+    "2ahbtVoAAAAJ:Se3iqnhoufwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "分布式布谷鸟算法在无线传感器网络布局优化中的应用",
+        "pub_year": "2018",
+        "citation": "计算机应用研究, 2018"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:Se3iqnhoufwC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9820603067695036738",
+      "cites_id": [
+        "9820603067695036738"
+      ]
+    },
+    "2ahbtVoAAAAJ:eQOLeE2rZwMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Modified t-distribution evolutionary algorithm for dynamic deployment of wireless sensor networks",
+        "pub_year": "2016",
+        "citation": "IEICE TRANSACTIONS on Information and Systems 99 (6), 1595-1602, 2016"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:eQOLeE2rZwMC",
+      "num_citations": 2,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13994981957758691791",
+      "cites_id": [
+        "13994981957758691791"
+      ]
+    },
+    "2ahbtVoAAAAJ:KxtntwgDAa4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense",
+        "pub_year": "2026",
+        "citation": "Findings of the Association for Computational Linguistics: ACL 2026, 13371-13388, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:KxtntwgDAa4C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2752475932385003926",
+      "cites_id": [
+        "2752475932385003926"
+      ]
+    },
+    "2ahbtVoAAAAJ:NhqRSupF_l8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning Under Domain Skew",
+        "pub_year": "2026",
+        "citation": "Proceedings of the AAAI Conference on Artificial Intelligence 40 (30), 25796 …, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:NhqRSupF_l8C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14615215838650132014",
+      "cites_id": [
+        "14615215838650132014"
+      ]
+    },
+    "2ahbtVoAAAAJ:nb7KW1ujOQ8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification",
+        "pub_year": "2026",
+        "citation": "IEEE Internet of Things Journal, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:nb7KW1ujOQ8C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14158932597869798104",
+      "cites_id": [
+        "14158932597869798104"
+      ]
+    },
+    "2ahbtVoAAAAJ:b0M2c_1WBrUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Backdoor-vaccine: An active backdoor defense framework via competitive backdoor injection",
+        "pub_year": "2025",
+        "citation": "Neurocomputing, 132133, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:b0M2c_1WBrUC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4548368598688350941",
+      "cites_id": [
+        "4548368598688350941"
+      ]
+    },
+    "2ahbtVoAAAAJ:f2IySw72cVMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles",
+        "pub_year": "2025",
+        "citation": "2025 IEEE/CVF International Conference on Computer Vision (ICCV), 3101-3110, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:f2IySw72cVMC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16983565009072662264",
+      "cites_id": [
+        "16983565009072662264"
+      ]
+    },
+    "2ahbtVoAAAAJ:CHSYGLWDkRkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Dynamic Private Subnetwork Selection for Personalized Federated Learning",
+        "pub_year": "2025",
+        "citation": "2025 IEEE International Symposium on Parallel and Distributed Processing …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:CHSYGLWDkRkC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12475596203723395262",
+      "cites_id": [
+        "12475596203723395262"
+      ]
+    },
+    "2ahbtVoAAAAJ:_xSYboBqXhAC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Launching a robust backdoor attack under capability constrained scenarios",
+        "pub_year": "2023",
+        "citation": "arXiv preprint arXiv:2304.10985, 2023"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:_xSYboBqXhAC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4793928764890113943",
+      "cites_id": [
+        "4793928764890113943"
+      ]
+    },
+    "2ahbtVoAAAAJ:ldfaerwXgEUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A Robust Adversarial Example Attack Based on Video Augmentation",
+        "pub_year": "2023",
+        "citation": "Applied Sciences 13 (3), 2023"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:ldfaerwXgEUC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9057202971085471090",
+      "cites_id": [
+        "9057202971085471090"
+      ]
+    },
+    "2ahbtVoAAAAJ:WF5omc3nYNoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "基于分布式烟花算法的 WSN 布局优化方法.",
+        "pub_year": "2018",
+        "citation": "Application Research of Computers/Jisuanji Yingyong Yanjiu 35 (2), 569, 2018"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:WF5omc3nYNoC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7197533909379768404",
+      "cites_id": [
+        "7197533909379768404"
+      ]
+    },
+    "2ahbtVoAAAAJ:uWQEDVKXjbEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols",
+        "pub_year": "2026",
+        "citation": "IEEE Transactions on Software Engineering, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:uWQEDVKXjbEC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:UxriW0iASnsC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "NEO: Navigating Entropy in Optimized Black-Box Video Adversarial Attacks",
+        "pub_year": "2026",
+        "citation": "IEEE Transactions on Dependable and Secure Computing, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:UxriW0iASnsC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:P5F9QuxV20EC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Adversarial Sample Based on Structured Fusion Noise for Botnet Detection in Industrial Control Systems",
+        "pub_year": "2026",
+        "citation": "IEEE Transactions on Network and Service Management, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:P5F9QuxV20EC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:dshw04ExmUIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "基于异构图注意力网络与跨类型蒸馏的生成式恶意流量检测模型",
+        "pub_year": "2025",
+        "citation": "网络空间安全科学学报 3 (6), 68-79, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:dshw04ExmUIC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:abG-DnoFyZgC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "CLlog: A Collaborative Learning-Based Anomalous Log Detection Model",
+        "pub_year": "2025",
+        "citation": "Computer Networks, 111943, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:abG-DnoFyZgC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:1sJd4Hv_s6UC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "HATS: High-Accuracy Triple-Set Watermarking for Large Language Models",
+        "pub_year": "2025",
+        "citation": "2025 11th International Conference on Computer and Communications (ICCC …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:1sJd4Hv_s6UC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:QIV2ME_5wuYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "对抗样本生成及攻防技术综述(研究)",
+        "pub_year": "2019",
+        "citation": "计算机应用研究, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:QIV2ME_5wuYC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:RHpTSmoSYBkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "基于群体智能进化算法的对抗样本生成研究",
+        "pub_year": "2019",
+        "citation": "博士, 电子科技大学, 2019"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:RHpTSmoSYBkC",
+      "num_citations": 0
+    },
+    "2ahbtVoAAAAJ:SP6oXDckpogC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models",
+        "citation": "Forty-third International Conference on Machine Learning, 0"
+      },
+      "filled": false,
+      "author_pub_id": "2ahbtVoAAAAJ:SP6oXDckpogC",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 1107,
+  "hindex": 16,
+  "hindex5y": 16,
+  "i10index": 28,
+  "i10index5y": 26,
+  "cites_per_year": {
+    "2019": 12,
+    "2020": 52,
+    "2021": 118,
+    "2022": 140,
+    "2023": 182,
+    "2024": 199,
+    "2025": 271,
+    "2026": 189
+  },
+  "updated": "2026-09-06T06:52:17"
+}
