@@ -36,6 +36,7 @@ redirect_from:
 
 
 # 🔥 News
+- <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
 - <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
 - <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
 - <span style="color:red">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
