@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Xiaolei Liu (刘小垒)"
-description              : "Associate Research Fellow"
+description              : "刘小垒 Xiaolei Liu · Trustworthy AI, LLM Security & Secure Systems"
+url                      : "https://xlliu.org.cn"
+baseurl                  : ""
 repository               : "Cubernet/cubernet.github.io"
 google_scholar_stats_use_cdn : true
 

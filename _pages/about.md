@@ -1,226 +1,34 @@
 ---
+layout: profile
 permalink: /
 title: ""
-author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-**Research**: I am currently an associate research fellow and my goal is to build trustworthy AI models and software in strong adversarial environments. My current work broadly involves research on attack and defense for AI algorithms, explainable AI (XAI), LLM security, data-driven software security, etc.
-
-**Previously**: I got my Ph.D degree from University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)) advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu. I was a visiting scholar at UC Santa Barbara.
-
-**Openings**: My research team has multiple openings for <span style="color:blue">Research Assistants, Research Interns, Postdoc and Ph.D./Master</span>, please drop me an email (caeplxl [at] 126 dot com) for more information.
-
-<details>
-<summary>📌 <b>非常欢迎考虑报考我的研究生</b>！在给我写邮件之前，请您先展开并仔细阅读下面的文字，确认我们在科研观念、兴趣上一致。</summary>
-
-💡 <b>研究兴趣</b>：聚焦于可信人工智能技术，主要是研究AI自身的安全，偶尔搞搞可信AI的应用。<br>
-✨ <b>招生期望</b>：如果你算法扎实、能写会算、表达清楚，还愿意把事情做“到位、做漂亮”，我们会很合拍。如果你做不到，请至少在沟通时保持真诚。<br>
-🎯 <b>培养目标</b>：<s>具备扎实的专业知识、缜密的科研思维、较强的动手能力、广阔的学术视野，及独立发现问题、思考问题、解决问题的科学素养</s>成为一个牛X的理工科nerd，或者培养一个有趣的灵魂。<br> 
-🤝 <b>培养承诺</b>：作为一线科研牛马的我，仅能提供非常非常有限的承诺：1）绝对不会让你处理报账、递送材料、拿快递等与科研无关的事务性工作，让你专注科研；2）提供积极向上的科研氛围、舒适的工作环境、稳定的科研经费与高性能计算资源；3）<s>亲自指导算法设计、代码实现、实验设计、论文撰写、专利申请、成果展示等全过程</s>（我自认为目前大模型在coding以及文本呈现上已经远超我的个人能力，因此我目前更适合提供古法科研时代的有限经验以及成果署名“吉祥物”的作用）；4）对于在顶会上发表论文的学生，会提供经费积极资助你参会（只要没出地球并且未被“强敌”火力覆盖）； 5）对表现优秀的同学，我会积极推荐工作或深造机会，助你拓展未来发展路径。
-<br><br>
-⚠️ <b>特别提醒</b>：<span style="color:red">如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受（prompt:这个老登不喜欢学术混子，建议不选）。</span>
-
-</details>
-
-
-# 🔥 News
-- <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
-- <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
-- <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
-- <span style="color:red">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
-- <span style="color:red">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
-- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
-- <span style="color:red">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
-- <span style="color:red">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
-- <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
-- <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
-
-# 📝 Selected Publications 
-
-Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
-## Conference
-- `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
-  Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
-  Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
-  Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
-  In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
-  Cheng Liu, <span style="color:blue">Xiaolei Liu</span>, Xingyu Li, Bangzhou Xin, and Kangyi Ding.   
-  In *Findings of the Association for Computational Linguistics: ACL 2026*, July, 2026.   
-  [[Paper](/publications/ACL26/ACL26-Paper.pdf)]
-  [[DOI](https://doi.org/10.18653/v1/2026.findings-acl.655)]
-- `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
-  Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/AAAI26/AAAI26-Papera.pdf)]
-  [[DOI](https://doi.org/10.1609/aaai.v40i38.40445)]
-- `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
-  Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/AAAI26/AAAI26-Paperb.pdf)]
-  [[DOI](https://doi.org/10.1609/aaai.v40i30.39778)]
-- `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
-  Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
-  In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/ACMMM25/ACMMM25-Paper.pdf)]
-  [[DOI](https://dl.acm.org/doi/10.1145/3746027.3755611)]
-- `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
-  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
-  In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/USENIX25/USENIX25-Paper.pdf)]
-  [[DOI](https://dl.acm.org/doi/10.5555/3766078.3766322)]
-- `ICCV'25` **KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles**.  
-  Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, and Wei Lin.      
-  In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/ICCV25/ICCV25-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/ICCV51701.2025.00297)]
-- `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
-  Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
-  In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/CCS24/CCS24-Paper.pdf)]
-  [[Slides](/publications/CCS24/CCS24-Slides.pdf)]
-  [[DOI](https://doi.org/10.1145/3658644.3670293)]
-- `ASE'24` **Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection**.  
-  Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Wei Liu.  
-  In *Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE)*, October, 2024.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/ASE24/ASE24-Papera.pdf)]
-  [[Video](https://youtu.be/d8clWq9JC0Y)]
-  [[Code](https://github.com/SnopyArtifact/Snopy)]
-  [[DOI](https://dl.acm.org/doi/10.1145/3691620.3695057)]
-- `ICASSP'23` **Sparse Black-Box Inversion Attack with Limited Information**.  
-  Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Teng Hu, Bangzhou Xin, and Run Yang.  
-  In *Proceedings of the 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, June, 2023.  (<span style="color:red">CCF-B</span>)   
-  [[Paper](/publications/ICASSP23/ICASSP23-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/ICASSP49357.2023.10095514)]
-- `ICME'22` **Targeted Anonymization: A Face Image Anonymization Method for Unauthorized Models**.  
-  Kangyi Ding, Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Yanping Wang, and Xiaosong Zhang.  
-  In *Proceedings of the 2022 IEEE International Conference on Multimedia and Expo (ICME)*, August, 2022.  (<span style="color:red">CCF-B</span>)   
-  [[Paper](/publications/ICME22/ICME22-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/ICME52920.2022.9859898)] 
-- `ICASSP'22` **Sparse Adversarial Attack For Video Via Gradient-Based Keyframe Selection**.  
-  Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Mingyong Yin, Teng Hu, and Kangyi Ding.  
-  In *Proceedings of the 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, May, 2022.  (<span style="color:red">CCF-B</span>)   
-  [[Paper](/publications/ICASSP22/ICASSP22-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/ICASSP43922.2022.9747698)]     
-- `AAAI'20` **Weighted-sampling audio adversarial example attack**.  
-  <span style="color:blue">Xiaolei Liu</span>, Kun Wan, Yufei Ding, Xiaosong Zhang, and Qingxin Zhu.  
-  In *Proceedings of the 2020 AAAI Conference on Artificial Intelligence (AAAI)*, February, 2020.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/AAAI20/AAAI20-Paper.pdf)]
-  [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
-  [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
-
-## Journal
-- `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
-  Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
-  In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `TDSC'26` **NEO: Navigating Entropy in Optimized Black-Box Video Adversarial Attacks**.   
-  <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
-  In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI](https://doi.org/10.1109/TDSC.2026.3715804)]
-- `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
-  <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
-  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper](/publications/AES26/AES26-Paperb.pdf)]
-  [[DOI](https://dx.doi.org/10.12263/DZXB.20260444)]
-- `计算机学报'26` **基于鲁棒模型引导的迁移性对抗攻击方法**.   
-  陈斌, 印佳丽, 林巍, <span style="color:blue">刘小垒</span>, 于元隆, 纪守领.   
-  In *计算机学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `IoTJ'26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
-  Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper]()]
-  [[DOI](https://doi.org/10.1109/JIOT.2026.3670664)]
-- `电子学报'26` **基于梯度协同与特征融合的加密流量检测**.   
-  卢嘉中, 余坤, <span style="color:blue">刘小垒</span>, 张小松.   
-  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper](/publications/AES26/AES26-Papera.pdf)]
-  [[DOI](https://dx.doi.org/10.12263/DZXB.20251021)]
-- `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
-  姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
-  In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper](/publications/CRAD25/CRAD25-Paper.pdf)]
-  [[DOI](https://doi.org/10.7544/issn1000-1239.202440265)]
-- `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
-  Yixiao Xu, Binxing Fang, Mohan Li, <span style="color:blue">Xiaolei Liu</span>, and Zhihong Tian.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/TIFS24/TIFS24-Paperb.pdf)]
-  [[DOI](https://doi.org/10.1109/TIFS.2024.3518779)]
-- `TIFS'24` **Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model**.   
-  Rongke Liu, Dong Wang, Yizhi Ren, Kaitian Guo, Qianqian Qin, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/TIFS24/TIFS24-Papera.pdf)]
-  [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)]
-- `TCSS'24` **Backdoor Attack and Defense on Deep Learning: A Survey**.   
-  Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, <span style="color:blue">Xiaolei Liu</span>, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.   
-  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper](/publications/TCSS24/TCSS24-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
-- `IEEE Network'24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
-  Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper](/publications/MNET24/MNET24-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
-- `IPM'21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
-  Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.   
-  In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)     
-  [[Paper](/publications/IPM21/IPM21-Paper.pdf)]
-  [[DOI](https://doi.org/10.1016/j.ipm.2020.102462)]
-- `TITS'21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
-  Kun Wan, <span style="color:blue">Xiaolei Liu</span>, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.   
-  In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper](/publications/TITS21/TITS21-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/TITS.2021.3056426)]
-- `KBS'21` **A low-query black-box adversarial attack based on transferability**.   
-  Kangyi Ding, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.   
-  In *Knowledge-Based Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper](/publications/KBS21/KBS21-Paper.pdf)]
-  [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
-
-# 🎖 Honors and Awards
-- <span style="color:red">[2024.12]</span> 🏆 四川省高层次人才计划
-- <span style="color:red">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
-- <span style="color:red">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
-- <span style="color:red">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
-- <span style="color:red">[2016.11]</span> 🏆 首届国家网络安全奖学金
-  
-# 👨‍💻 Services
-- 中国计算机学会网络与系统安全专委会执行委员
-- 中国电子学会网络空间安全专委会委员
-- 中国图象图形学学会数字媒体取证与安全专委会委员
-- 中国系统工程学会网络空间安全与治理专委会委员
-- 中国计算机学会第十三届会员代表
-- 四川省人工智能行业协会专家委员会专家
-- 通信技术期刊执行编委
-- 网络空间安全科学学报青年编委
-- 信息网络安全青年编委
-- 重庆邮电大学学报青年编委
+<section class="hero wrap" id="about-me">
+  <div class="hero-main"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> TRUSTWORTHY AI · SECURE SYSTEMS</p>
+    <h1><span class="zh">面向真实世界的<br>可信<span class="accent">人工智能。</span></span><span class="en" lang="en">Building AI<br>worthy of <em>trust.</em></span></h1>
+    <p class="hero-intro"><span class="zh">我是刘小垒，人工智能安全研究者。<br>研究智能系统在对抗环境中的安全、鲁棒与可信，<br class="desktop-break">探索从模型安全走向系统与行为安全。</span><span class="en" lang="en">I’m Xiaolei Liu, an AI security researcher.<br>I study the security, robustness and trustworthiness of intelligent systems under adversarial conditions.</span></p>
+    <div class="hero-actions"><a class="button-primary" href="#selected-work"><span class="zh">了解我的研究</span><span class="en" lang="en">Explore my research</span> <span aria-hidden="true">↘</span></a><a class="text-link" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  </div>
+  <aside class="hero-note" aria-label="研究视角 / Research perspective"><div class="note-top"><span>RESEARCH PERSPECTIVE</span><span>01—03</span></div><p class="note-title">Trust is built.<br><em>And tested.</em></p>
+    <div class="note-lines"><a href="#research"><span class="note-num">01</span><span><span class="zh">模型能否经受对抗？</span><span class="en" lang="en">Can models withstand attacks?</span><small>ADVERSARIAL ROBUSTNESS</small></span><span aria-hidden="true">↗</span></a><a href="#research"><span class="note-num">02</span><span><span class="zh">系统能否守住边界？</span><span class="en" lang="en">Can systems hold their boundaries?</span><small>LLM & SYSTEM SECURITY</small></span><span aria-hidden="true">↗</span></a><a href="#practice"><span class="note-num">03</span><span><span class="zh">智能行为如何可信？</span><span class="en" lang="en">How do we govern AI behavior?</span><small>MACHINE BEHAVIOR GOVERNANCE</small></span><span aria-hidden="true">↗</span></a></div>
+    <div class="note-bottom"><span>QUESTION. UNDERSTAND. VERIFY.</span><span class="note-cross" aria-hidden="true">＋</span></div>
+  </aside>
+</section>
+<section class="about-strip wrap" aria-label="个人简介 / Biography"><div class="profile-signature"><img src="{{ '/images/photo.png' | relative_url }}" width="64" height="64" alt="Xiaolei Liu / 刘小垒" decoding="async"><div><strong><span class="zh">刘小垒</span><span class="en" lang="en">Xiaolei Liu</span></strong><span><span class="zh">副研究员 · 硕士生导师</span><span class="en" lang="en">Associate Research Fellow</span></span></div></div><div class="bio"><p><span class="zh">现任国家工程物理交叉科学研究中心副研究员。博士毕业于电子科技大学，师从张小松教授与朱清新教授；曾赴加州大学圣芭芭拉分校访问研究。</span><span class="en" lang="en">Associate Research Fellow at the National Interdisciplinary Research Center of Engineering Physics. I received my Ph.D. from UESTC, advised by Prof. Xiaosong Zhang and Prof. Qingxin Zhu, and was a visiting scholar at UC Santa Barbara.</span></p><div class="inline-links"><a href="https://zsxx.gscaep.ac.cn/teacher-detail/200"><span class="zh">导师主页</span><span class="en" lang="en">Institutional profile</span> ↗</a><a href="https://github.com/neuron-insight-lab">Neuron Insight Lab ↗</a></div></div></section>
+<section class="section wrap" id="research"><div class="section-heading"><p class="eyebrow">01 / RESEARCH</p><h2><span class="zh">从攻击中理解风险，<br>在验证中建立信任。</span><span class="en" lang="en">Understand the risk.<br>Establish the trust.</span></h2><p class="section-deck"><span class="zh">以对抗视角审视智能系统，用可复现的研究连接安全机制与真实问题。</span><span class="en" lang="en">An adversarial view of intelligent systems, connecting reproducible research with real security problems.</span></p></div>
+  <div class="research-grid"><article><span class="index-label">I.</span><h3><span class="zh">大模型安全</span><span class="en" lang="en">LLM Security</span></h3><p class="research-en">LLM & MULTIMODAL SECURITY</p><p><span class="zh">研究越狱攻击与防御、生成过程中的风险识别，以及大语言模型与多模态模型的可用性安全。</span><span class="en" lang="en">Jailbreak attacks and defenses, risk detection during generation, and the availability of language and multimodal models.</span></p><a href="{{ '/publications/' | relative_url }}?topic=llm"><span class="zh">相关成果</span><span class="en" lang="en">Related work</span> ↗</a></article><article><span class="index-label">II.</span><h3><span class="zh">对抗鲁棒性与隐私</span><span class="en" lang="en">Robustness & Privacy</span></h3><p class="research-en">ADVERSARIAL MACHINE LEARNING</p><p><span class="zh">研究跨模型、跨模态的对抗迁移，查询受限条件下的黑盒攻击，以及模型反演与隐私泄露。</span><span class="en" lang="en">Transferable attacks across models and modalities, query-limited black-box attacks, model inversion and privacy leakage.</span></p><a href="{{ '/publications/' | relative_url }}?topic=models"><span class="zh">相关成果</span><span class="en" lang="en">Related work</span> ↗</a></article><article><span class="index-label">III.</span><h3><span class="zh">软件与系统安全</span><span class="en" lang="en">Software & Systems</span></h3><p class="research-en">DATA-DRIVEN SYSTEM SECURITY</p><p><span class="zh">面向软件供应链、协议与漏洞检测，探索数据驱动的安全分析方法，连接模型、软件与系统。</span><span class="en" lang="en">Data-driven security analysis for software supply chains, protocols and vulnerability detection, connecting models, software and systems.</span></p><a href="{{ '/publications/' | relative_url }}?topic=systems"><span class="zh">相关成果</span><span class="en" lang="en">Related work</span> ↗</a></article></div>
+</section>
+<section class="practice-section" id="practice"><div class="practice-inner wrap"><div><p class="eyebrow">CURRENT PRACTICE / MAIVER</p><h2><span class="zh">从可信模型，<br>走向可信行动。</span><span class="en" lang="en">From trusted models<br>to trusted actions.</span></h2></div><div class="practice-copy"><p><span class="zh">我当前也关注 AI Agent 安全与机器行为治理：当 AI 从生成内容走向调用工具、执行任务，如何理解、验证并约束它在真实系统中的行为？</span><span class="en" lang="en">My current interests also extend to AI agent security and machine behavior governance: understanding, verifying and governing AI behavior as models begin using tools and acting in real systems.</span></p><a href="https://maiver.ai/" class="light-link"><span class="zh">了解 MAIVER</span><span class="en" lang="en">Explore MAIVER</span> <span aria-hidden="true">↗</span></a></div></div></section>
+<section class="section wrap work-section" id="selected-work"><span id="-selected-publications" class="legacy-anchor" aria-hidden="true"></span><div class="section-heading horizontal"><div><p class="eyebrow">02 / SELECTED WORK</p><h2><span class="zh">以研究回应问题。</span><span class="en" lang="en">Research in focus.</span></h2></div><a class="text-link" href="{{ '/publications/' | relative_url }}"><span class="zh">完整论文列表</span><span class="en" lang="en">All publications</span> ↗</a></div><div class="featured-publications">{% assign featured = site.data.publications | where: 'featured', true | sort: 'rank' %}{% for p in featured %}{% include publication.html featured=true %}{% endfor %}</div><div class="section-end"><span class="zh">完整作者信息、论文与补充材料见成果档案。</span><span class="en" lang="en">Full author lists, papers and resources are available in the archive.</span><a href="{{ '/publications/' | relative_url }}"><span class="zh">浏览 29 篇论文</span><span class="en" lang="en">Browse 29 publications</span> →</a></div></section>
+<section class="section wrap news-section" id="news"><span id="-news" class="legacy-anchor" aria-hidden="true"></span><div class="section-heading"><p class="eyebrow">03 / RECENT NOTES</p><h2><span class="zh">近况与进展。</span><span class="en" lang="en">Recent notes.</span></h2></div><div class="news-list">
+  <article><time datetime="2026-10">2026.10</time><p><span class="zh">团队论文获 <strong>Inscrypt 2026 安全方向最佳学生论文奖</strong>。</span><span class="en" lang="en">A team paper received the <strong>Best Student Paper Award (Security Track), Inscrypt 2026</strong>.</span></p><span class="news-label">AWARD</span></article>
+  <article><time datetime="2026-09">2026.09</time><p><span class="zh">两篇论文被 <strong>Inscrypt 2026</strong> 录用。</span><span class="en" lang="en">Two papers accepted to <strong>Inscrypt 2026</strong>.</span></p><span class="news-label">RESEARCH</span></article>
+  <article><time datetime="2026-08">2026.08</time><p><span class="zh"><strong>PSFuzzer</strong> 被 IEEE Transactions on Software Engineering 录用。</span><span class="en" lang="en"><strong>PSFuzzer</strong> accepted to IEEE Transactions on Software Engineering.</span></p><a href="https://doi.org/10.1109/TSE.2026.3726519" aria-label="PSFuzzer DOI">↗</a></article>
+  <article><time datetime="2026-07">2026.07</time><p><span class="zh"><strong>NEO</strong> 被 TDSC 录用；两篇论文被 ACM Multimedia 2026 录用。</span><span class="en" lang="en"><strong>NEO</strong> accepted to TDSC; two papers accepted to ACM Multimedia 2026.</span></p><a href="{{ '/publications/' | relative_url }}?year=2026" aria-label="2026 publications">↗</a></article></div>
+  <details class="news-archive"><summary><span class="zh">更早的进展</span><span class="en" lang="en">Earlier updates</span> <span aria-hidden="true">＋</span></summary><div class="news-list compact"><article><time datetime="2026-06">2026.06</time><p><span class="zh">论文分别被《电子学报》与《计算机学报》录用。</span><span class="en" lang="en">Papers accepted to Acta Electronica Sinica and Chinese Journal of Computers.</span></p></article><article><time datetime="2026-05">2026.05</time><p><span class="zh">MADA-Attack 被 ICML 2026 录用。</span><span class="en" lang="en">MADA-Attack accepted to ICML 2026.</span></p></article><article><time datetime="2026-04">2026.04</time><p><span class="zh">TrajGuard 被 Findings of ACL 2026 录用。</span><span class="en" lang="en">TrajGuard accepted to Findings of ACL 2026.</span></p></article><article><time datetime="2026-03">2026.03</time><p><span class="zh">SEADGAT 被 IEEE Internet of Things Journal 录用。</span><span class="en" lang="en">SEADGAT accepted to IEEE Internet of Things Journal.</span></p></article><article><time datetime="2026-02">2026.02</time><p><span class="zh">一篇论文被《电子学报》录用。</span><span class="en" lang="en">A paper accepted to Acta Electronica Sinica.</span></p></article><article><time datetime="2025-11">2025.11</time><p><span class="zh">LoopLLM 与 DoBlock 被 AAAI 2026 录用。</span><span class="en" lang="en">LoopLLM and DoBlock accepted to AAAI 2026.</span></p></article></div></details>
+</section>
+<section class="section wrap community-section"><div class="honors" id="-honors-and-awards"><p class="eyebrow">04 / RECOGNITION</p><h2><span class="zh">荣誉与认可。</span><span class="en" lang="en">Recognition.</span></h2><dl class="honor-list"><div><dt>2024</dt><dd><span class="zh">四川省高层次人才计划</span><span class="en" lang="en">Sichuan High-Level Talent Program</span></dd></div><div><dt>2024</dt><dd><span class="zh">中国电子学会青年人才托举工程计划</span><span class="en" lang="en">CIE Young Elite Scientists Sponsorship Program</span></dd></div><div><dt>2022</dt><dd>GeekPWN G-Outstanding Winner</dd></div><div><dt>2018</dt><dd><span class="zh">国家留学基金委公派留学奖学金</span><span class="en" lang="en">China Scholarship Council Scholarship</span></dd></div><div><dt>2016</dt><dd><span class="zh">首届国家网络安全奖学金</span><span class="en" lang="en">National Cybersecurity Scholarship</span></dd></div></dl></div><div class="service" id="-services"><p class="eyebrow">05 / COMMUNITY</p><h2><span class="zh">学术共同体。</span><span class="en" lang="en">Academic service.</span></h2><p class="service-deck"><span class="zh">参与专业组织与期刊服务，推动安全研究的交流与连接。</span><span class="en" lang="en">Contributing to professional societies and editorial boards in security research.</span></p><h3><span class="zh">专业组织</span><span class="en" lang="en">Professional societies</span></h3><ul><li><span class="zh">中国计算机学会网络与系统安全专委会执行委员</span><span class="en" lang="en">Executive Member, CCF Technical Committee on Network and System Security</span></li><li><span class="zh">中国电子学会网络空间安全专委会委员</span><span class="en" lang="en">Member, CIE Technical Committee on Cyberspace Security</span></li><li><span class="zh">中国图象图形学学会数字媒体取证与安全专委会委员</span><span class="en" lang="en">Member, CSIG Technical Committee on Digital Media Forensics and Security</span></li><li><span class="zh">中国系统工程学会网络空间安全与治理专委会委员</span><span class="en" lang="en">Member, SESC Technical Committee on Cyberspace Security and Governance</span></li><li><span class="zh">中国计算机学会第十三届会员代表</span><span class="en" lang="en">Delegate, 13th CCF Member Congress</span></li><li><span class="zh">四川省人工智能行业协会专家委员会专家</span><span class="en" lang="en">Expert Committee, Sichuan Artificial Intelligence Industry Association</span></li></ul><details><summary><span class="zh">期刊编委服务</span><span class="en" lang="en">Editorial service</span> ＋</summary><ul><li><span class="zh">《通信技术》执行编委</span><span class="en" lang="en">Executive Editorial Board, Communications Technology</span></li><li><span class="zh">《网络空间安全科学学报》青年编委</span><span class="en" lang="en">Youth Editorial Board, Journal of Cyberspace Security Science</span></li><li><span class="zh">《信息网络安全》青年编委</span><span class="en" lang="en">Youth Editorial Board, Netinfo Security</span></li><li><span class="zh">《重庆邮电大学学报》青年编委</span><span class="en" lang="en">Youth Editorial Board, Journal of Chongqing University of Posts and Telecommunications</span></li></ul></details></div></section>
+<section class="contact-section wrap" id="contact"><div><p class="eyebrow">06 / GET IN TOUCH</p><h2><span class="zh">与认真做事的你，<br>一起探索。</span><span class="en" lang="en">Good questions<br>start conversations.</span></h2><a class="email-link" href="mailto:caeplxl@126.com">caeplxl@126.com <span aria-hidden="true">↗</span></a></div><div class="contact-copy"><h3><span class="zh">研究合作与人才交流</span><span class="en" lang="en">Research & opportunities</span></h3><p><span class="zh">欢迎围绕大模型安全、对抗鲁棒性、软件与系统安全开展合作。也欢迎有扎实基础、独立思考能力与动手热情的研究助理、实习生及研究生联系我。</span><span class="en" lang="en">I welcome collaborations on LLM security, adversarial robustness, and software and system security, and inquiries from research assistants, interns and prospective graduate students.</span></p><details><summary><span class="zh">给有意加入的同学</span><span class="en" lang="en">A note to prospective students</span> ＋</summary><div class="student-note"><p><span class="zh">我看重扎实的算法与编程基础、清晰的表达、真诚的沟通，以及把问题想透、把工作做完整的耐心。比起只追逐论文数量，我更希望你对问题本身保持好奇，并逐步形成独立研究的能力。</span><span class="en" lang="en">I value solid foundations, clear communication, intellectual honesty and the patience to see a problem through. I hope you will develop curiosity about the problem itself and the ability to pursue independent research.</span></p><p><span class="zh">我重视专注科研的时间与积极的研究氛围，鼓励使用 AI 工具提升效率，同时对方法、实验与结论负责。来信请附上简历、研究兴趣，以及一个你认真做过的项目或问题。</span><span class="en" lang="en">I value focused research time and a constructive environment. AI tools are welcome, alongside responsibility for methods, experiments and conclusions. Please include your CV, research interests, and a project or question you have worked on thoughtfully.</span></p></div></details></div></section>

@@ -1,0 +1,583 @@
+[
+  {
+    "id": "paper-1",
+    "venue": "ACMMM ’26",
+    "title": "DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack",
+    "authors": "Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Xiaolei Liu, Wei Lin, Yuanlong Yu, and Shouling Ji.",
+    "citation": "In Proceedings of the 34th ACM International Conference on Multimedia (ACM MM), November, 2026.  (CCF-A)",
+    "year": 2026,
+    "type": "conference",
+    "topic": "models",
+    "links": []
+  },
+  {
+    "id": "paper-2",
+    "venue": "ACMMM ’26",
+    "title": "Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction",
+    "authors": "Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, Xiaolei Liu, Lichao Su, Yuanlong Yu, and Shouling Ji.",
+    "citation": "In Proceedings of the 34th ACM International Conference on Multimedia (ACM MM), November, 2026.  (CCF-A)",
+    "year": 2026,
+    "type": "conference",
+    "topic": "models",
+    "links": []
+  },
+  {
+    "id": "paper-3",
+    "venue": "ICML ’26",
+    "title": "MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models",
+    "authors": "Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, Xiaolei Liu, and Shouling Ji.",
+    "citation": "In Proceedings of the 43rd International Conference on Machine Learning (ICML 2026), July, 2026.  (CCF-A)",
+    "year": 2026,
+    "type": "conference",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/RaymundoTheWolf/MADA-Attack"
+      }
+    ]
+  },
+  {
+    "id": "paper-4",
+    "venue": "Findings of ACL ’26",
+    "title": "TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense",
+    "authors": "Cheng Liu, Xiaolei Liu, Xingyu Li, Bangzhou Xin, and Kangyi Ding.",
+    "citation": "In Findings of the Association for Computational Linguistics: ACL 2026, July, 2026.",
+    "year": 2026,
+    "type": "conference",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ACL26/ACL26-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.18653/v1/2026.findings-acl.655"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/neuron-insight-lab/Trajguard"
+      }
+    ],
+    "featured": true,
+    "summary_zh": "在解码过程中追踪隐藏状态轨迹，研究大语言模型的越狱检测与防御。",
+    "summary_en": "Tracing hidden-state trajectories during decoding to detect and defend against jailbreaks.",
+    "rank": 1
+  },
+  {
+    "id": "paper-5",
+    "venue": "AAAI ’26",
+    "title": "LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation",
+    "authors": "Xingyu Li, Xiaolei Liu, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.",
+    "citation": "In Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI), January, 2026.  (CCF-A)",
+    "year": 2026,
+    "type": "conference",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/AAAI26/AAAI26-Papera.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v40i38.40445"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/neuron-insight-lab/LoopLLM"
+      }
+    ],
+    "featured": true,
+    "summary_zh": "研究重复生成引发的能耗与延迟攻击，关注大语言模型的可用性风险。",
+    "summary_en": "Studying energy and latency attacks through repetitive generation in large language models.",
+    "rank": 2
+  },
+  {
+    "id": "paper-6",
+    "venue": "AAAI ’26",
+    "title": "DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew",
+    "authors": "Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, Xiaolei Liu, Songze Li, and Shouling Ji.",
+    "citation": "In Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI), January, 2026.  (CCF-A)",
+    "year": 2026,
+    "type": "conference",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/AAAI26/AAAI26-Paperb.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v40i30.39778"
+      }
+    ]
+  },
+  {
+    "id": "paper-7",
+    "venue": "ACMMM ’25",
+    "title": "Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation",
+    "authors": "Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, Xiaolei Liu, and Shouling Ji.",
+    "citation": "In Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM), October, 2025.  (CCF-A)",
+    "year": 2025,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ACMMM25/ACMMM25-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://dl.acm.org/doi/10.1145/3746027.3755611"
+      }
+    ]
+  },
+  {
+    "id": "paper-8",
+    "venue": "USENIX Sec ’25",
+    "title": "MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem",
+    "authors": "Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, Xiaolei Liu, Xingwei Lin, and Yang Xiang.",
+    "citation": "In Proceedings of the 34th USENIX Security Symposium (USENIX Sec), August, 2025.  (CCF-A)",
+    "year": 2025,
+    "type": "conference",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/USENIX25/USENIX25-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://dl.acm.org/doi/10.5555/3766078.3766322"
+      }
+    ],
+    "featured": true,
+    "summary_zh": "面向 PyPI 生态，研究实时、准确且可采取行动的恶意软件包检测。",
+    "summary_en": "Real-time, accurate and actionable detection of malicious packages in the PyPI ecosystem.",
+    "rank": 5
+  },
+  {
+    "id": "paper-9",
+    "venue": "ICCV ’25",
+    "title": "KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles",
+    "authors": "Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, Xiaolei Liu, and Wei Lin.",
+    "citation": "In Proceedings of the 2025 International Conference on Computer Vision (ICCV), October, 2025.  (CCF-A)",
+    "year": 2025,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ICCV25/ICCV25-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICCV51701.2025.00297"
+      }
+    ]
+  },
+  {
+    "id": "paper-10",
+    "venue": "CCS ’24",
+    "title": "SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems",
+    "authors": "Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, Xiaolei Liu, Yingcai Wu, and Shouling Ji.",
+    "citation": "In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS), December, 2024. (CCF-A)",
+    "year": 2024,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/CCS24/CCS24-Paper.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "/publications/CCS24/CCS24-Slides.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3658644.3670293"
+      }
+    ]
+  },
+  {
+    "id": "paper-11",
+    "venue": "ASE ’24",
+    "title": "Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection",
+    "authors": "Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, Xiaolei Liu, Xingwei Lin, and Wei Liu.",
+    "citation": "In Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE), October, 2024.  (CCF-A)",
+    "year": 2024,
+    "type": "conference",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ASE24/ASE24-Papera.pdf"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/d8clWq9JC0Y"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/SnopyArtifact/Snopy"
+      },
+      {
+        "label": "DOI",
+        "url": "https://dl.acm.org/doi/10.1145/3691620.3695057"
+      }
+    ]
+  },
+  {
+    "id": "paper-12",
+    "venue": "ICASSP ’23",
+    "title": "Sparse Black-Box Inversion Attack with Limited Information",
+    "authors": "Yixiao Xu, Xiaolei Liu, Teng Hu, Bangzhou Xin, and Run Yang.",
+    "citation": "In Proceedings of the 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), June, 2023.  (CCF-B)",
+    "year": 2023,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ICASSP23/ICASSP23-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICASSP49357.2023.10095514"
+      }
+    ]
+  },
+  {
+    "id": "paper-13",
+    "venue": "ICME ’22",
+    "title": "Targeted Anonymization: A Face Image Anonymization Method for Unauthorized Models",
+    "authors": "Kangyi Ding, Teng Hu, Xiaolei Liu, Weina Niu, Yanping Wang, and Xiaosong Zhang.",
+    "citation": "In Proceedings of the 2022 IEEE International Conference on Multimedia and Expo (ICME), August, 2022.  (CCF-B)",
+    "year": 2022,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ICME22/ICME22-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICME52920.2022.9859898"
+      }
+    ]
+  },
+  {
+    "id": "paper-14",
+    "venue": "ICASSP ’22",
+    "title": "Sparse Adversarial Attack For Video Via Gradient-Based Keyframe Selection",
+    "authors": "Yixiao Xu, Xiaolei Liu, Mingyong Yin, Teng Hu, and Kangyi Ding.",
+    "citation": "In Proceedings of the 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), May, 2022.  (CCF-B)",
+    "year": 2022,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/ICASSP22/ICASSP22-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICASSP43922.2022.9747698"
+      }
+    ]
+  },
+  {
+    "id": "paper-15",
+    "venue": "AAAI ’20",
+    "title": "Weighted-sampling audio adversarial example attack",
+    "authors": "Xiaolei Liu, Kun Wan, Yufei Ding, Xiaosong Zhang, and Qingxin Zhu.",
+    "citation": "In Proceedings of the 2020 AAAI Conference on Artificial Intelligence (AAAI), February, 2020.  (CCF-A)",
+    "year": 2020,
+    "type": "conference",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/AAAI20/AAAI20-Paper.pdf"
+      },
+      {
+        "label": "Website",
+        "url": "https://sites.google.com/view/audio-adversarial-examples/"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v34i04.5928"
+      }
+    ]
+  },
+  {
+    "id": "paper-16",
+    "venue": "TSE ’26",
+    "title": "PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols",
+    "authors": "Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, Xiaolei Liu and Shanqing Guo.",
+    "citation": "In IEEE Transactions on Software Engineering, 2026. (CCF-A)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://zyingp.github.io/files/26-PSFuzzer.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TSE.2026.3726519"
+      }
+    ],
+    "featured": true,
+    "summary_zh": "面向发布／订阅协议的多方模糊测试，发现复杂交互中的系统漏洞。",
+    "summary_en": "Multi-party fuzzing for publish/subscribe protocols and their complex interactions.",
+    "rank": 3
+  },
+  {
+    "id": "paper-17",
+    "venue": "TDSC ’26",
+    "title": "NEO: Navigating Entropy in Optimized Closed-Box Video Adversarial Attacks",
+    "authors": "Xiaolei Liu, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.",
+    "citation": "In IEEE Transactions on Dependable and Secure Computing, 2026. (CCF-A)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "models",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TDSC.2026.3715804"
+      }
+    ],
+    "featured": true,
+    "summary_zh": "以信息熵引导视频对抗攻击，探索查询受限条件下的模型鲁棒性。",
+    "summary_en": "Exploring query-efficient video adversarial attacks through entropy-guided optimization.",
+    "rank": 4
+  },
+  {
+    "id": "paper-18",
+    "venue": "电子学报 ’26",
+    "title": "循环诱导驱动的多模态大语言模型可用性压力测试方法",
+    "authors": "刘小垒, 李星煜, 陈厅, 张小松.",
+    "citation": "In 电子学报, 2026. (中文CCF-A)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/AES26/AES26-Paperb.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://dx.doi.org/10.12263/DZXB.20260444"
+      }
+    ]
+  },
+  {
+    "id": "paper-19",
+    "venue": "计算机学报 ’26",
+    "title": "基于鲁棒模型引导的迁移性对抗攻击方法",
+    "authors": "陈斌, 印佳丽, 林巍, 刘小垒, 于元隆, 纪守领.",
+    "citation": "In 计算机学报, 2026. (中文CCF-A)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "models",
+    "links": []
+  },
+  {
+    "id": "paper-20",
+    "venue": "IoTJ ’26",
+    "title": "SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification",
+    "authors": "Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, Xiaolei Liu.",
+    "citation": "In IEEE Internet of Things Journal, 2026. (JCR-Q1)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/JIOT.2026.3670664"
+      }
+    ]
+  },
+  {
+    "id": "paper-21",
+    "venue": "电子学报 ’26",
+    "title": "基于梯度协同与特征融合的加密流量检测",
+    "authors": "卢嘉中, 余坤, 刘小垒, 张小松.",
+    "citation": "In 电子学报, 2026. (中文CCF-A)",
+    "year": 2026,
+    "type": "journal",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/AES26/AES26-Papera.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://dx.doi.org/10.12263/DZXB.20251021"
+      }
+    ]
+  },
+  {
+    "id": "paper-22",
+    "venue": "计算机研究与发展 ’25",
+    "title": "大语言模型安全与隐私风险综述",
+    "authors": "姜毅, 杨勇, 印佳丽, 刘小垒, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.",
+    "citation": "In 计算机研究与发展, 2025. (中文CCF-A)",
+    "year": 2025,
+    "type": "journal",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/CRAD25/CRAD25-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.7544/issn1000-1239.202440265"
+      }
+    ]
+  },
+  {
+    "id": "paper-23",
+    "venue": "TIFS ’24",
+    "title": "Query-Efficient Model Inversion Attacks: An Information Flow View",
+    "authors": "Yixiao Xu, Binxing Fang, Mohan Li, Xiaolei Liu, and Zhihong Tian.",
+    "citation": "In IEEE Transactions on Information Forensics and Security, 2024. (CCF-A)",
+    "year": 2024,
+    "type": "journal",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/TIFS24/TIFS24-Paperb.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TIFS.2024.3518779"
+      }
+    ]
+  },
+  {
+    "id": "paper-24",
+    "venue": "TIFS ’24",
+    "title": "Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model",
+    "authors": "Rongke Liu, Dong Wang, Yizhi Ren, Kaitian Guo, Qianqian Qin, and  Xiaolei Liu.",
+    "citation": "In IEEE Transactions on Information Forensics and Security, 2024. (CCF-A)",
+    "year": 2024,
+    "type": "journal",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/TIFS24/TIFS24-Papera.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TIFS.2024.3372815"
+      }
+    ]
+  },
+  {
+    "id": "paper-25",
+    "venue": "TCSS ’24",
+    "title": "Backdoor Attack and Defense on Deep Learning: A Survey",
+    "authors": "Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, Xiaolei Liu, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.",
+    "citation": "In IEEE Transactions on Computational Social Systems, 2024. (JCR-Q1)",
+    "year": 2024,
+    "type": "journal",
+    "topic": "llm",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/TCSS24/TCSS24-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TCSS.2024.3482723"
+      }
+    ]
+  },
+  {
+    "id": "paper-26",
+    "venue": "IEEE Network ’24",
+    "title": "An Adversarial Example Defense Algorithm for Intelligent Driving",
+    "authors": "Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  Xiaolei Liu.",
+    "citation": "In IEEE Network, 2024. (JCR-Q1)",
+    "year": 2024,
+    "type": "journal",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/MNET24/MNET24-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/MNET.2024.3392582"
+      }
+    ]
+  },
+  {
+    "id": "paper-27",
+    "venue": "IPM ’21",
+    "title": "Transaction-based classification and detection approach for Ethereum smart contract",
+    "authors": "Teng Hu, Xiaolei Liu, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.",
+    "citation": "In Information Processing & Management, 2021. (ESI高被引论文, JCR-Q1)",
+    "year": 2021,
+    "type": "journal",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/IPM21/IPM21-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.ipm.2020.102462"
+      }
+    ]
+  },
+  {
+    "id": "paper-28",
+    "venue": "TITS ’21",
+    "title": "Compiler-Based Efficient CNN Model Construction for 5G Edge Devices",
+    "authors": "Kun Wan, Xiaolei Liu, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.",
+    "citation": "In IEEE Transactions on Intelligent Transportation Systems, 2021. (JCR-Q1)",
+    "year": 2021,
+    "type": "journal",
+    "topic": "systems",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TITS.2021.3056426"
+      }
+    ]
+  },
+  {
+    "id": "paper-29",
+    "venue": "KBS ’21",
+    "title": "A low-query black-box adversarial attack based on transferability",
+    "authors": "Kangyi Ding, Xiaolei Liu, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.",
+    "citation": "In Knowledge-Based Systems, 2021. (JCR-Q1)",
+    "year": 2021,
+    "type": "journal",
+    "topic": "models",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "/publications/KBS21/KBS21-Paper.pdf"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.knosys.2021.107102"
+      }
+    ]
+  }
+]

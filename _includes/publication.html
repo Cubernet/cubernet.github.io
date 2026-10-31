@@ -1,0 +1,7 @@
+<article class="publication {% if include.featured %}publication-featured{% endif %}" data-year="{{ p.year }}" data-topic="{{ p.topic }}" id="{{ p.id }}">
+  <div class="publication-meta"><span class="venue">{{ p.venue }}</span>{% if include.featured %}<span class="pub-number">0{{ forloop.index }}</span>{% endif %}</div>
+  <div class="publication-body"><h3>{{ p.title | escape }}</h3>
+    {% if include.featured %}<p class="pub-summary"><span class="zh">{{ p.summary_zh }}</span><span class="en" lang="en">{{ p.summary_en }}</span></p>{% else %}<p class="authors">{{ p.authors | escape | replace: 'Xiaolei Liu', '<strong>Xiaolei Liu</strong>' | replace: '刘小垒', '<strong>刘小垒</strong>' }}</p><p class="citation">{{ p.citation | escape }}</p>{% endif %}
+    <div class="publication-links">{% for link in p.links %}<a href="{{ link.url | relative_url }}" {% if link.url contains '.pdf' %}type="application/pdf"{% endif %}>{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}{% if p.links.size == 0 %}<span class="availability"><span class="zh">已录用 · 链接待公开</span><span class="en" lang="en">Accepted · links forthcoming</span></span>{% endif %}</div>
+  </div>
+</article>
