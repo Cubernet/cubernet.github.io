@@ -13,6 +13,7 @@
     "@type": "Person",
     "@id": {{ person_id | jsonify }},
     "name": {{ site.author.name | jsonify }},
+    "description": {{ site.seo.description | append: " " | append: site.seo.description_zh | jsonify }},
     "alternateName": {{ site.seo.alternate_names | jsonify }},
     "url": {{ profile_url | jsonify }},
     "image": {{ profile_image | jsonify }},

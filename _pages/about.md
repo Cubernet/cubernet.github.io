@@ -60,18 +60,14 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
 - `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
 - `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
   Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
   In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
+  [[Paper](https://raw.githubusercontent.com/mlresearch/v306/main/assets/qin26a/qin26a.pdf)]
+  [[Website](https://proceedings.mlr.press/v306/qin26a.html)]
 - `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
   Cheng Liu, <span style="color:blue">Xiaolei Liu</span>, Xingyu Li, Bangzhou Xin, and Kangyi Ding.   
   In *Findings of the Association for Computational Linguistics: ACL 2026*, July, 2026.   
@@ -93,7 +89,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[Paper](/publications/ACMMM25/ACMMM25-Paper.pdf)]
   [[DOI](https://dl.acm.org/doi/10.1145/3746027.3755611)]
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
-  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Du Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
+  Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Di Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
   In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
   [[Paper](/publications/USENIX25/USENIX25-Paper.pdf)]
   [[DOI](https://dl.acm.org/doi/10.5555/3766078.3766322)]
@@ -105,8 +101,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
   Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
   In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)   
-  [[Paper](/publications/CCS24/CCS24-Paper.pdf)]
-  [[Slides](/publications/CCS24/CCS24-Slides.pdf)]
+  [[Paper](/publications/CSS24/CCS24-Paper.pdf)]
+  [[Slides](/publications/CSS24/CCS24-Slides.pdf)]
   [[DOI](https://doi.org/10.1145/3658644.3670293)]
 - `ASE'24` **Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection**.  
   Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Wei Liu.  
@@ -142,12 +138,10 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
   Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
   In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
-- `TDSC'26` **NEO: Navigating Entropy in Optimized Black-Box Video Adversarial Attacks**.   
+  [[DOI](https://doi.org/10.1109/TSE.2026.3726519)]
+- `TDSC'26` **NEO: Navigating Entropy in Optimized Closed-Box Video Adversarial Attacks**.   
   <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
   In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
-  [[Paper]()]
   [[DOI](https://doi.org/10.1109/TDSC.2026.3715804)]
 - `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
   <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
@@ -157,12 +151,9 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `计算机学报'26` **基于鲁棒模型引导的迁移性对抗攻击方法**.   
   陈斌, 印佳丽, 林巍, <span style="color:blue">刘小垒</span>, 于元隆, 纪守领.   
   In *计算机学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
-  [[Paper]()]
-  [[DOI]()]
 - `IoTJ'26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
   Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper]()]
   [[DOI](https://doi.org/10.1109/JIOT.2026.3670664)]
 - `电子学报'26` **基于梯度协同与特征融合的加密流量检测**.   
   卢嘉中, 余坤, <span style="color:blue">刘小垒</span>, 张小松.   
@@ -188,7 +179,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, <span style="color:blue">Xiaolei Liu</span>, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.   
   In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">JCR-Q1</span>)   
   [[Paper](/publications/TCSS24/TCSS24-Paper.pdf)]
-  [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)] 
+  [[DOI](https://doi.org/10.1109/TCSS.2024.3482723)] 
 - `IEEE Network'24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
   Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
   In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
@@ -202,7 +193,6 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `TITS'21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
   Kun Wan, <span style="color:blue">Xiaolei Liu</span>, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.   
   In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
-  [[Paper](/publications/TITS21/TITS21-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/TITS.2021.3056426)]
 - `KBS'21` **A low-query black-box adversarial attack based on transferability**.   
   Kangyi Ding, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.   

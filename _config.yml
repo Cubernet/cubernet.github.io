@@ -15,8 +15,9 @@ google_scholar_stats_use_cdn : true
 
 # Search metadata is separate from the short description shown in the sidebar.
 seo:
-  title: "Xiaolei Liu (刘小垒) | Trustworthy AI & LLM Security"
-  description: "Personal homepage of Xiaolei Liu (刘小垒), researching trustworthy AI, adversarial machine learning, LLM security, model privacy, and software security."
+  title: "Xiaolei Liu (刘小垒) | MAIVER · AI Agent Security"
+  description: "Xiaolei Liu (刘小垒), founder and CEO of MAIVER, researches trustworthy AI, AI agent security, and machine behavior governance."
+  description_zh: "刘小垒（Xiaolei Liu），MAIVER（极数景明）创始人兼 CEO，研究可信人工智能与 AI Agent 安全，当前关注机器行为治理：判断 AI 的行动是否有依据、获得授权、符合用户意图并可安全执行。"
   alternate_names:
     - "Xiaolei Liu"
     - "刘小垒"
