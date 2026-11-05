@@ -9,7 +9,11 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    {% if page.url == "/" %}
+      <h1 class="author__name">{{ author.name }}</h1>
+    {% else %}
+      <h3 class="author__name">{{ author.name }}</h3>
+    {% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.group_page %}<p class="author__bio"><a href="https://maiver.ai">{{ author.group_page }}</a></p>{% endif %}
   </div>

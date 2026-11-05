@@ -35,7 +35,8 @@ redirect_from:
 </details> -->
 
 
-# 🔥 News
+## 🔥 News
+{: .section-heading}
 - <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
 - <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
 - <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
@@ -49,11 +50,13 @@ redirect_from:
 - <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
 
-# 📝 Selected Publications 
+## 📝 Selected Publications
+{: .section-heading}
 
-Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citation count"></a>
 
-## Conference
+### Conference
+{: .publication-heading}
 - `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
@@ -134,7 +137,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
 
-## Journal
+### Journal
+{: .publication-heading}
 - `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
   Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
   In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
@@ -206,14 +210,16 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[Paper](/publications/KBS21/KBS21-Paper.pdf)]
   [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
 
-# 🎖 Honors and Awards
+## 🎖 Honors and Awards
+{: .section-heading}
 - <span style="color:red">[2024.12]</span> 🏆 四川省高层次人才计划
 - <span style="color:red">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
 - <span style="color:red">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
 - <span style="color:red">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
 - <span style="color:red">[2016.11]</span> 🏆 首届国家网络安全奖学金
   
-# 👨‍💻 Services
+## 👨‍💻 Services
+{: .section-heading}
 - 中国计算机学会网络与系统安全专委会执行委员
 - 中国电子学会网络空间安全专委会委员
 - 中国图象图形学学会数字媒体取证与安全专委会委员

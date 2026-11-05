@@ -88,13 +88,26 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
+.section-heading:before, .anchor:before {
     content: ''; 
     display: block; 
     position: relative; 
     width: 0; 
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
+}
+
+// Keep the existing heading sizes while using semantic H1/H2/H3 levels.
+.sidebar .author__name {
+    margin-bottom: 0;
+}
+
+.section-heading {
+    font-size: $type-size-3;
+}
+
+.publication-heading {
+    font-size: $type-size-4;
 }
 
 .badge {
