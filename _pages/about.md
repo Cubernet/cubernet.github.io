@@ -66,7 +66,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
   Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
   In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:red">CCF-A</span>)   
-  [[Paper](https://raw.githubusercontent.com/mlresearch/v306/main/assets/qin26a/qin26a.pdf)]
+  [[Paper](/publications/ICML26/ICML-Paper.pdf)]
   [[Website](https://proceedings.mlr.press/v306/qin26a.html)]
 - `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
   Cheng Liu, <span style="color:blue">Xiaolei Liu</span>, Xingyu Li, Bangzhou Xin, and Kangyi Ding.   
