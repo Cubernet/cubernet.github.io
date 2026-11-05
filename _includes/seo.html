@@ -1,16 +1,18 @@
 <!-- begin SEO -->
-{% if site.url %}
-  {% assign seo_url = site.url %}
+{% assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% assign seo_page_title = page.title | strip %}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.url == "/" or seo_page_title == "" %}
+  {% assign seo_title = site.seo.title | default: site.title %}
+{% else %}
+  {% assign seo_title = seo_page_title | append: " | " | append: site.title %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
+{% assign seo_title = seo_title | strip_html | strip_newlines | escape_once %}
 
-{% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
-{% endif %}
+<title>{{ seo_title }}</title>
 
-<title>{{ site.title }} - Homepage</title>
-
-{% assign seo_description = page.description | default: page.excerpt | default: site.description %}
+{% assign seo_description = page.description | default: site.seo.description | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
@@ -31,15 +33,19 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ seo_title }}">
 
-{% if seo_url %}
-  <link rel="canonical" href="https://cubernet.github.io">
-  <meta property="og:url" content="https://cubernet.github.io">
+<link rel="canonical" href="{{ canonical_url | escape_once }}">
+<meta property="og:url" content="{{ canonical_url | escape_once }}">
+
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+  <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}">
+{% if page.url == "/" %}
+  {% include person-schema.html %}
 {% endif %}
 
 {% if site.twitter.username %}

@@ -1,0 +1,23 @@
+{% assign person_id = "/#person" | absolute_url %}
+{% assign profile_id = "/#profile" | absolute_url %}
+{% assign profile_url = "/" | absolute_url %}
+{% assign profile_image = site.author.avatar | absolute_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": {{ profile_id | jsonify }},
+  "url": {{ profile_url | jsonify }},
+  "name": {{ site.title | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ person_id | jsonify }},
+    "name": {{ site.author.name | jsonify }},
+    "alternateName": {{ site.seo.alternate_names | jsonify }},
+    "url": {{ profile_url | jsonify }},
+    "image": {{ profile_image | jsonify }},
+    "sameAs": {{ site.seo.same_as | jsonify }},
+    "knowsAbout": {{ site.seo.knows_about | jsonify }}
+  }
+}
+</script>

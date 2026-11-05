@@ -9,7 +9,25 @@
 title                    : "Xiaolei Liu (刘小垒)"
 description              : "Founder & Researcher"
 repository               : "Cubernet/cubernet.github.io"
+url                      : "https://xlliu.org.cn"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
+
+# Search metadata is separate from the short description shown in the sidebar.
+seo:
+  title: "Xiaolei Liu (刘小垒) | Trustworthy AI & LLM Security"
+  description: "Personal homepage of Xiaolei Liu (刘小垒), researching trustworthy AI, adversarial machine learning, LLM security, model privacy, and software security."
+  alternate_names:
+    - "Xiaolei Liu"
+    - "刘小垒"
+  same_as:
+    - "https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
+  knows_about:
+    - "Trustworthy AI"
+    - "Adversarial machine learning"
+    - "LLM security"
+    - "Model privacy"
+    - "Software security"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
