@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Research**: I am the founder and CEO of [MAIVER](https://maiver.ai/), a machine behavior intelligence company based in Shanghai. My long-term goal is to build trustworthy AI in strong adversarial environments. My current focus is governing the actions of AI agents: training models that judge whether an agent's action is grounded, authorized, aligned with the user's intent, and safe to execute. My broader research covers adversarial machine learning, LLM and agent security, model privacy and backdoors, and data-driven software security.
+**Research**: I am the founder and CEO of [MAIVER（极数景明（上海）智能科技有限公司）](https://maiver.ai/), a machine behavior intelligence company based in Shanghai. My long-term goal is to build trustworthy AI in strong adversarial environments. My current focus is governing the actions of AI agents: training models that judge whether an agent's action is grounded, authorized, aligned with the user's intent, and safe to execute. My broader research covers adversarial machine learning, LLM and agent security, model privacy and backdoors, and data-driven software security.
 
 **Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I received my Ph.D. degree from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at UC Santa Barbara (2018–2019).
 
