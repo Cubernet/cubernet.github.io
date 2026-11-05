@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaolei Liu (刘小垒)"
-description              : "Founder & Researcher, MAIVER"
+description              : "Founder & Researcher"
 repository               : "Cubernet/cubernet.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ bing_site_verification   :  213DB93D6D8F9D0F7349E2B180088FF0
 # Site Author
 author:
   name             : "Xiaolei Liu (刘小垒)"
-  avatar           : "images/photo.png"
+  avatar           : "images/photo.jpeg"
   bio              : #A coder with passion.
   group_page       : "MAIVER (极数景明)"
   location         : "Shanghai, China"
