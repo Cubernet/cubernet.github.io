@@ -1,0 +1,5 @@
+# Consolidate homepage aliases at the HTTP layer on Cloudflare Pages.
+/about / 301
+/about/ / 301
+/about.html / 301
+/index.html / 301

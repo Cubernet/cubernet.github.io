@@ -1,0 +1,11 @@
+---
+layout: null
+permalink: /sitemap-index.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{{ "/sitemap.xml" | absolute_url | xml_escape }}</loc>
+  </sitemap>
+</sitemapindex>

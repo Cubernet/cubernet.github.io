@@ -7,3 +7,4 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ "/sitemap.xml" | absolute_url }}
+Sitemap: {{ "/sitemap-index.xml" | absolute_url }}
