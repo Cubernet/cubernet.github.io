@@ -37,6 +37,7 @@ redirect_from:
 
 ## 🔥 News
 {: .section-heading}
+- <span style="color:red">[2026.11]</span> &nbsp;🎉 One of our papers won the Best Paper Award at **ACMMM 2026**!
 - <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
 - <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
 - <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
@@ -59,7 +60,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 {: .publication-heading}
 - `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)(<span style="color:red">Best Paper Award</span>)      
 - `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
