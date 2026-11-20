@@ -219,3 +219,39 @@ html[data-theme="dark"] .theme-toggle {
 html[data-theme="dark"] .page__content li code {
   background-color: #1b3a86;
 }
+
+/* ---------- 移动端菜单按钮：无底色线条图标 ---------- */
+
+.greedy-nav button {
+  width: 2.6rem;
+  padding: 0;
+  background: transparent;
+  color: var(--ui-nav);
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--ui-nav-active);
+  }
+}
+
+.greedy-nav button .navicon,
+.greedy-nav button .navicon::before,
+.greedy-nav button .navicon::after {
+  width: 20px;
+  height: 1.5px;
+  border-radius: 1px;
+  background-color: currentColor;
+}
+
+.greedy-nav button:not(.close) .navicon::before {
+  top: -6px;
+}
+
+.greedy-nav button:not(.close) .navicon::after {
+  bottom: -6px;
+}
+
+/* 展开成 × 时中间那条线要隐藏（覆盖上面的 currentColor） */
+.greedy-nav button.close .navicon {
+  background-color: transparent;
+}

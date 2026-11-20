@@ -1,31 +1,37 @@
 <!doctype html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="utf-8">
+<!--
+  站点图标母版（512×512）。
+  改完用 Chrome 无头模式渲染：
+  chrome --headless=new --window-size=512,512 --screenshot=out.png file://$PWD/docs/icon.html
+  再用 Pillow 按 LANCZOS 缩到 180 / 192 / 32 / 16，并生成多尺寸 favicon.ico。
+-->
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { width: 512px; height: 512px; overflow: hidden; }
-  body {
-    background:
-      radial-gradient(420px 420px at 78% 12%, rgba(97, 156, 255, .55), transparent 62%),
-      linear-gradient(146deg, #071a48 0%, #03228d 100%);
-    display: flex; align-items: center; justify-content: center;
+  html, body {
+    width: 512px; height: 512px; overflow: hidden;
+    font-family: "SF Pro Display", -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .mark {
-    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", sans-serif;
-    font-size: 292px; font-weight: 600; color: #ffffff; line-height: 1;
-    letter-spacing: -6px; transform: translateY(-8px);
-    text-shadow: 0 10px 30px rgba(0, 0, 0, .28);
+  body {
+    display: flex; align-items: center; justify-content: center;
+    background:
+      radial-gradient(660px 660px at 76% 6%, rgba(104, 158, 255, 0.40), transparent 60%),
+      linear-gradient(152deg, #0d1f4a 0%, #03228d 100%);
   }
-  .ring {
-    position: absolute; inset: 30px; border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, .18);
+  .mark {
+    font-size: 256px;
+    font-weight: 650;
+    letter-spacing: -6.4px;
+    color: #ffffff;
+    transform: translateX(-5px);
+    line-height: 1;
   }
 </style>
 </head>
 <body>
-  <div class="ring"></div>
-  <div class="mark">刘</div>
+  <div class="mark">XL</div>
 </body>
 </html>
