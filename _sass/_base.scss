@@ -118,9 +118,17 @@ blockquote {
 /* links */
 
 a {
-  
-  &:focus {
-    @extend %tab-focus;
+
+  /* 鼠标点击不显示焦点框：原来的 5px 橙色 outline 只在该用键盘时才需要 */
+  &:focus:not(:focus-visible) {
+    outline: 0;
+  }
+
+  /* 键盘 Tab 聚焦时给一个细的站内蓝描边，替代原来的橙色粗框 */
+  &:focus-visible {
+    outline: 2px solid rgba($link-color, 0.6);
+    outline-offset: 3px;
+    border-radius: $border-radius;
   }
 
   &:hover,

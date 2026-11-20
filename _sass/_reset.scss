@@ -70,11 +70,7 @@ a {
   color: $link-color;
 }
 
-/* Apply focus state */
-
-a:focus {
-  @extend %tab-focus;
-}
+/* 焦点样式统一在 _base.scss 里用 :focus-visible 定义（鼠标点击不出描边） */
 
 /* Remove outline from links */
 
