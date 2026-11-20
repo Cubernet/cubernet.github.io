@@ -1,0 +1,18 @@
+# Jekyll 构建产物
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.jekyll-assets-cache/
+
+# Bundler / gem 依赖（本地安装到项目内）
+.vendor/
+vendor/bundle/
+.bundle/
+
+# 构建会随 Ruby 版本变化，避免锁文件影响 GitHub Actions 的 bundler-cache
+Gemfile.lock
+
+# 系统与编辑器
+.DS_Store
+*.swp
