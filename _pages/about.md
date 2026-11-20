@@ -37,6 +37,7 @@ redirect_from:
 
 ## 🔥 News
 {: .section-heading}
+- <span style="color:red">[2026.11]</span> &nbsp;🎉 One paper has been accepted to **TMM**!
 - <span style="color:red">[2026.11]</span> &nbsp;🎉 One of our papers won the Best Paper Award at **ACMMM 2026**!
 - <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
 - <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
@@ -49,7 +50,6 @@ redirect_from:
 - <span style="color:red">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
 - <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
 - <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:red">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
 
 ## 📝 Selected Publications
 {: .section-heading}
@@ -136,6 +136,10 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 
 ### Journal
 {: .publication-heading}
+- `TMM'26` **HLAA: Enhancing Transferable Adversarial Attacks via Layer-Aware Hierarchical Optimization**.   
+  Bin Chen, Jia-Li Yin, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu and Shouling Ji.  
+  In *IEEE Transactions on Multimedia*, 2026. (<span style="color:red">CCF-A</span>)   
+  [[DOI]()]
 - `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
   Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
   In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
