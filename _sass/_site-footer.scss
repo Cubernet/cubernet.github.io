@@ -1,0 +1,41 @@
+/* ==========================================================================
+   站点页脚（版权 + 构建时自动更新的“最后更新”日期）
+   ========================================================================== */
+
+.site-footer {
+  clear: both;
+  margin-top: 3.5em;
+  border-top: 1px solid $light-gray;
+  background-color: $lighter-gray;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45em;
+    max-width: $x-large;
+    margin: 0 auto;
+    padding: 1.5em 1.4em 1.8em;
+    text-align: center;
+    font-family: $sans-serif-narrow;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #5c6670; /* 与浅灰底对比度 ~5.6:1，满足 WCAG AA */
+
+    @include breakpoint($medium) {
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  &__updated {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+  }
+}

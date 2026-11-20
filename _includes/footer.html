@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__copyright">
+      © {{ site.time | date: "%Y" }} {{ site.author.name }}
+    </p>
+    <p class="site-footer__updated">
+      Last updated <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%Y-%m-%d" }}</time>
+    </p>
+  </div>
+</footer>

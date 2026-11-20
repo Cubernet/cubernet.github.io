@@ -1,0 +1,123 @@
+{% comment %}
+  访客地图（mapmyvisitors）
+  - 懒加载：滚动到附近才请求，避免拖慢首屏
+  - 分区域：先用 /cdn-cgi/trace 判断访客所在国家；大陆网络下该第三方控件常被墙或极慢，
+    因此直接跳过加载并保持隐藏，不留下 "Loading data..." 空壳
+  - 失败兜底：加载超时或报错则整段隐藏，页面底部不留残缺控件
+{% endcomment %}
+<div id="map-sentinel" aria-hidden="true" style="height:1px"></div>
+
+<div id="map-section" style="display:none">
+  <h2 id="map-title" class="section-heading">🗺️ Visitor Map</h2>
+
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    data-src="https://mapmyvisitors.com/map.js?cl=afafaf&w=300&t=t&d=zsuELgS8w8kYR-AVxqTSEcmznNcvFcob9wjMPaU7PIg&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"></script>
+</div>
+
+<script>
+(function () {
+  var section = document.getElementById('map-section');
+  var sentinel = document.getElementById('map-sentinel');
+  var widgetScript = document.getElementById('mapmyvisitors');
+  if (!section || !sentinel || !widgetScript) return;
+
+  var started = false;
+
+  function reveal() {
+    section.style.display = 'block';
+  }
+
+  function abandon() {
+    section.style.display = 'none';
+  }
+
+  /* 访客所在地区，缓存到 sessionStorage，避免同一次访问重复请求 */
+  function region() {
+    try {
+      var cached = sessionStorage.getItem('cf-loc');
+      if (cached !== null) return Promise.resolve(cached);
+    } catch (e) {}
+
+    if (!window.fetch) return Promise.resolve('');
+
+    var controller = 'AbortController' in window ? new AbortController() : null;
+    var timer = controller && setTimeout(function () { controller.abort(); }, 1200);
+
+    return fetch('/cdn-cgi/trace', {
+      cache: 'no-store',
+      signal: controller ? controller.signal : undefined
+    }).then(function (res) {
+      return res.ok ? res.text() : '';
+    }).then(function (text) {
+      var match = /^loc=(\w+)$/m.exec(text || '');
+      var loc = match ? match[1] : '';
+      try { sessionStorage.setItem('cf-loc', loc); } catch (e) {}
+      return loc;
+    }).catch(function () {
+      return '';
+    }).then(function (loc) {
+      if (timer) clearTimeout(timer);
+      return loc;
+    });
+  }
+
+  function loadMap() {
+    /* 控件会插入到 script 标签之后，等它真正出现再显示整段，避免空白占位 */
+    var observer = new MutationObserver(function () {
+      if (section.querySelector('#mapmyvisitors-widget')) {
+        observer.disconnect();
+        reveal();
+      }
+    });
+    observer.observe(section, { childList: true });
+
+    widgetScript.addEventListener('load', function () {
+      /* load 只代表脚本到位，控件容器稍后才插入；留出渲染时间 */
+      setTimeout(function () {
+        observer.disconnect();
+        if (section.querySelector('#mapmyvisitors-widget')) reveal();
+      }, 600);
+    });
+
+    widgetScript.addEventListener('error', function () {
+      observer.disconnect();
+      abandon();
+    });
+
+    /* 兜底：12 秒内没渲染出来就保持隐藏，不留空壳 */
+    setTimeout(function () { observer.disconnect(); }, 12000);
+
+    widgetScript.src = widgetScript.getAttribute('data-src');
+  }
+
+  function start() {
+    if (started) return;
+    started = true;
+
+    region().then(function (loc) {
+      /* 大陆网络：跳过第三方控件（该服务在国内通常不可达） */
+      if (loc === 'CN') return;
+      loadMap();
+    });
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    start();
+    return;
+  }
+
+  var io = new IntersectionObserver(function (entries) {
+    for (var i = 0; i < entries.length; i++) {
+      if (entries[i].isIntersecting) {
+        io.disconnect();
+        start();
+        return;
+      }
+    }
+  }, { rootMargin: '400px 0px' });
+
+  io.observe(sentinel);
+})();
+</script>

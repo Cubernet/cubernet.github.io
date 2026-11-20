@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 512px; height: 512px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(420px 420px at 78% 12%, rgba(97, 156, 255, .55), transparent 62%),
+      linear-gradient(146deg, #071a48 0%, #03228d 100%);
+    display: flex; align-items: center; justify-content: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mark {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", sans-serif;
+    font-size: 292px; font-weight: 600; color: #ffffff; line-height: 1;
+    letter-spacing: -6px; transform: translateY(-8px);
+    text-shadow: 0 10px 30px rgba(0, 0, 0, .28);
+  }
+  .ring {
+    position: absolute; inset: 30px; border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .18);
+  }
+</style>
+</head>
+<body>
+  <div class="ring"></div>
+  <div class="mark">刘</div>
+</body>
+</html>

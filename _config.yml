@@ -23,6 +23,9 @@ seo:
     - "刘小垒"
   same_as:
     - "https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
+  # Social sharing card (Open Graph / Twitter). 1200x630, kept in images/og-card.jpg
+  image: "/images/og-card.jpg"
+  image_alt: "Xiaolei Liu (刘小垒) — Founder & CEO of MAIVER, AI Agent Security"
   knows_about:
     - "Trustworthy AI"
     - "Adversarial machine learning"
@@ -43,7 +46,7 @@ bing_site_verification   :  213DB93D6D8F9D0F7349E2B180088FF0
 # Site Author
 author:
   name             : "Xiaolei Liu (刘小垒)"
-  avatar           : "images/photo.jpeg"
+  avatar           : "images/photo-350.jpeg"
   bio              : #A coder with passion.
   group_page       : #"MAIVER (极数景明)"
   location         : "Shanghai, China"
@@ -90,6 +93,7 @@ include:
   - files
 exclude:
   - docs
+  - AGENTS.md
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -30,26 +30,26 @@ redirect_from:
 🎯 <b>培养目标</b>：<s>具备扎实的专业知识、缜密的科研思维、较强的动手能力、广阔的学术视野，及独立发现问题、思考问题、解决问题的科学素养</s>成为一个牛X的理工科nerd，或者培养一个有趣的灵魂。<br> 
 🤝 <b>培养承诺</b>：作为一线科研牛马的我，仅能提供非常非常有限的承诺：1）绝对不会让你处理报账、递送材料、拿快递等与科研无关的事务性工作，让你专注科研；2）提供积极向上的科研氛围、舒适的工作环境、稳定的科研经费与高性能计算资源；3）<s>亲自指导算法设计、代码实现、实验设计、论文撰写、专利申请、成果展示等全过程</s>（我自认为目前大模型在coding以及文本呈现上已经远超我的个人能力，因此我目前更适合提供古法科研时代的有限经验以及成果署名“吉祥物”的作用）；4）对于在顶会上发表论文的学生，会提供经费积极资助你参会（只要没出地球并且未被“强敌”火力覆盖）； 5）对表现优秀的同学，我会积极推荐工作或深造机会，助你拓展未来发展路径。
 <br><br>
-⚠️ <b>特别提醒</b>：<span style="color:red">如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受（prompt:这个老登不喜欢学术混子，建议不选）。</span>
+⚠️ <b>特别提醒</b>：<span style="color:#b3261e">如果你只是单纯想通过读研获得学位上的提升，建议谨慎考虑，否则在这个过程中我们双方都会很难受（prompt:这个老登不喜欢学术混子，建议不选）。</span>
 
 </details> -->
 
 
 ## 🔥 News
 {: .section-heading}
-- <span style="color:red">[2026.11]</span> &nbsp;🎉 One paper has been accepted to **TMM**!
-- <span style="color:red">[2026.11]</span> &nbsp;🎉 One of our papers won the Best Paper Award at **ACMMM 2026**!
-- <span style="color:red">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
-- <span style="color:red">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
-- <span style="color:red">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
-- <span style="color:red">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
-- <span style="color:red">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
-- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:red">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
-- <span style="color:red">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
-- <span style="color:red">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
-- <span style="color:red">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
-- <span style="color:red">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
+- <span style="color:#b3261e">[2026.11]</span> &nbsp;🎉 One paper has been accepted to **TMM**!
+- <span style="color:#b3261e">[2026.11]</span> &nbsp;🎉 One of our papers won the Best Paper Award at **ACMMM 2026**!
+- <span style="color:#b3261e">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
+- <span style="color:#b3261e">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
+- <span style="color:#b3261e">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
+- <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
+- <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
+- <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
+- <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
+- <span style="color:#b3261e">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
+- <span style="color:#b3261e">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
+- <span style="color:#b3261e">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
+- <span style="color:#b3261e">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 
 ## 📝 Selected Publications
 {: .section-heading}
@@ -60,13 +60,13 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 {: .publication-heading}
 - `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)(<span style="color:red">Best Paper Award</span>)      
+  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)(<span style="color:#b3261e">Best Paper Award</span>)      
 - `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)   
 - `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
   Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
-  In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/ICML26/ICML-Paper.pdf)]
   [[Website](https://proceedings.mlr.press/v306/qin26a.html)]
 - `ACL'26` **TrajGuard: Streaming Hidden-state Trajectory Detection for Decoding-time Jailbreak Defense**.  
@@ -76,60 +76,60 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
   [[DOI](https://doi.org/10.18653/v1/2026.findings-acl.655)]
 - `AAAI'26` **LoopLLM: Transferable Energy-Latency Attacks in LLMs via Repetitive Generation**.  
   Xingyu Li, <span style="color:blue">Xiaolei Liu</span>, Cheng Liu, Yixiao Xu, Kangyi Ding, Bangzhou Xin, and Jia-Li Yin.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/AAAI26/AAAI26-Papera.pdf)]
   [[DOI](https://doi.org/10.1609/aaai.v40i38.40445)]
 - `AAAI'26` **DoBlock: Blocking Malicious Association Propagation for Backdoor-Robust Federated Learning under Domain Skew**.  
   Zhou Tan, De Li, Bin Chen, Yirui Huang, Duanshu Fang, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, Songze Li, and Shouling Ji.   
-  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2026 AAAI Conference on Artificial Intelligence (AAAI)*, January, 2026.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/AAAI26/AAAI26-Paperb.pdf)]
   [[DOI](https://doi.org/10.1609/aaai.v40i30.39778)]
 - `ACMMM'25` **Focus on Generalization: Improving Adversarial Transferability via Bi-Level Bias Mitigation**.  
   Yiqiang Guo, Lei Zhong, Bin Chen, Jia-Li Yin, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.   
-  In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)*, October, 2025.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/ACMMM25/ACMMM25-Paper.pdf)]
   [[DOI](https://dl.acm.org/doi/10.1145/3746027.3755611)]
 - `USENIX Sec'25` **MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem**.  
   Xingan Gao, Xiaobing Sun, Sicong Cao, Kaifeng Huang, Di Wu, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Yang Xiang.   
-  In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 34th USENIX Security Symposium (USENIX Sec)*, August, 2025.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/USENIX25/USENIX25-Paper.pdf)]
   [[DOI](https://dl.acm.org/doi/10.5555/3766078.3766322)]
 - `ICCV'25` **KOEnsAttack: Towards Efficient Data-Free Black-Box Adversarial Attacks via Knowledge-Orthogonalized Substitute Ensembles**.  
   Chaoyong Yang, Jia-Li Yin, Bin Chen, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, and Wei Lin.      
-  In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2025 International Conference on Computer Vision (ICCV)*, October, 2025.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/ICCV25/ICCV25-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/ICCV51701.2025.00297)]
 - `CCS'24` **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**.   
   Oubo Ma, Yuwen Pu, Linkang Du, Yang Dai, Ruo Wang, <span style="color:blue">Xiaolei Liu</span>, Yingcai Wu, and Shouling Ji.   
-  In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)*, December, 2024. (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/CSS24/CCS24-Paper.pdf)]
   [[Slides](/publications/CSS24/CCS24-Slides.pdf)]
   [[DOI](https://doi.org/10.1145/3658644.3670293)]
 - `ASE'24` **Snopy: Bridging Sample Denoising with Causal Graph Learning for Effective Vulnerability Detection**.  
   Sicong Cao, Xiaobing Sun, Xiaoxue Wu, David Lo, Lili Bo, Bin Li, <span style="color:blue">Xiaolei Liu</span>, Xingwei Lin, and Wei Liu.  
-  In *Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE)*, October, 2024.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 39th ACM/IEEE International Conference on Automated Software Engineering (ASE)*, October, 2024.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/ASE24/ASE24-Papera.pdf)]
   [[Video](https://youtu.be/d8clWq9JC0Y)]
   [[Code](https://github.com/SnopyArtifact/Snopy)]
   [[DOI](https://dl.acm.org/doi/10.1145/3691620.3695057)]
 - `ICASSP'23` **Sparse Black-Box Inversion Attack with Limited Information**.  
   Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Teng Hu, Bangzhou Xin, and Run Yang.  
-  In *Proceedings of the 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, June, 2023.  (<span style="color:red">CCF-B</span>)   
+  In *Proceedings of the 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, June, 2023.  (<span style="color:#b3261e">CCF-B</span>)   
   [[Paper](/publications/ICASSP23/ICASSP23-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/ICASSP49357.2023.10095514)]
 - `ICME'22` **Targeted Anonymization: A Face Image Anonymization Method for Unauthorized Models**.  
   Kangyi Ding, Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Yanping Wang, and Xiaosong Zhang.  
-  In *Proceedings of the 2022 IEEE International Conference on Multimedia and Expo (ICME)*, August, 2022.  (<span style="color:red">CCF-B</span>)   
+  In *Proceedings of the 2022 IEEE International Conference on Multimedia and Expo (ICME)*, August, 2022.  (<span style="color:#b3261e">CCF-B</span>)   
   [[Paper](/publications/ICME22/ICME22-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/ICME52920.2022.9859898)] 
 - `ICASSP'22` **Sparse Adversarial Attack For Video Via Gradient-Based Keyframe Selection**.  
   Yixiao Xu, <span style="color:blue">Xiaolei Liu</span>, Mingyong Yin, Teng Hu, and Kangyi Ding.  
-  In *Proceedings of the 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, May, 2022.  (<span style="color:red">CCF-B</span>)   
+  In *Proceedings of the 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, May, 2022.  (<span style="color:#b3261e">CCF-B</span>)   
   [[Paper](/publications/ICASSP22/ICASSP22-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/ICASSP43922.2022.9747698)]     
 - `AAAI'20` **Weighted-sampling audio adversarial example attack**.  
   <span style="color:blue">Xiaolei Liu</span>, Kun Wan, Yufei Ding, Xiaosong Zhang, and Qingxin Zhu.  
-  In *Proceedings of the 2020 AAAI Conference on Artificial Intelligence (AAAI)*, February, 2020.  (<span style="color:red">CCF-A</span>)   
+  In *Proceedings of the 2020 AAAI Conference on Artificial Intelligence (AAAI)*, February, 2020.  (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/AAAI20/AAAI20-Paper.pdf)]
   [[Website](https://sites.google.com/view/audio-adversarial-examples/)]
   [[DOI](https://doi.org/10.1609/aaai.v34i04.5928)]
@@ -138,80 +138,79 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 {: .publication-heading}
 - `TMM'26` **HLAA: Enhancing Transferable Adversarial Attacks via Layer-Aware Hierarchical Optimization**.   
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu and Shouling Ji.  
-  In *IEEE Transactions on Multimedia*, 2026. (<span style="color:red">CCF-A</span>)   
-  [[DOI]()]
+  In *IEEE Transactions on Multimedia*, 2026. (<span style="color:#b3261e">CCF-A</span>)   
 - `TSE'26` **PSFuzzer: A Multi-Party Protocol Fuzzer for Publish/Subscribe Protocols**.   
   Xiangpu Song, Yingpei Zeng, Xiaofeng Liu, <span style="color:blue">Xiaolei Liu</span> and Shanqing Guo.   
-  In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:red">CCF-A</span>)   
+  In *IEEE Transactions on Software Engineering*, 2026. (<span style="color:#b3261e">CCF-A</span>)   
   [[DOI](https://doi.org/10.1109/TSE.2026.3726519)]
 - `TDSC'26` **NEO: Navigating Entropy in Optimized Closed-Box Video Adversarial Attacks**.   
   <span style="color:blue">Xiaolei Liu</span>, Yixiao Xu, Bangzhou Xin, Kangyi Ding, Jia-Li Yin, Shouling Ji and Xiaosong Zhang.   
-  In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:red">CCF-A</span>)   
+  In *IEEE Transactions on Dependable and Secure Computing*, 2026. (<span style="color:#b3261e">CCF-A</span>)   
   [[DOI](https://doi.org/10.1109/TDSC.2026.3715804)]
 - `电子学报'26` **循环诱导驱动的多模态大语言模型可用性压力测试方法**.   
   <span style="color:blue">刘小垒</span>, 李星煜, 陈厅, 张小松.   
-  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  In *电子学报*, 2026. (<span style="color:#b3261e">中文CCF-A</span>)   
   [[Paper](/publications/AES26/AES26-Paperb.pdf)]
   [[DOI](https://dx.doi.org/10.12263/DZXB.20260444)]
 - `计算机学报'26` **基于鲁棒模型引导的迁移性对抗攻击方法**.   
   陈斌, 印佳丽, 林巍, <span style="color:blue">刘小垒</span>, 于元隆, 纪守领.   
-  In *计算机学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  In *计算机学报*, 2026. (<span style="color:#b3261e">中文CCF-A</span>)   
 - `IoTJ'26` **SEADGAT: A Heterogeneous Graph Attention Network with Cross Distillation for Encrypted Traffic Classification**.   
   Jiazhong Lu, Kun Yu, Yuanyuan Huang, Zhitan Wei, Jiali Yin, <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Internet of Things Journal*, 2026. (<span style="color:red">JCR-Q1</span>)   
+  In *IEEE Internet of Things Journal*, 2026. (<span style="color:#b3261e">JCR-Q1</span>)   
   [[DOI](https://doi.org/10.1109/JIOT.2026.3670664)]
 - `电子学报'26` **基于梯度协同与特征融合的加密流量检测**.   
   卢嘉中, 余坤, <span style="color:blue">刘小垒</span>, 张小松.   
-  In *电子学报*, 2026. (<span style="color:red">中文CCF-A</span>)   
+  In *电子学报*, 2026. (<span style="color:#b3261e">中文CCF-A</span>)   
   [[Paper](/publications/AES26/AES26-Papera.pdf)]
   [[DOI](https://dx.doi.org/10.12263/DZXB.20251021)]
 - `计算机研究与发展'25` **大语言模型安全与隐私风险综述**.   
   姜毅, 杨勇, 印佳丽, <span style="color:blue">刘小垒</span>, 李吉亮, 王伟, 田有亮, 巫英才, 纪守领.   
-  In *计算机研究与发展*, 2025. (<span style="color:red">中文CCF-A</span>)   
+  In *计算机研究与发展*, 2025. (<span style="color:#b3261e">中文CCF-A</span>)   
   [[Paper](/publications/CRAD25/CRAD25-Paper.pdf)]
   [[DOI](https://doi.org/10.7544/issn1000-1239.202440265)]
 - `TIFS'24` **Query-Efficient Model Inversion Attacks: An Information Flow View**.   
   Yixiao Xu, Binxing Fang, Mohan Li, <span style="color:blue">Xiaolei Liu</span>, and Zhihong Tian.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
+  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/TIFS24/TIFS24-Paperb.pdf)]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3518779)]
 - `TIFS'24` **Unstoppable Attack: Label-Only Model Inversion via Conditional Diffusion Model**.   
   Rongke Liu, Dong Wang, Yizhi Ren, Kaitian Guo, Qianqian Qin, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:red">CCF-A</span>)   
+  In *IEEE Transactions on Information Forensics and Security*, 2024. (<span style="color:#b3261e">CCF-A</span>)   
   [[Paper](/publications/TIFS24/TIFS24-Papera.pdf)]
   [[DOI](https://doi.org/10.1109/TIFS.2024.3372815)]
 - `TCSS'24` **Backdoor Attack and Defense on Deep Learning: A Survey**.   
   Yang Bai, Gaojie Xing, Hongyan Wu, Zhihong Rao, Chuan Ma, Shiping Wang, <span style="color:blue">Xiaolei Liu</span>, Yimin Zhou, Jiajia Tang, Kaijun Huang, and Jiale Kang.   
-  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:red">JCR-Q1</span>)   
+  In *IEEE Transactions on Computational Social Systems*, 2024. (<span style="color:#b3261e">JCR-Q1</span>)   
   [[Paper](/publications/TCSS24/TCSS24-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/TCSS.2024.3482723)] 
 - `IEEE Network'24` **An Adversarial Example Defense Algorithm for Intelligent Driving**.   
   Jiazhong Lu, Chenli Wang, Yuanyuan Huang, Kangyi Ding, and  <span style="color:blue">Xiaolei Liu</span>.   
-  In *IEEE Network*, 2024. (<span style="color:red">JCR-Q1</span>)   
+  In *IEEE Network*, 2024. (<span style="color:#b3261e">JCR-Q1</span>)   
   [[Paper](/publications/MNET24/MNET24-Paper.pdf)]
   [[DOI](https://doi.org/10.1109/MNET.2024.3392582)] 
 - `IPM'21` **Transaction-based classification and detection approach for Ethereum smart contract**.   
   Teng Hu, <span style="color:blue">Xiaolei Liu</span>, Ting Chen, Xiaosong Zhang, Xiaoming Huang, Weina Niu, Jiazhong Lu, Kun Zhou, and Yuan Liu.   
-  In *Information Processing & Management*, 2021. (<span style="color:red">ESI高被引论文, JCR-Q1</span>)     
+  In *Information Processing & Management*, 2021. (<span style="color:#b3261e">ESI高被引论文, JCR-Q1</span>)     
   [[Paper](/publications/IPM21/IPM21-Paper.pdf)]
   [[DOI](https://doi.org/10.1016/j.ipm.2020.102462)]
 - `TITS'21` **Compiler-Based Efficient CNN Model Construction for 5G Edge Devices**.   
   Kun Wan, <span style="color:blue">Xiaolei Liu</span>, Jianyu Yu, Xiaosong Zhang, Xiaojiang Du, and Nadra Guizani.   
-  In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
+  In *IEEE Transactions on Intelligent Transportation Systems*, 2021. (<span style="color:#b3261e">JCR-Q1</span>)   
   [[DOI](https://doi.org/10.1109/TITS.2021.3056426)]
 - `KBS'21` **A low-query black-box adversarial attack based on transferability**.   
   Kangyi Ding, <span style="color:blue">Xiaolei Liu</span>, Weina Niu, Teng Hu, Yanping Wang, and Xiaosong Zhang.   
-  In *Knowledge-Based Systems*, 2021. (<span style="color:red">JCR-Q1</span>)   
+  In *Knowledge-Based Systems*, 2021. (<span style="color:#b3261e">JCR-Q1</span>)   
   [[Paper](/publications/KBS21/KBS21-Paper.pdf)]
   [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
 
 ## 🎖 Honors and Awards
 {: .section-heading}
-- <span style="color:red">[2024.12]</span> 🏆 四川省高层次人才计划
-- <span style="color:red">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
-- <span style="color:red">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
-- <span style="color:red">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
-- <span style="color:red">[2016.11]</span> 🏆 首届国家网络安全奖学金
+- <span style="color:#b3261e">[2024.12]</span> 🏆 四川省高层次人才计划
+- <span style="color:#b3261e">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
+- <span style="color:#b3261e">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
+- <span style="color:#b3261e">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
+- <span style="color:#b3261e">[2016.11]</span> 🏆 首届国家网络安全奖学金
   
 ## 👨‍💻 Services
 {: .section-heading}
