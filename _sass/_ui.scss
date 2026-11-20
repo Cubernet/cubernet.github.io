@@ -1,0 +1,221 @@
+/* ==========================================================================
+   界面增强
+   1) 字体与行距（替换主题默认的 Trebuchet MS）
+   2) 导航滚动高亮
+   3) 暗色模式（跟随系统 + 手动切换）
+   ========================================================================== */
+
+$ui-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+/* ---------- 1. 字体与行距 ---------- */
+
+body {
+  font-family: $ui-font;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.masthead,
+.sidebar,
+.site-footer,
+.greedy-nav {
+  font-family: $ui-font;
+}
+
+.page__content {
+
+  p,
+  li {
+    line-height: 1.78;
+  }
+}
+
+/* ---------- 主题色板 ---------- */
+
+:root {
+  --ui-bg: #ffffff;
+  --ui-bg-soft: #f5f6f7;
+  --ui-text: #{$text-color};
+  --ui-heading: #{$darker-gray};
+  --ui-muted: #6b7378;
+  --ui-rule: #{$border-color};
+  --ui-link: #{$link-color};
+  --ui-nav: #{$masthead-link-color};
+  --ui-nav-hover: #{$masthead-link-color-hover};
+  --ui-nav-active: #{$darker-gray};
+  --ui-accent: #{$link-color};
+  --ui-name-blue: #0000ee; /* 正文里 color:blue 的原始色 */
+  --ui-rank-red: #b3261e;  /* CCF 等级 / 奖项的红色 */
+}
+
+html[data-theme="dark"] {
+  --ui-bg: #0f1317;
+  --ui-bg-soft: #171c21;
+  --ui-text: #b8c2cc;
+  --ui-heading: #e7edf3;
+  --ui-muted: #8b949c;
+  --ui-rule: #272e35;
+  --ui-link: #8ab0e6;
+  --ui-nav: #97a1ab;
+  --ui-nav-hover: #d7dee6;
+  --ui-nav-active: #e7edf3;
+  --ui-accent: #8ab0e6;
+  --ui-name-blue: #8ab0e6;
+  --ui-rank-red: #e28a7c;
+}
+
+body {
+  background-color: var(--ui-bg);
+  color: var(--ui-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ui-heading);
+}
+
+hr {
+  border-color: var(--ui-rule);
+}
+
+/* 导航条 */
+
+.masthead {
+  background-color: var(--ui-bg);
+  border-bottom-color: var(--ui-rule);
+}
+
+.greedy-nav {
+  background: var(--ui-bg);
+
+  a {
+    color: var(--ui-nav);
+
+    &:hover {
+      color: var(--ui-nav-hover);
+    }
+  }
+}
+
+/* 正文 */
+
+.page__content {
+
+  a {
+    color: var(--ui-link);
+  }
+
+  /* 内联强调色随主题切换 */
+  span[style*="color:blue"] {
+    color: var(--ui-name-blue) !important;
+  }
+
+  span[style*="color:#b3261e"] {
+    color: var(--ui-rank-red) !important;
+  }
+}
+
+.sidebar {
+  .author__bio,
+  .author__urls {
+    color: var(--ui-text);
+  }
+
+  .author__urls {
+    background: var(--ui-bg);
+    border-color: var(--ui-rule);
+  }
+}
+
+/* 页脚 */
+
+.site-footer {
+  background-color: var(--ui-bg-soft);
+  border-top-color: var(--ui-rule);
+
+  &__inner {
+    color: var(--ui-muted);
+  }
+}
+
+/* ---------- 2. 导航滚动高亮 ---------- */
+
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.greedy-nav a {
+  position: relative;
+}
+
+.greedy-nav a.is-active {
+  color: var(--ui-nav-active);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--ui-accent);
+  }
+}
+
+/* ---------- 3. 主题切换按钮 ---------- */
+
+.masthead__menu {
+  padding-right: 2.9rem;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0.55rem;
+  transform: translateY(-50%);
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--ui-rule);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ui-muted);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: var(--ui-nav-active);
+    border-color: var(--ui-nav);
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+  }
+}
+
+.theme-toggle .icon-moon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle {
+
+  .icon-sun {
+    display: none;
+  }
+
+  .icon-moon {
+    display: block;
+  }
+}
+
+/* 暗色下第三方徽章/地图的容器底色 */
+html[data-theme="dark"] .page__content li code {
+  background-color: #1b3a86;
+}

@@ -11,6 +11,21 @@
 </script>
 
 {% comment %}
+  暗色模式：在样式表之前决定初始主题，避免首屏闪白。
+  优先用用户手动选择过的主题，否则跟随系统。
+{% endcomment %}
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var dark = saved ? saved === 'dark'
+                       : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  })();
+</script>
+
+{% comment %}
   站点内所有跳转默认在新标签页打开（站点内容多为论文 PDF / 外部链接）。
   页内锚点由 scripts.html 里的脚本改回 _self，避免点击导航也弹新标签页。
 {% endcomment %}

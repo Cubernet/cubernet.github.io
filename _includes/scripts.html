@@ -28,3 +28,125 @@
   }, true);
 })();
 </script>
+
+<script>
+/* 暗色模式切换 */
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  function isDark() {
+    return root.getAttribute('data-theme') === 'dark';
+  }
+
+  function sync() {
+    btn.setAttribute('aria-pressed', isDark() ? 'true' : 'false');
+    btn.setAttribute('title', isDark() ? '切换到浅色模式' : '切换到深色模式');
+  }
+
+  btn.addEventListener('click', function () {
+    var next = !isDark();
+    if (next) root.setAttribute('data-theme', 'dark');
+    else root.removeAttribute('data-theme');
+    try { localStorage.setItem('theme', next ? 'dark' : 'light'); } catch (e) {}
+    sync();
+  });
+
+  /* 用户没有手动选过时，跟随系统设置变化 */
+  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  if (mq) {
+    var onChange = function (event) {
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) {}
+      if (saved) return;
+      if (event.matches) root.setAttribute('data-theme', 'dark');
+      else root.removeAttribute('data-theme');
+      sync();
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onChange);
+    else if (mq.addListener) mq.addListener(onChange);
+  }
+
+  sync();
+})();
+</script>
+
+<script>
+/* 导航滚动高亮：滚动到哪个章节，顶部导航就把对应项标出来 */
+(function () {
+  var OFFSET = 140; // 吸顶导航的高度 + 一点余量
+
+  var links = [].slice.call(document.querySelectorAll('.masthead a[href*="#"]'))
+    .filter(function (a) {
+      // “Homepage” 与 “About Me” 指向同一个锚点，只标后者
+      return !a.closest('.masthead__menu-home-item');
+    });
+
+  var sections = [];
+  links.forEach(function (a) {
+    var hash = (a.getAttribute('href') || '').split('#')[1];
+    if (!hash) return;
+    var el = document.getElementById(hash);
+    if (!el) return;
+    var entry = null;
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].el === el) { entry = sections[i]; break; }
+    }
+    if (!entry) {
+      entry = { el: el, links: [] };
+      sections.push(entry);
+    }
+    entry.links.push(a);
+  });
+
+  if (!sections.length) return;
+
+  sections.forEach(function (s) {
+    s.top = s.el.getBoundingClientRect().top + window.pageYOffset;
+  });
+
+  var current = null;
+  var ticking = false;
+
+  function update() {
+    ticking = false;
+
+    var y = window.pageYOffset + OFFSET;
+    var active = sections[0];
+
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].top <= y) active = sections[i];
+    }
+
+    // 滚到底部时，最后一段可能够不到 OFFSET，强制点亮它
+    var atBottom = window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 4;
+    if (atBottom) active = sections[sections.length - 1];
+
+    if (active === current) return;
+
+    sections.forEach(function (s) {
+      s.links.forEach(function (a) { a.classList.remove('is-active'); });
+    });
+    active.links.forEach(function (a) { a.classList.add('is-active'); });
+    current = active;
+  }
+
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(update);
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', function () {
+    sections.forEach(function (s) {
+      s.top = s.el.getBoundingClientRect().top + window.pageYOffset;
+    });
+    current = null;
+    onScroll();
+  });
+  window.addEventListener('load', update);
+  update();
+})();
+</script>
