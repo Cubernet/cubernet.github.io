@@ -1,1 +1,30 @@
-<script src="assets/js/main.min.js"></script>
+<script src="assets/js/main.min.js?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
+
+<script>
+/*
+  head 里的 base 标签设了 target=_blank，会让页面里所有链接都开新标签页，包括导航的页内锚点。
+  这里只把「页内锚点」改回原地滚动，其余链接保持新标签页，并补上 rel 防护。
+*/
+(function () {
+  document.addEventListener('click', function (event) {
+    var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
+    if (!link) return;
+
+    var href = link.getAttribute('href') || '';
+
+    // 纯锚点（#news）或站内根路径锚点（/#-news）
+    var sameDocument =
+      href.charAt(0) === '#' ||
+      (href.indexOf('/#') === 0 && link.pathname === window.location.pathname);
+
+    if (sameDocument) {
+      link.target = '_self';
+      return;
+    }
+
+    if (!link.rel) {
+      link.rel = 'noopener noreferrer';
+    }
+  }, true);
+})();
+</script>

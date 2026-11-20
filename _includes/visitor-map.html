@@ -86,8 +86,8 @@
       abandon();
     });
 
-    /* 兜底：12 秒内没渲染出来就保持隐藏，不留空壳 */
-    setTimeout(function () { observer.disconnect(); }, 12000);
+    /* 兜底：6 秒内没渲染出来就保持隐藏，不留空壳 */
+    setTimeout(function () { observer.disconnect(); }, 6000);
 
     widgetScript.src = widgetScript.getAttribute('data-src');
   }
