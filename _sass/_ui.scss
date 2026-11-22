@@ -18,6 +18,10 @@ body {
 h1, h2, h3, h4, h5, h6,
 .masthead,
 .sidebar,
+.sidebar p,
+.sidebar li,
+.sidebar .author__name,
+.author__urls-wrapper,
 .site-footer,
 .greedy-nav {
   font-family: $ui-font;
@@ -351,41 +355,27 @@ html[data-theme="dark"] .page__content li code {
   background-color: transparent;
 }
 
-/* ---------- 4. 侧边栏内联 SVG 图标与间距统一 ---------- */
+/* ---------- 4. 侧边栏现代重构（大圆角方形头像 / 双行姓名 / 分区外链） ---------- */
 
 .sidebar-icon {
   width: 15px;
   height: 15px;
   flex-shrink: 0;
   color: var(--ui-muted);
+  transition: color 0.15s ease;
 }
 
-.sidebar .author__urls {
-  li {
-    margin-bottom: 0.35rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  .author__meta-item,
-  .author__link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    margin: 0;
-    padding: 0.12rem 0;
-    font-size: $type-size-5;
-    line-height: 1.5;
-  }
+.sidebar-arrow {
+  width: 13px;
+  height: 13px;
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--ui-muted);
+  opacity: 0.55;
+  transition: transform 0.15s ease, color 0.15s ease, opacity 0.15s ease;
 }
 
-.sidebar .author__link:hover .sidebar-icon {
-  color: var(--ui-link);
-}
-
-/* 移动端：收紧头像姓名区与首段 Research 之间的留白 */
+/* 移动端：收紧头像姓名区与首段正文之间的留白 */
 #main {
   margin-top: 0.75rem;
 
@@ -403,6 +393,176 @@ html[data-theme="dark"] .page__content li code {
     margin-bottom: 3em;
     padding-bottom: 0;
     border-bottom: 0;
+  }
+}
+
+.profile_box {
+  gap: 0.8rem;
+
+  .author__avatar {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    img {
+      display: block;
+      padding: 0;
+      border-radius: 12px;
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+
+      @include breakpoint($large) {
+        max-width: 164px;
+        border-radius: 16px;
+        box-shadow: 0 6px 18px rgba(15, 23, 42, 0.09);
+      }
+    }
+  }
+
+  .author__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.22rem;
+    padding-left: 0;
+  }
+
+  @include breakpoint($large) {
+    gap: 0;
+
+    .author__avatar {
+      display: block;
+    }
+
+    .author__content {
+      display: block;
+      margin-top: 0.9rem;
+    }
+  }
+}
+
+html[data-theme="dark"] .profile_box .author__avatar img {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.author__name-group {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.sidebar .author__name {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: var(--ui-heading);
+
+  @include breakpoint($large) {
+    margin: 0;
+    font-size: 1.22rem;
+  }
+}
+
+.author__name-zh {
+  display: inline;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ui-muted);
+  line-height: 1.3;
+
+  @include breakpoint($large) {
+    display: block;
+    margin-top: 0.18rem;
+    font-size: 0.96rem;
+  }
+}
+
+.sidebar .author__tagline {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--ui-muted);
+
+  @include breakpoint($large) {
+    margin-top: 0.55rem;
+    margin-bottom: 0;
+    font-size: 0.84rem;
+    color: var(--ui-text);
+  }
+}
+
+.sidebar .author__location {
+  display: none;
+
+  @include breakpoint($large) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.38rem;
+    margin: 0.38rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--ui-muted);
+
+    .sidebar-icon {
+      width: 13px;
+      height: 13px;
+    }
+  }
+}
+
+.sidebar .author__urls {
+  @include breakpoint($large) {
+    margin-top: 0.9rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid var(--ui-rule);
+    background: transparent;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .author__link--row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 -0.5rem;
+    padding: 0.42rem 0.5rem;
+    font-size: 0.84rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--ui-text);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      text-decoration: none;
+      color: var(--ui-link);
+      background-color: var(--ui-bg-soft);
+
+      .sidebar-icon {
+        color: var(--ui-link);
+      }
+
+      .sidebar-arrow {
+        color: var(--ui-link);
+        opacity: 1;
+        transform: translate(1.5px, -1.5px);
+      }
+    }
   }
 }
 
