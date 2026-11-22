@@ -9,6 +9,7 @@
   "@id": {{ profile_id | jsonify }},
   "url": {{ profile_url | jsonify }},
   "name": {{ site.title | jsonify }},
+  "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
   "mainEntity": {
     "@type": "Person",
     "@id": {{ person_id | jsonify }},
@@ -32,6 +33,12 @@
       "@type": "Place",
       "name": "Shanghai, China"
     },
+    "award": [
+      "ACM Multimedia 2026 Best Paper Award",
+      "Inscrypt 2026 Best Student Paper Award (Security Track)",
+      "GeekPWN G-Outstanding Winner",
+      "China Scholarship Council (CSC) Scholarship"
+    ],
     "url": {{ profile_url | jsonify }},
     "image": {{ profile_image | jsonify }},
     "sameAs": {{ site.seo.same_as | jsonify }},

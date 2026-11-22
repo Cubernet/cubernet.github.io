@@ -1,0 +1,29 @@
+# Xiaolei Liu (刘小垒)
+
+> Founder and CEO of MAIVER (极数景明（上海）智能科技有限公司), an AI-native company pioneering machine behavior intelligence.
+
+## Summary
+
+- **Role**: Founder & CEO, [MAIVER](https://maiver.ai/) (Shanghai, China)
+- **Mission**: As autonomous AI scales toward AGI, human oversight alone will break — only intelligence can govern intelligence.
+- **Current Focus**: AI agent behavior governance — models that verify in real time whether every agent action is grounded, authorized, aligned with human intent, and safe to execute.
+- **Research Areas**: Machine behavior intelligence, AI agent security, machine behavior governance, trustworthy AI, adversarial machine learning, LLM security, model privacy, and software security.
+- **Track Record**: 10 years in AI governance and security R&D; led an AI security research team at a national research institute (2020–2025); 30+ granted patents in AI security and governance; Ph.D. from UESTC; CSC-funded visiting Ph.D. student at UC Santa Barbara (2018–2019).
+
+## Selected Honors
+
+- ACM Multimedia (ACM MM) 2026 Best Paper Award
+- Inscrypt 2026 Best Student Paper Award (Security Track)
+- Sichuan High-Level Talent Program (四川省高层次人才计划, 2024)
+- CIE Young Elite Scientists Sponsorship Program (中国电子学会青年人才托举工程计划, 2024)
+- GeekPWN G-Outstanding Winner (2022)
+- China Scholarship Council (CSC) Scholarship (2018)
+- ESI Highly Cited Paper (Information Processing & Management, 2021)
+
+## Official Links
+
+- [Personal Homepage](https://xlliu.org.cn/)
+- [MAIVER](https://maiver.ai/)
+- [Google Scholar](https://scholar.google.com/citations?user=2ahbtVoAAAAJ)
+- [ORCID](https://orcid.org/0000-0001-8510-4025)
+- [GitHub](https://github.com/Cubernet)
