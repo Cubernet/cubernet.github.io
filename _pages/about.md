@@ -16,12 +16,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Research**: I am the founder and CEO of [MAIVER（极数景明（上海）智能科技有限公司）](https://maiver.ai/), a machine behavior intelligence company based in Shanghai. My long-term goal is to build trustworthy AI in strong adversarial environments. My current focus is governing the actions of AI agents: training models that judge whether an agent's action is grounded, authorized, aligned with the user's intent, and safe to execute. My broader research covers adversarial machine learning, LLM and agent security, model privacy and backdoors, and data-driven software security.
+I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-native company building machine behavior intelligence in Shanghai. My long-term goal is to build AI capable of **overseeing and governing AGI-level models**—a counterbalance that scales alongside frontier intelligence. Currently, I focus on **AI agent behavior governance**: training models that judge whether an agent's action is grounded, authorized, aligned with user intent, and safe to execute. More broadly, my research spans adversarial machine learning, LLM and agent security, model privacy and backdoors, and data-driven software security.
 
-**Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I received my Ph.D. degree from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at UC Santa Barbara (2018–2019).
+**Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I earned my Ph.D. from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at [UC Santa Barbara](https://www.ucsb.edu/) (2018–2019).
 
 <div class="openings-callout" markdown="1">
-**Openings**: MAIVER is hiring <strong class="openings-roles">Research Scientists, Research Engineers and Research Interns</strong> working on agent behavior governance and LLM post-training. Please drop me an email (xlliu [at] maiver dot ai <button type="button" class="copy-email-btn" data-u="xlliu" data-d="maiver.ai" aria-label="Copy email address">Copy</button>) for more information.
+**Openings**: MAIVER is hiring across <strong class="openings-roles">Research, Engineering, and Product</strong> in Shanghai—spanning LLM post-training, red teaming, AI infrastructure, client/full-stack engineering, product management, growth, and more (full-time and internships). If you are interested, please email me your CV and representative work (xlliu [at] maiver dot ai <button type="button" class="copy-email-btn" data-u="xlliu" data-d="maiver.ai" aria-label="Copy email address">Copy</button>).
 </div>
 
 <!-- <details>
@@ -71,7 +71,7 @@ redirect_from:
 ## 📝 Selected Publications
 {: .section-heading}
 
-Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citation count"></a>
+Top-tier Conferences and Journal articles <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count" hidden></span></a>
 
 <div id="pub-year-filter" class="pub-filter" role="group" aria-label="Filter publications by year"></div>
 
@@ -84,6 +84,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)   
+  [[Paper](/publications/ACMMM26/ACMMM26-Paperb.pdf)]
+  [[DOI](https://doi.org/10.1145/3767308.3836166)]
 - `ICML'26` **MADA-Attack: Transferable Multi-modal Attention Distraction Adversarial Attack against Vision Language Models**.  
   Zhihan Qin, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Chunqiang Hu, <span style="color:blue">Xiaolei Liu</span>, and Shouling Ji.    
   In *Proceedings of the 43rd International Conference on Machine Learning (ICML 2026)*, July, 2026.  (<span style="color:#b3261e">CCF-A</span>)   

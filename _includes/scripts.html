@@ -359,3 +359,41 @@
   }
 })();
 </script>
+
+<script>
+/* 原生 Google Scholar 引用数徽章：直接读取 gs_data_shieldsio.json，绕开 shields.io */
+(function () {
+  var badge = document.querySelector('.scholar-badge[data-stats-url]');
+  if (!badge) return;
+  var countEl = badge.querySelector('.scholar-badge__count');
+  var url = badge.getAttribute('data-stats-url');
+  if (!countEl || !url) return;
+
+  function render(raw) {
+    if (!raw) return;
+    var num = Number(raw);
+    var formatted = !isNaN(num) && isFinite(num) ? num.toLocaleString('en-US') : String(raw);
+    countEl.textContent = formatted;
+    countEl.hidden = false;
+    badge.setAttribute('aria-label', 'Google Scholar citations: ' + formatted);
+  }
+
+  try {
+    var cached = sessionStorage.getItem('gs-citations');
+    if (cached) render(cached);
+  } catch (e) {}
+
+  if (!window.fetch) return;
+
+  fetch(url)
+    .then(function (res) { return res.ok ? res.json() : null; })
+    .then(function (data) {
+      if (!data || !data.message) return;
+      var msg = String(data.message).trim();
+      if (!msg) return;
+      try { sessionStorage.setItem('gs-citations', msg); } catch (e) {}
+      render(msg);
+    })
+    .catch(function () {});
+})();
+</script>

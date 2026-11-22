@@ -173,12 +173,15 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
 .copy-email-btn {
   display: inline-flex;
   align-items: center;
-  margin-left: 0.25rem;
-  padding: 0.08rem 0.5rem;
+  justify-content: center;
+  position: relative;
+  top: -0.06em;
+  margin-left: 0.3rem;
+  padding: 0.12rem 0.52rem;
   font-family: $ui-font;
-  font-size: 0.78em;
-  line-height: 1.45;
-  vertical-align: baseline;
+  font-size: 0.76em;
+  line-height: 1.25;
+  vertical-align: middle;
   color: var(--ui-nav);
   background-color: var(--ui-bg);
   border: 1px solid var(--ui-rule);
@@ -505,4 +508,72 @@ html[data-theme="dark"] .pub-filter__btn.is-active {
 .pub-filter__count {
   font-size: 0.76em;
   opacity: 0.75;
+}
+
+/* ---------- 7. 原生 Google Scholar 引用数徽章 ---------- */
+
+.page__content a.scholar-badge {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: -0.06em;
+  margin-left: 0.5rem;
+  overflow: hidden;
+  vertical-align: middle;
+  font-family: $ui-font;
+  font-size: 0.84rem;
+  line-height: 1;
+  text-decoration: none;
+  color: var(--ui-heading);
+  background-color: var(--ui-bg);
+  border: 1px solid rgba(3, 34, 141, 0.25);
+  border-radius: 999px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-1px);
+    border-color: var(--ui-accent);
+    box-shadow: 0 3px 10px rgba(3, 34, 141, 0.14);
+  }
+}
+
+html[data-theme="dark"] .page__content a.scholar-badge {
+  background-color: var(--ui-bg-soft);
+  border-color: rgba(138, 176, 230, 0.34);
+
+  &:hover {
+    border-color: var(--ui-accent);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.scholar-badge__icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 0.62rem;
+  flex-shrink: 0;
+  color: var(--ui-accent);
+}
+
+.scholar-badge__label {
+  padding: 0.34rem 0.55rem 0.34rem 0.38rem;
+  font-weight: 500;
+  color: var(--ui-heading);
+}
+
+.scholar-badge__count {
+  padding: 0.34rem 0.68rem 0.34rem 0.62rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+  background-color: var(--ui-accent);
+}
+
+html[data-theme="dark"] .scholar-badge__count {
+  color: #0f1317;
+  background-color: var(--ui-accent);
 }
