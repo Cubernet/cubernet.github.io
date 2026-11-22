@@ -1,76 +1,4 @@
-<script>
-/* 顶部折叠导航（原生 JS 替代 jQuery greedy-navigation，省去 131 KB 遗留脚本） */
-(function () {
-  var nav = document.getElementById('site-nav');
-  if (!nav) return;
 
-  var btn = nav.querySelector('button');
-  var vlinks = nav.querySelector('.visible-links');
-  var hlinks = nav.querySelector('.hidden-links');
-  if (!btn || !vlinks || !hlinks) return;
-
-  var breaks = [];
-
-  function closeMenu() {
-    hlinks.classList.add('hidden');
-    btn.classList.remove('close');
-    btn.setAttribute('aria-expanded', 'false');
-  }
-
-  function updateNav() {
-    var availableSpace = btn.classList.contains('hidden')
-      ? nav.clientWidth
-      : nav.clientWidth - btn.offsetWidth - 30;
-
-    if (vlinks.offsetWidth > availableSpace && vlinks.children.length > 1) {
-      breaks.push(vlinks.offsetWidth);
-      hlinks.insertBefore(vlinks.lastElementChild, hlinks.firstChild);
-      if (btn.classList.contains('hidden')) {
-        btn.classList.remove('hidden');
-      }
-      if (vlinks.offsetWidth > availableSpace && vlinks.children.length > 1) {
-        updateNav();
-        return;
-      }
-    } else {
-      while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1] && hlinks.firstElementChild) {
-        vlinks.appendChild(hlinks.firstElementChild);
-        breaks.pop();
-      }
-      if (breaks.length < 1) {
-        btn.classList.add('hidden');
-        closeMenu();
-      }
-    }
-
-    btn.setAttribute('count', String(breaks.length));
-  }
-
-  btn.addEventListener('click', function (e) {
-    e.stopPropagation();
-    var willOpen = hlinks.classList.contains('hidden');
-    hlinks.classList.toggle('hidden');
-    btn.classList.toggle('close');
-    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
-  });
-
-  hlinks.addEventListener('click', function (e) {
-    if (e.target && e.target.closest && e.target.closest('a')) {
-      closeMenu();
-    }
-  });
-
-  document.addEventListener('click', function (e) {
-    if (!hlinks.classList.contains('hidden') && !nav.contains(e.target)) {
-      closeMenu();
-    }
-  });
-
-  window.addEventListener('resize', updateNav);
-  window.addEventListener('load', updateNav);
-  updateNav();
-})();
-</script>
 
 <script>
 /*
@@ -117,16 +45,22 @@
     btn.setAttribute('title', isDark() ? '切换到浅色模式' : '切换到深色模式');
   }
 
+  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
   btn.addEventListener('click', function () {
     var next = !isDark();
     if (next) root.setAttribute('data-theme', 'dark');
     else root.removeAttribute('data-theme');
-    try { localStorage.setItem('theme', next ? 'dark' : 'light'); } catch (e) {}
+    try {
+      /* 切回与当前系统一致的主题时清除手动锁定，恢复跟随系统自动切换 */
+      var systemDark = mq ? mq.matches : false;
+      if (next === systemDark) localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next ? 'dark' : 'light');
+    } catch (e) {}
     sync();
   });
 
-  /* 用户没有手动选过时，跟随系统设置变化 */
-  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  /* 用户没有手动锁定时，跟随系统设置变化 */
   if (mq) {
     var onChange = function (event) {
       var saved = null;
@@ -149,11 +83,8 @@
 (function () {
   var OFFSET = 140; // 吸顶导航的高度 + 一点余量
 
-  var links = [].slice.call(document.querySelectorAll('.masthead a[href*="#"]'))
-    .filter(function (a) {
-      // “Homepage” 与 “About Me” 指向同一个锚点，只标后者
-      return !a.closest('.masthead__menu-home-item');
-    });
+  var nav = document.getElementById('site-nav');
+  var links = [].slice.call(document.querySelectorAll('.site-nav a[href*="#"]'));
 
   var sections = [];
   links.forEach(function (a) {
@@ -181,8 +112,14 @@
   var current = null;
   var ticking = false;
 
+  var masthead = document.querySelector('.masthead');
+
   function update() {
     ticking = false;
+
+    if (masthead) {
+      masthead.classList.toggle('is-scrolled', window.pageYOffset > 8);
+    }
 
     var y = window.pageYOffset + OFFSET;
     var active = sections[0];
@@ -202,6 +139,17 @@
     });
     active.links.forEach(function (a) { a.classList.add('is-active'); });
     current = active;
+
+    // 手机端横向导航条自动将当前章节平滑滑入视野中央
+    if (nav && nav.scrollWidth > nav.clientWidth && active.links[0]) {
+      var target = active.links[0];
+      var left = target.offsetLeft - (nav.clientWidth - target.offsetWidth) / 2;
+      try {
+        nav.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+      } catch (e) {
+        nav.scrollLeft = Math.max(0, left);
+      }
+    }
   }
 
   function onScroll() {
@@ -436,12 +384,15 @@
       if (!u || !d) return;
       var email = [u, d].join('@');
 
+      var label = btn.querySelector('span');
       var done = function () {
-        btn.textContent = 'Copied ✓';
+        if (label) label.textContent = 'Copied ✓';
+        else btn.textContent = 'Copied ✓';
         btn.classList.add('is-copied');
         clearTimeout(btn._copyTimer);
         btn._copyTimer = setTimeout(function () {
-          btn.textContent = 'Copy';
+          if (label) label.textContent = 'Copy';
+          else btn.textContent = 'Copy';
           btn.classList.remove('is-copied');
         }, 2000);
       };
@@ -508,5 +459,46 @@
       items[i].classList.add('is-award-news');
     }
   }
+})();
+</script>
+
+<script>
+/* 左侧边栏 Visitor Map 等比缩放：保持第三方 300px 地图完整显示，不裁切不塌陷 */
+(function () {
+  var section = document.getElementById('map-section');
+  if (!section) return;
+
+  function fitMap() {
+    var widget = section.querySelector('#mapmyvisitors-widget');
+    if (!widget) return;
+
+    var cs = window.getComputedStyle(section);
+    var avail = section.clientWidth - parseFloat(cs.paddingLeft || 0) - parseFloat(cs.paddingRight || 0);
+    if (avail <= 0) return;
+
+    var naturalW = widget.offsetWidth || 300;
+    var naturalH = widget.offsetHeight || 0;
+    var scale = Math.min(1, avail / naturalW);
+
+    widget.style.transform = scale < 1 ? 'scale(' + scale.toFixed(4) + ')' : '';
+    widget.style.marginBottom = (scale < 1 && naturalH > 0)
+      ? (-Math.round(naturalH * (1 - scale))) + 'px'
+      : '';
+  }
+
+  var mo = new MutationObserver(function () {
+    if (section.querySelector('#mapmyvisitors-widget')) {
+      fitMap();
+      setTimeout(fitMap, 300);
+      setTimeout(fitMap, 1200);
+    }
+  });
+  mo.observe(section, { childList: true, subtree: true, attributes: true, attributeFilter: ['style'] });
+
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(fitMap).observe(section);
+  }
+  window.addEventListener('resize', fitMap);
+  window.addEventListener('load', fitMap);
 })();
 </script>
