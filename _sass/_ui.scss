@@ -292,6 +292,91 @@ html[data-theme="dark"] .site-nav__item a.is-active {
   }
 }
 
+/* 首屏 4 格年报级极简硬核战绩条 */
+
+.highlights-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.05rem 1.2rem;
+  margin: 1.35rem 0 1.45rem;
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--ui-rule);
+  border-bottom: 1px solid var(--ui-rule);
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+  }
+}
+
+.highlight-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+
+  @include breakpoint($medium) {
+    padding: 0 1rem;
+    border-left: 1px solid var(--ui-rule);
+
+    &:first-child {
+      padding-left: 0;
+      border-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.highlight-item__label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--ui-muted);
+}
+
+.highlight-item__value {
+  margin-top: 0.38rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--ui-heading);
+}
+
+.highlight-item__plus {
+  margin-left: 0.05em;
+  font-size: 0.78em;
+  font-weight: 600;
+  color: var(--ui-accent);
+  vertical-align: 0.08em;
+}
+
+.highlight-item__unit {
+  margin-left: 0.2em;
+  font-size: 0.56em;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--ui-muted);
+}
+
+.highlight-item__sub {
+  margin-top: 0.36rem;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--ui-muted);
+
+  @include breakpoint($medium) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 /* 招聘信息提示框 */
 
 .openings-callout {

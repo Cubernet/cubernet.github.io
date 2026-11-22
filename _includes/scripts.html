@@ -520,6 +520,11 @@
     countEl.textContent = formatted;
     countEl.hidden = false;
     badge.setAttribute('aria-label', 'Google Scholar citations: ' + formatted);
+
+    var extra = document.querySelectorAll('[data-gs-citations]');
+    for (var i = 0; i < extra.length; i++) {
+      extra[i].textContent = formatted;
+    }
   }
 
   try {
@@ -539,6 +544,35 @@
       render(msg);
     })
     .catch(function () {});
+
+  /* 同步拉取 gs_data.json 统计 Google Scholar 总论文数，个位向下取整显示为 XX+ */
+  var strip = document.querySelector('.highlights-strip[data-gs-full-url]');
+  var paperEl = strip ? strip.querySelector('[data-gs-papers]') : null;
+  var fullUrl = strip ? strip.getAttribute('data-gs-full-url') : '';
+  if (paperEl && fullUrl) {
+    var renderPapers = function (n) {
+      var num = Number(n);
+      if (isNaN(num) || num < 10) return;
+      var floored = Math.floor(num / 10) * 10;
+      paperEl.textContent = String(floored);
+    };
+    try {
+      var cachedPapers = sessionStorage.getItem('gs-papers');
+      if (cachedPapers) renderPapers(cachedPapers);
+    } catch (e) {}
+    fetch(fullUrl)
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        if (!data || !data.publications) return;
+        var count = Array.isArray(data.publications)
+          ? data.publications.length
+          : Object.keys(data.publications).length;
+        if (!count) return;
+        try { sessionStorage.setItem('gs-papers', String(count)); } catch (e) {}
+        renderPapers(count);
+      })
+      .catch(function () {});
+  }
 })();
 </script>
 

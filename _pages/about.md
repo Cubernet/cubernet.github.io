@@ -13,16 +13,40 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign gsFullUrl = gsDataBaseUrl | append: "google-scholar-stats/gs_data.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-native company building machine behavior intelligence in Shanghai. My long-term goal is to build AI capable of **overseeing and governing AGI-level models**—a counterbalance that scales alongside frontier intelligence. Currently, I focus on **AI agent behavior governance**: training models that judge whether an agent's action is grounded, authorized, aligned with user intent, and safe to execute. More broadly, my research spans adversarial machine learning, LLM and agent security, model privacy and backdoors, and data-driven software security.
+I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-native company pioneering **machine behavior intelligence**. As autonomous AI scales toward AGI, human oversight alone will break—**only intelligence can govern intelligence**. We are building the counterbalance that scales alongside frontier models, starting with **AI agent behavior governance**: models that verify in real time whether every action is grounded, authorized, aligned with human intent, and safe to execute.
 
-**Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I earned my Ph.D. from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at [UC Santa Barbara](https://www.ucsb.edu/) (2018–2019).
+<div class="highlights-strip" data-gs-full-url="{{ gsFullUrl }}" aria-label="Key track record">
+  <div class="highlight-item">
+    <div class="highlight-item__label">Academic Papers</div>
+    <div class="highlight-item__value"><span data-gs-papers>30</span><span class="highlight-item__plus">+</span></div>
+    <div class="highlight-item__sub">ICML · ACL · CCS · USENIX · MM</div>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-item__label">Granted Patents</div>
+    <div class="highlight-item__value">30<span class="highlight-item__plus">+</span></div>
+    <div class="highlight-item__sub">AI Security &amp; Governance</div>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-item__label">AI Governance R&amp;D</div>
+    <div class="highlight-item__value">10<span class="highlight-item__unit">Years</span></div>
+    <div class="highlight-item__sub">Academia &amp; National Institute</div>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-item__label">Scholar Citations</div>
+    <div class="highlight-item__value" data-gs-citations>—</div>
+    <div class="highlight-item__sub">ESI Highly Cited</div>
+  </div>
+</div>
 
 <div class="openings-callout" markdown="1">
 **Openings**: MAIVER is hiring across <strong class="openings-roles">Research, Engineering, and Product</strong> in Shanghai—spanning LLM post-training, red teaming, AI infrastructure, client/full-stack engineering, product management, growth, and more (full-time and internships). If you are interested, please email me your CV and representative work (xlliu [at] maiver dot ai)<button type="button" class="copy-email-btn" data-u="xlliu" data-d="maiver.ai" aria-label="Copy email address"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg><span>Copy</span></button>.
 </div>
+
+**Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I earned my Ph.D. from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at [UC Santa Barbara](https://www.ucsb.edu/) (2018–2019).
 
 <!-- <details>
 <summary>📌 <b>非常欢迎考虑报考我的研究生</b>！在给我写邮件之前，请您先展开并仔细阅读下面的文字，确认我们在科研观念、兴趣上一致。</summary>
