@@ -40,13 +40,13 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 ## 🔥 News
 {: .section-heading}
 - <span style="color:#b3261e">[2026.11]</span> &nbsp;🎉 One paper has been accepted to **TMM**!
-- <span style="color:#b3261e">[2026.11]</span> &nbsp;🎉 One of our papers won the Best Paper Award at **ACMMM 2026**!
-- <span style="color:#b3261e">[2026.10]</span> &nbsp;🎉 One of our papers won the Best Student Paper Award (Security Track) at **Inscrypt 2026**!
+- <span style="color:#b3261e">[2026.11]</span> &nbsp;🏆 One of our papers won the **Best Paper Award** at **ACMMM 2026**!
+- <span style="color:#b3261e">[2026.10]</span> &nbsp;🏆 One of our papers won the **Best Student Paper Award (Security Track)** at **Inscrypt 2026**!
 - <span style="color:#b3261e">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
 - <span style="color:#b3261e">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
 - <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
 <details class="news-archive" markdown="1">
-<summary>Earlier News (17)</summary>
+<summary>Earlier News · 17</summary>
 
 - <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
 - <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!

@@ -497,3 +497,16 @@
     .catch(function () {});
 })();
 </script>
+
+<script>
+/* 自动高亮 News 中的获奖条目节点 */
+(function () {
+  var items = document.querySelectorAll('.page__content h2#-news + ul > li, .page__content .news-archive ul > li');
+  for (var i = 0; i < items.length; i++) {
+    var text = items[i].textContent || '';
+    if (/best\s+.*paper|🏆/i.test(text)) {
+      items[i].classList.add('is-award-news');
+    }
+  }
+})();
+</script>

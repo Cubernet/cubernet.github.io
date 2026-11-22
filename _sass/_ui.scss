@@ -600,30 +600,50 @@ html[data-theme="dark"] .profile_box .author__avatar img {
   }
 }
 
-/* ---------- 5. News 折叠块 ---------- */
+/* ---------- 5. News 折叠块（定制旋转箭头按钮） ---------- */
 
 .news-archive {
-  margin-top: 0.4rem;
-  margin-bottom: 1rem;
+  margin-top: 0.55rem;
+  margin-bottom: 1.1rem;
 
   summary {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    padding: 0.25rem 0.7rem;
-    font-size: 0.88em;
+    gap: 0.45rem;
+    padding: 0.24rem 0.78rem;
+    font-size: 0.82rem;
+    font-weight: 500;
     color: var(--ui-muted);
     background-color: var(--ui-bg-soft);
     border: 1px solid var(--ui-rule);
     border-radius: 999px;
     cursor: pointer;
     user-select: none;
-    transition: color 0.15s ease, border-color 0.15s ease;
+    list-style: none;
+    transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: "";
+      width: 5px;
+      height: 5px;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: translateY(-1px) rotate(45deg);
+      transition: transform 0.2s ease;
+    }
 
     &:hover {
       color: var(--ui-heading);
       border-color: var(--ui-nav);
     }
+  }
+
+  &[open] > summary::after {
+    transform: translateY(1.5px) rotate(-135deg);
   }
 
   ul {
@@ -771,6 +791,13 @@ html[data-theme="dark"] .scholar-badge__count {
       padding-bottom: 0.25rem;
     }
 
+    /* 期刊/会议名取消斜体，改为正体中粗层级（中英文都更锐利） */
+    em {
+      font-style: normal;
+      font-weight: 500;
+      color: var(--ui-heading);
+    }
+
     /* 统一浅深色会议/期刊标签：无边框柔和底色，与标题视觉中线对齐 */
     > code:first-child {
       display: inline-flex;
@@ -912,10 +939,82 @@ html[data-theme="dark"] .page__content span.pub-award-badge {
   background-color: rgba(251, 191, 36, 0.14);
 }
 
-/* ---------- 9. News & Honors 日期对齐列表 / Services 双列排版 ---------- */
+/* ---------- 9. News 现代时间轴 / Honors 日期对齐 / Services 双列 / Visitor Map 卡片 ---------- */
 
 .page__content h2#-news + ul,
-.page__content .news-archive ul,
+.page__content .news-archive ul {
+  position: relative;
+  list-style: none;
+  padding-left: 1.15rem;
+  margin-top: 0.65rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0.55rem;
+    bottom: 0.55rem;
+    width: 1px;
+    background-color: var(--ui-rule);
+  }
+
+  > li {
+    position: relative;
+    padding-left: 5.05rem;
+    margin-bottom: 0.48rem;
+    line-height: 1.66;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1.15rem;
+      top: 0.56em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--ui-bg);
+      border: 1.5px solid var(--ui-muted);
+      box-sizing: border-box;
+    }
+
+    > span:first-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.86rem;
+      font-weight: 500;
+      color: var(--ui-muted) !important;
+    }
+
+    &.is-award-news {
+      color: var(--ui-heading);
+
+      &::before {
+        background-color: #d97706;
+        border-color: #d97706;
+      }
+
+      > span:first-child {
+        color: #b45309 !important;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+html[data-theme="dark"] .page__content h2#-news + ul > li.is-award-news,
+html[data-theme="dark"] .page__content .news-archive ul > li.is-award-news {
+  &::before {
+    background-color: #fbbf24;
+    border-color: #fbbf24;
+  }
+
+  > span:first-child {
+    color: #fcd34d !important;
+  }
+}
+
 .page__content h2#-honors-and-awards + ul {
   list-style: none;
   padding-left: 0;
@@ -935,6 +1034,71 @@ html[data-theme="dark"] .page__content span.pub-award-badge {
       font-weight: 500;
     }
   }
+}
+
+/* 防止主题 .sticky > * { display: block } 把侧边栏里的 <script> 标签渲染成可见文本 */
+.sidebar script,
+.sticky > script {
+  display: none !important;
+}
+
+/* Visitor Map：置于左侧边栏底部，桌面端随侧边栏自适应宽度，窄屏/移动端隐藏 */
+#map-section {
+  display: none !important;
+
+  @include breakpoint($large) {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin-top: 1.1rem;
+    padding: 0.65rem 0.7rem;
+    background-color: var(--ui-bg-soft);
+    border: 1px solid var(--ui-rule);
+    border-radius: 10px;
+    overflow: hidden;
+
+    &[style*="block"] {
+      display: block !important;
+    }
+  }
+
+  #map-title {
+    margin: 0 0 0.45rem;
+    padding: 0;
+    border: 0;
+    font-family: $ui-font;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ui-muted);
+
+    &::before {
+      display: none;
+    }
+  }
+
+  #mapmyvisitors-widget {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: filter 0.2s ease;
+
+    div,
+    a,
+    img,
+    svg,
+    canvas {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+
+html[data-theme="dark"] #map-section #mapmyvisitors-widget {
+  filter: invert(0.91) hue-rotate(180deg);
+  opacity: 0.92;
 }
 
 .page__content h2#-services + ul {
