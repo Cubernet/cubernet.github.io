@@ -1,8 +1,11 @@
+{% assign icon_version = site.time | date: '%Y%m%d%H%M' %}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v={{ icon_version }}">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
 
-<meta name="theme-color" content="#03228d">
+<meta name="theme-color" content="#fcfcfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1317" media="(prefers-color-scheme: dark)">
 
 <!-- end custom head snippets -->

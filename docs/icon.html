@@ -3,35 +3,44 @@
 <head>
 <meta charset="utf-8">
 <!--
-  站点图标母版（512×512）。
-  改完用 Chrome 无头模式渲染：
-  chrome --headless=new --window-size=512,512 --screenshot=out.png file://$PWD/docs/icon.html
+  站点图标母版（512×512），与根目录 favicon.svg 完全一致（方案 B+：精修几何 XL 字母标）。
+  如需重新导出 PNG / ICO 兜底图标：
+  chrome --headless=new --window-size=512,512 --screenshot=/tmp/icon-512.png file://$PWD/docs/icon.html
   再用 Pillow 按 LANCZOS 缩到 180 / 192 / 32 / 16，并生成多尺寸 favicon.ico。
 -->
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
     width: 512px; height: 512px; overflow: hidden;
-    font-family: "SF Pro Display", -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
-    -webkit-font-smoothing: antialiased;
+    background: #0b0f14;
   }
-  body {
-    display: flex; align-items: center; justify-content: center;
-    background:
-      radial-gradient(660px 660px at 76% 6%, rgba(104, 158, 255, 0.40), transparent 60%),
-      linear-gradient(152deg, #0d1f4a 0%, #03228d 100%);
-  }
-  .mark {
-    font-size: 256px;
-    font-weight: 650;
-    letter-spacing: -6.4px;
-    color: #ffffff;
-    transform: translateX(-5px);
-    line-height: 1;
-  }
+  svg { display: block; width: 512px; height: 512px; }
 </style>
 </head>
 <body>
-  <div class="mark">XL</div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#19212c"/>
+        <stop offset="100%" stop-color="#0b0f14"/>
+      </linearGradient>
+      <radialGradient id="sheen" cx="80%" cy="15%" r="65%">
+        <stop offset="0%" stop-color="#8ab0e6" stop-opacity="0.2"/>
+        <stop offset="100%" stop-color="#8ab0e6" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#7aa4e0"/>
+        <stop offset="100%" stop-color="#a3c4f3"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="64" height="64" fill="url(#bg)"/>
+    <rect x="0" y="0" width="64" height="64" fill="url(#sheen)"/>
+    <g fill="#f1f5f9">
+      <path d="M12.8 18.5 H18.8 L34.8 45.5 H28.8 Z"/>
+      <path d="M28.8 18.5 H34.8 L18.8 45.5 H12.8 Z"/>
+      <path d="M37.8 18.5 H43.2 V45.5 H37.8 Z"/>
+    </g>
+    <path d="M37.8 40.3 H52.4 L49.3 45.5 H37.8 Z" fill="url(#accent)"/>
+  </svg>
 </body>
 </html>

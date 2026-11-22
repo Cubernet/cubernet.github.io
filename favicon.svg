@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19212c"/>
+      <stop offset="100%" stop-color="#0b0f14"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="80%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#8ab0e6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8ab0e6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa4e0"/>
+      <stop offset="100%" stop-color="#a3c4f3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Obsidian rounded square with soft top-right sheen & inner hairline -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#sheen)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="13.25" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.5"/>
+
+  <!-- Bespoke architectural XL monogram -->
+  <g fill="#f1f5f9">
+    <!-- X diagonals -->
+    <path d="M12.8 18.5 H18.8 L34.8 45.5 H28.8 Z"/>
+    <path d="M28.8 18.5 H34.8 L18.8 45.5 H12.8 Z"/>
+    <!-- L vertical stem -->
+    <path d="M37.8 18.5 H43.2 V45.5 H37.8 Z"/>
+  </g>
+
+  <!-- L base accent bar: right tip beveled to echo the exact X diagonal angle -->
+  <path d="M37.8 40.3 H52.4 L49.3 45.5 H37.8 Z" fill="url(#accent)"/>
+</svg>
