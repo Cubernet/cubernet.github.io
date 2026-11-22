@@ -228,13 +228,13 @@ Top-tier Conferences and Journal articles <a class="scholar-badge" href="https:/
 
 ## Honors and Awards
 {: .section-heading}
-- <span style="color:#b3261e">[2026.11]</span> 🏆 ACMMM 2026 Best Paper Award
-- <span style="color:#b3261e">[2026.10]</span> 🏆 Inscrypt 2026 Best Student Paper Award (Security Track)
-- <span style="color:#b3261e">[2024.12]</span> 🏆 四川省高层次人才计划
-- <span style="color:#b3261e">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
-- <span style="color:#b3261e">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
-- <span style="color:#b3261e">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
-- <span style="color:#b3261e">[2016.11]</span> 🏆 首届国家网络安全奖学金
+- <span style="color:#b3261e">[2026.11]</span> ACMMM 2026 Best Paper Award
+- <span style="color:#b3261e">[2026.10]</span> Inscrypt 2026 Best Student Paper Award (Security Track)
+- <span style="color:#b3261e">[2024.12]</span> 四川省高层次人才计划
+- <span style="color:#b3261e">[2024.04]</span> 中国电子学会青年人才托举工程计划
+- <span style="color:#b3261e">[2022.11]</span> GeekPWN G-Outstanding Winner
+- <span style="color:#b3261e">[2018.05]</span> China Scholarship Council (CSC) Scholarship
+- <span style="color:#b3261e">[2016.11]</span> 首届国家网络安全奖学金
   
 ## Services
 {: .section-heading}

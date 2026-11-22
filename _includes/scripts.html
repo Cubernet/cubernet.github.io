@@ -239,6 +239,93 @@
         }
       });
 
+      /* 1.5) 自动生成 BibTeX 一键复制按钮（无需手工维护） */
+      var isJournal = /journal/i.test(heading.textContent || '');
+      var titleEl = li.querySelector('strong');
+      var venueEl = li.querySelector('em');
+      var bibTitle = titleEl ? titleEl.textContent.trim().replace(/\.$/, '') : '';
+      var bibVenue = venueEl ? venueEl.textContent.trim() : '';
+
+      var authorText = '';
+      if (titleEl) {
+        var cur = titleEl.nextSibling;
+        while (cur && cur.tagName !== 'BR') cur = cur.nextSibling;
+        if (cur && cur.tagName === 'BR') {
+          cur = cur.nextSibling;
+          var partsA = [];
+          while (cur && cur.tagName !== 'BR') {
+            partsA.push(cur.textContent || '');
+            cur = cur.nextSibling;
+          }
+          authorText = partsA.join('').replace(/\s+/g, ' ').trim().replace(/\.$/, '');
+        }
+      }
+
+      if (bibTitle) {
+        var bibAuthors = authorText
+          .replace(/,\s+and\s+/g, ' and ')
+          .replace(/\s+and\s+/g, ' and ')
+          .replace(/,\s*/g, ' and ')
+          .replace(/，\s*/g, ' and ');
+        var doiHref = '';
+        for (var j = 0; j < actionLinks.length; j++) {
+          var href = actionLinks[j].getAttribute('href') || '';
+          if (/doi\.org\//i.test(href)) {
+            doiHref = href.replace(/^https?:\/\/(dx\.)?doi\.org\//i, '');
+            break;
+          }
+        }
+        var keyAuthor = (bibAuthors.split(' and ')[0] || 'liu').trim().split(/\s+/).pop().toLowerCase().replace(/[^a-z0-9]/g, '') || 'liu';
+        var keyWord = (bibTitle.split(/[\s:]+/)[0] || 'paper').toLowerCase().replace(/[^a-z0-9]/g, '') || 'paper';
+        var citeKey = keyAuthor + year + keyWord;
+        var entryType = isJournal ? 'article' : 'inproceedings';
+        var venueField = isJournal ? 'journal' : 'booktitle';
+        var bibLines = [
+          '@' + entryType + '{' + citeKey + ',',
+          '  title     = {' + bibTitle + '},',
+          '  author    = {' + bibAuthors + '},',
+          '  ' + venueField + ' = {' + bibVenue + '},',
+          '  year      = {' + year + '}' + (doiHref ? ',' : '')
+        ];
+        if (doiHref) bibLines.push('  doi       = {' + doiHref + '}');
+        bibLines.push('}');
+        var bibText = bibLines.join('\n');
+
+        var bibBtn = document.createElement('button');
+        bibBtn.type = 'button';
+        bibBtn.className = 'pub-action-link';
+        bibBtn.setAttribute('aria-label', 'Copy BibTeX');
+        bibBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg><span>BibTeX</span>';
+        bibBtn.addEventListener('click', (function (btn, text) {
+          return function () {
+            var span = btn.querySelector('span');
+            var done = function () {
+              if (span) span.textContent = 'Copied ✓';
+              btn.classList.add('is-copied');
+              clearTimeout(btn._t);
+              btn._t = setTimeout(function () {
+                if (span) span.textContent = 'BibTeX';
+                btn.classList.remove('is-copied');
+              }, 2000);
+            };
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(text).then(done, function () {
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try { document.execCommand('copy'); } catch (e) {}
+                document.body.removeChild(ta);
+                done();
+              });
+            }
+          };
+        })(bibBtn, bibText));
+        actionLinks.push(bibBtn);
+      }
+
       /* 2) 提取 CCF / JCR / ESI 高被引 / Best Paper Award 到静态徽章 */
       var rankBadges = [];
       var awardBadges = [];

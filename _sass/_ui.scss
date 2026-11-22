@@ -1003,11 +1003,13 @@ html[data-theme="dark"] .page__content .publication-heading + ul > li > code:fir
   background-color: var(--ui-rule);
 }
 
-/* 可点击操作按钮（圆角矩形 + 微图标 + 轻投影 + 悬停微浮） */
-.page__content a.pub-action-link {
+/* 可点击操作按钮（圆角矩形 + 微图标 + 轻投影 + 悬停微浮，兼容 a 和 button） */
+.page__content a.pub-action-link,
+.page__content button.pub-action-link {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+  margin: 0;
   padding: 0.18rem 0.58rem;
   font-family: $ui-font;
   font-size: 0.75rem;
@@ -1019,6 +1021,7 @@ html[data-theme="dark"] .page__content .publication-heading + ul > li > code:fir
   border: 1px solid var(--ui-rule);
   border-radius: 6px;
   box-shadow: 0 1px 1.5px rgba(15, 23, 42, 0.04);
+  cursor: pointer;
   transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 
   svg {
@@ -1029,7 +1032,8 @@ html[data-theme="dark"] .page__content .publication-heading + ul > li > code:fir
     transition: color 0.15s ease;
   }
 
-  &:hover {
+  &:hover,
+  &.is-copied {
     text-decoration: none;
     color: var(--ui-link);
     border-color: rgba(30, 78, 140, 0.45);
@@ -1043,11 +1047,13 @@ html[data-theme="dark"] .page__content .publication-heading + ul > li > code:fir
   }
 }
 
-html[data-theme="dark"] .page__content a.pub-action-link {
+html[data-theme="dark"] .page__content a.pub-action-link,
+html[data-theme="dark"] .page__content button.pub-action-link {
   background-color: var(--ui-bg-soft);
   box-shadow: none;
 
-  &:hover {
+  &:hover,
+  &.is-copied {
     border-color: rgba(138, 176, 230, 0.5);
     background-color: rgba(138, 176, 230, 0.12);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
