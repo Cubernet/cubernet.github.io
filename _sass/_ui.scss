@@ -44,19 +44,19 @@ html {
 /* ---------- 主题色板 ---------- */
 
 :root {
-  --ui-bg: #ffffff;
-  --ui-bg-soft: #f5f6f7;
-  --ui-text: #{$text-color};
-  --ui-heading: #{$darker-gray};
-  --ui-muted: #6b7378;
-  --ui-rule: #{$border-color};
-  --ui-link: #{$link-color};
-  --ui-nav: #{$masthead-link-color};
-  --ui-nav-hover: #{$masthead-link-color-hover};
-  --ui-nav-active: #{$darker-gray};
-  --ui-accent: #{$link-color};
-  --ui-name-blue: #1d4ed8; /* 作者姓名高亮色（较纯蓝更柔和） */
-  --ui-rank-red: #b3261e;  /* CCF 等级 / 奖项的红色 */
+  --ui-bg: #fcfcfd;
+  --ui-bg-soft: #f3f5f8;
+  --ui-text: #334155;
+  --ui-heading: #0f172a;
+  --ui-muted: #64748b;
+  --ui-rule: #e2e8f0;
+  --ui-link: #1e4e8c;
+  --ui-nav: #475569;
+  --ui-nav-hover: #0f172a;
+  --ui-nav-active: #0f172a;
+  --ui-accent: #1e4e8c;
+  --ui-name-blue: #1e4e8c; /* 柔和石板蓝，减少与红字的撞色 */
+  --ui-rank-red: #9f3a38;  /* 低饱和度暗红，浅底对比度仍满足 WCAG AA */
 }
 
 html[data-theme="dark"] {
@@ -139,11 +139,19 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
 
   a {
     color: var(--ui-link);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
   }
 
   /* 内联强调色随主题切换 */
   span[style*="color:blue"] {
     color: var(--ui-name-blue) !important;
+    font-weight: 500;
   }
 
   span[style*="color:#b3261e"] {
@@ -300,9 +308,11 @@ html[data-theme="dark"] .theme-toggle {
   }
 }
 
-/* 暗色下第三方徽章/地图的容器底色 */
+/* 暗色下普通行内代码底色 */
 html[data-theme="dark"] .page__content li code {
-  background-color: #1b3a86;
+  background-color: var(--ui-bg-soft);
+  border-color: var(--ui-rule);
+  box-shadow: none;
 }
 
 /* ---------- 移动端菜单按钮：无底色线条图标 ---------- */
@@ -576,4 +586,224 @@ html[data-theme="dark"] .page__content a.scholar-badge {
 html[data-theme="dark"] .scholar-badge__count {
   color: #0f1317;
   background-color: var(--ui-accent);
+}
+
+/* ---------- 8. 单篇论文块优化（篇间分隔 / 会议标签 / 链接按钮 / 获奖徽章） ---------- */
+
+.page__content .publication-heading + ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+
+  > li {
+    margin-bottom: 0;
+    padding: 0.85rem 0;
+    line-height: 1.62;
+    border-bottom: 1px solid var(--ui-rule);
+
+    &:first-child {
+      padding-top: 0.35rem;
+    }
+
+    &:last-child,
+    &.is-last-visible {
+      border-bottom: 0;
+      padding-bottom: 0.25rem;
+    }
+
+    /* 统一浅深色会议/期刊标签：无边框柔和底色，与标题视觉中线对齐 */
+    > code:first-child {
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+      top: -0.09em;
+      vertical-align: middle;
+      margin-right: 0.45rem;
+      padding: 0.18rem 0.5rem;
+      font-family: $ui-font;
+      font-size: 0.74rem;
+      font-weight: 600;
+      line-height: 1.15;
+      letter-spacing: 0.015em;
+      font-variant-numeric: tabular-nums;
+      color: var(--ui-link);
+      background-color: rgba(30, 78, 140, 0.09);
+      border: 0;
+      border-radius: 5px;
+      box-shadow: none;
+
+      &::before,
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+
+html[data-theme="dark"] .page__content .publication-heading + ul > li > code:first-child {
+  color: var(--ui-link);
+  background-color: rgba(138, 176, 230, 0.15);
+}
+
+/* 论文底部统一操作与标签栏：左可点按钮（圆角矩形 + 图标），右静态标签（无边框胶囊） */
+.pub-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.48rem;
+}
+
+.pub-meta-sep {
+  width: 1px;
+  height: 0.85rem;
+  margin: 0 0.18rem;
+  background-color: var(--ui-rule);
+}
+
+/* 可点击操作按钮（圆角矩形 + 微图标 + 轻投影 + 悬停微浮） */
+.page__content a.pub-action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.18rem 0.58rem;
+  font-family: $ui-font;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+  color: var(--ui-text);
+  background-color: var(--ui-bg);
+  border: 1px solid var(--ui-rule);
+  border-radius: 6px;
+  box-shadow: 0 1px 1.5px rgba(15, 23, 42, 0.04);
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+
+  svg {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    color: var(--ui-muted);
+    transition: color 0.15s ease;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: var(--ui-link);
+    border-color: rgba(30, 78, 140, 0.45);
+    background-color: rgba(30, 78, 140, 0.05);
+    transform: translateY(-0.5px);
+    box-shadow: 0 2px 5px rgba(15, 23, 42, 0.07);
+
+    svg {
+      color: var(--ui-link);
+    }
+  }
+}
+
+html[data-theme="dark"] .page__content a.pub-action-link {
+  background-color: var(--ui-bg-soft);
+  box-shadow: none;
+
+  &:hover {
+    border-color: rgba(138, 176, 230, 0.5);
+    background-color: rgba(138, 176, 230, 0.12);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  }
+}
+
+/* 静态等级标签（无边框纯淡底，明确不可点击） */
+.page__content span.pub-rank-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.55rem;
+  font-family: $ui-font;
+  font-size: 0.74rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ui-rank-red) !important;
+  background-color: rgba(159, 58, 56, 0.08);
+  border-radius: 999px;
+  cursor: default;
+}
+
+html[data-theme="dark"] .page__content span.pub-rank-badge {
+  background-color: rgba(226, 138, 124, 0.12);
+}
+
+/* 稀缺荣誉标签（Best Paper / ESI 高被引：暖琥珀淡底突出） */
+.page__content span.pub-award-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.22rem;
+  padding: 0.15rem 0.58rem;
+  font-family: $ui-font;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #92400e !important;
+  background-color: #fef3c7;
+  border-radius: 999px;
+  cursor: default;
+}
+
+html[data-theme="dark"] .page__content span.pub-award-badge {
+  color: #fcd34d !important;
+  background-color: rgba(251, 191, 36, 0.14);
+}
+
+/* ---------- 9. News & Honors 日期对齐列表 / Services 双列排版 ---------- */
+
+.page__content h2#-news + ul,
+.page__content .news-archive ul,
+.page__content h2#-honors-and-awards + ul {
+  list-style: none;
+  padding-left: 0;
+
+  > li {
+    position: relative;
+    padding-left: 5.15rem;
+    margin-bottom: 0.42rem;
+    line-height: 1.68;
+
+    > span:first-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.9em;
+      font-weight: 500;
+    }
+  }
+}
+
+.page__content h2#-services + ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.42rem 1.8rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  > li {
+    position: relative;
+    padding-left: 0.9rem;
+    margin-bottom: 0;
+    line-height: 1.6;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0.15rem;
+      top: 0.68em;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: var(--ui-muted);
+      opacity: 0.55;
+    }
+  }
 }

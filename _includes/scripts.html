@@ -255,6 +255,98 @@
       li.setAttribute('data-year', year);
       yearCounts[year] = (yearCounts[year] || 0) + 1;
       allItems.push(li);
+
+      /* 1) 提取 [[Paper](...)] [[DOI](...)] 等可点击操作按钮，并自动配对应微图标 */
+      var actionIcons = {
+        paper: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="8" y1="13" x2="16" y2="13"></line><line x1="8" y1="17" x2="13" y2="17"></line></svg>',
+        doi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>',
+        code: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>',
+        slides: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>',
+        video: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg>',
+        website: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3.6 9h16.8M3.6 15h16.8M12 3a13 13 0 0 0 0 18M12 3a13 13 0 0 1 0 18"></path></svg>'
+      };
+
+      var links = [].slice.call(li.querySelectorAll('a[href]'));
+      var actionLinks = [];
+      links.forEach(function (a) {
+        var prev = a.previousSibling;
+        var next = a.nextSibling;
+        if (
+          prev && prev.nodeType === 3 && /\[\s*$/.test(prev.nodeValue) &&
+          next && next.nodeType === 3 && /^\s*\]/.test(next.nodeValue)
+        ) {
+          prev.nodeValue = prev.nodeValue.replace(/\[\s*$/, '');
+          next.nodeValue = next.nodeValue.replace(/^\s*\]/, '');
+          a.classList.add('pub-action-link');
+          var key = (a.textContent || '').trim().toLowerCase();
+          var icon = actionIcons[key] || actionIcons.doi;
+          a.innerHTML = icon + '<span>' + a.textContent.trim() + '</span>';
+          actionLinks.push(a);
+        }
+      });
+
+      /* 2) 提取 CCF / JCR / ESI 高被引 / Best Paper Award 到静态徽章 */
+      var rankBadges = [];
+      var awardBadges = [];
+      var spans = [].slice.call(li.querySelectorAll('span[style*="#b3261e"]'));
+      spans.forEach(function (sp) {
+        var raw = (sp.textContent || '').trim();
+        if (!raw) return;
+
+        var prev = sp.previousSibling;
+        var next = sp.nextSibling;
+        if (prev && prev.nodeType === 3) {
+          prev.nodeValue = prev.nodeValue.replace(/\(\s*$/, '');
+        }
+        if (next && next.nodeType === 3) {
+          next.nodeValue = next.nodeValue.replace(/^\s*\)/, '');
+        }
+
+        var parts = raw.split(/\s*[,，]\s*/);
+        parts.forEach(function (part) {
+          var label = part.trim();
+          if (!label) return;
+          var badge = document.createElement('span');
+          if (/best\s+.*paper\s+award/i.test(label)) {
+            badge.className = 'pub-award-badge';
+            badge.textContent = label.indexOf('🏆') === -1 ? '🏆 ' + label : label;
+            awardBadges.push(badge);
+          } else if (/ESI|高被引/i.test(label)) {
+            badge.className = 'pub-award-badge';
+            badge.textContent = '★ ' + label;
+            awardBadges.push(badge);
+          } else {
+            badge.className = 'pub-rank-badge';
+            badge.textContent = label;
+            rankBadges.push(badge);
+          }
+        });
+
+        if (sp.parentNode) sp.parentNode.removeChild(sp);
+      });
+
+      var metaBadges = awardBadges.concat(rankBadges);
+
+      if (actionLinks.length || metaBadges.length) {
+        var row = document.createElement('div');
+        row.className = 'pub-meta-row';
+        actionLinks.forEach(function (a) { row.appendChild(a); });
+        if (actionLinks.length && metaBadges.length) {
+          var sep = document.createElement('span');
+          sep.className = 'pub-meta-sep';
+          sep.setAttribute('aria-hidden', 'true');
+          row.appendChild(sep);
+        }
+        metaBadges.forEach(function (b) { row.appendChild(b); });
+
+        while (li.lastChild && (
+          (li.lastChild.nodeType === 3 && /^\s*$/.test(li.lastChild.nodeValue)) ||
+          li.lastChild.tagName === 'BR'
+        )) {
+          li.removeChild(li.lastChild);
+        }
+        li.appendChild(row);
+      }
     });
 
     groups.push({ heading: heading, list: list, items: items });
@@ -284,11 +376,17 @@
   function applyFilter(selected) {
     groups.forEach(function (g) {
       var visibleCount = 0;
+      var lastVisible = null;
       g.items.forEach(function (li) {
+        li.classList.remove('is-last-visible');
         var show = selected === 'all' || li.getAttribute('data-year') === selected;
         li.style.display = show ? '' : 'none';
-        if (show) visibleCount++;
+        if (show) {
+          visibleCount++;
+          lastVisible = li;
+        }
       });
+      if (lastVisible) lastVisible.classList.add('is-last-visible');
       var showGroup = visibleCount > 0;
       g.heading.style.display = showGroup ? '' : 'none';
       g.list.style.display = showGroup ? '' : 'none';
@@ -301,6 +399,8 @@
       buttons[i].setAttribute('aria-pressed', isActive ? 'true' : 'false');
     }
   }
+
+  applyFilter('all');
 
   bar.addEventListener('click', function (e) {
     var btn = e.target && e.target.closest ? e.target.closest('.pub-filter__btn') : null;
