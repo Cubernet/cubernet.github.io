@@ -7,12 +7,49 @@
    ========================================================================== */
 
 @media print {
+  /* 隐藏导航、交互控件、页脚与访客地图 */
   .masthead,
   .toc,
   .page__share,
   .page__related,
   .ads,
-  .page__footer {
-    display: none;
+  .page__footer,
+  .site-footer,
+  .theme-toggle,
+  .author__urls_sm,
+  .pub-filter,
+  #map-section,
+  #map-sentinel {
+    display: none !important;
+  }
+
+  /* 暗色模式下打印强制切回白底深字 */
+  html,
+  html[data-theme="dark"] {
+    --ui-bg: #ffffff;
+    --ui-bg-soft: #f5f6f7;
+    --ui-text: #222222;
+    --ui-heading: #111111;
+    --ui-muted: #555555;
+    --ui-rule: #d0d7de;
+    --ui-link: #005ea8;
+    --ui-accent: #005ea8;
+    --ui-name-blue: #1d4ed8;
+    --ui-rank-red: #b3261e;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #222222 !important;
+  }
+
+  .sidebar {
+    position: static !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .openings-callout,
+  .page__content li {
+    break-inside: avoid;
   }
 }
