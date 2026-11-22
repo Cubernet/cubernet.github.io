@@ -95,7 +95,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 ## Selected Publications
 {: .section-heading}
 
-Top-tier Conferences and Journal articles <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count" hidden></span></a>
+Peer-reviewed papers <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count" hidden></span></a>
 
 <div id="pub-year-filter" class="pub-filter" role="group" aria-label="Filter publications by year"></div>
 
