@@ -90,6 +90,15 @@ html[data-theme="dark"] {
   --ui-rank-red: #e28a7c;
 }
 
+html {
+  background-color: var(--ui-bg);
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
 body {
   background-color: var(--ui-bg);
   color: var(--ui-text);
