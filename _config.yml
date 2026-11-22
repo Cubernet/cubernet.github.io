@@ -27,6 +27,8 @@ seo:
   image: "/images/og-card.jpg"
   image_alt: "Xiaolei Liu (刘小垒) — Founder & CEO of MAIVER, AI Agent Security"
   knows_about:
+    - "AI agent security"
+    - "Machine behavior governance"
     - "Trustworthy AI"
     - "Adversarial machine learning"
     - "LLM security"
@@ -48,11 +50,11 @@ author:
   name             : "Xiaolei Liu (刘小垒)"
   avatar           : "images/photo-350.jpeg"
   bio              : #A coder with passion.
-  group_page       : #"MAIVER (极数景明)"
+  group_page       : "MAIVER (极数景明)"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=2ahbtVoAAAAJ"
   email            : 
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

@@ -1,4 +1,76 @@
-<script src="assets/js/main.min.js?v={{ site.time | date: '%Y%m%d%H%M' }}"></script>
+<script>
+/* 顶部折叠导航（原生 JS 替代 jQuery greedy-navigation，省去 131 KB 遗留脚本） */
+(function () {
+  var nav = document.getElementById('site-nav');
+  if (!nav) return;
+
+  var btn = nav.querySelector('button');
+  var vlinks = nav.querySelector('.visible-links');
+  var hlinks = nav.querySelector('.hidden-links');
+  if (!btn || !vlinks || !hlinks) return;
+
+  var breaks = [];
+
+  function closeMenu() {
+    hlinks.classList.add('hidden');
+    btn.classList.remove('close');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+
+  function updateNav() {
+    var availableSpace = btn.classList.contains('hidden')
+      ? nav.clientWidth
+      : nav.clientWidth - btn.offsetWidth - 30;
+
+    if (vlinks.offsetWidth > availableSpace && vlinks.children.length > 1) {
+      breaks.push(vlinks.offsetWidth);
+      hlinks.insertBefore(vlinks.lastElementChild, hlinks.firstChild);
+      if (btn.classList.contains('hidden')) {
+        btn.classList.remove('hidden');
+      }
+      if (vlinks.offsetWidth > availableSpace && vlinks.children.length > 1) {
+        updateNav();
+        return;
+      }
+    } else {
+      while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1] && hlinks.firstElementChild) {
+        vlinks.appendChild(hlinks.firstElementChild);
+        breaks.pop();
+      }
+      if (breaks.length < 1) {
+        btn.classList.add('hidden');
+        closeMenu();
+      }
+    }
+
+    btn.setAttribute('count', String(breaks.length));
+  }
+
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var willOpen = hlinks.classList.contains('hidden');
+    hlinks.classList.toggle('hidden');
+    btn.classList.toggle('close');
+    btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  });
+
+  hlinks.addEventListener('click', function (e) {
+    if (e.target && e.target.closest && e.target.closest('a')) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!hlinks.classList.contains('hidden') && !nav.contains(e.target)) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener('resize', updateNav);
+  window.addEventListener('load', updateNav);
+  updateNav();
+})();
+</script>
 
 <script>
 /*
@@ -148,5 +220,92 @@
   });
   window.addEventListener('load', update);
   update();
+})();
+</script>
+
+<script>
+/* 论文按年份筛选：自动从每条论文开头的会议/期刊年份标签（如 ACMMM'26）解析年份 */
+(function () {
+  var bar = document.getElementById('pub-year-filter');
+  if (!bar) return;
+
+  var headings = [].slice.call(document.querySelectorAll('.page__content .publication-heading'));
+  if (!headings.length) return;
+
+  var groups = [];
+  var allItems = [];
+  var yearCounts = {};
+
+  headings.forEach(function (heading) {
+    var list = heading.nextElementSibling;
+    while (list && list.tagName !== 'UL') {
+      list = list.nextElementSibling;
+    }
+    if (!list) return;
+
+    var items = [].slice.call(list.children).filter(function (el) {
+      return el.tagName === 'LI';
+    });
+
+    items.forEach(function (li) {
+      var code = li.querySelector('code');
+      var text = code ? code.textContent : '';
+      var match = /'(\d{2})\b/.exec(text);
+      var year = match ? '20' + match[1] : 'Other';
+      li.setAttribute('data-year', year);
+      yearCounts[year] = (yearCounts[year] || 0) + 1;
+      allItems.push(li);
+    });
+
+    groups.push({ heading: heading, list: list, items: items });
+  });
+
+  if (!allItems.length) return;
+
+  var years = Object.keys(yearCounts).sort(function (a, b) {
+    return b.localeCompare(a);
+  });
+
+  function makeBtn(label, value, count, active) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'pub-filter__btn' + (active ? ' is-active' : '');
+    btn.setAttribute('data-filter', value);
+    btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    btn.innerHTML = label + ' <span class="pub-filter__count">' + count + '</span>';
+    return btn;
+  }
+
+  bar.appendChild(makeBtn('All', 'all', allItems.length, true));
+  years.forEach(function (y) {
+    bar.appendChild(makeBtn(y, y, yearCounts[y], false));
+  });
+
+  function applyFilter(selected) {
+    groups.forEach(function (g) {
+      var visibleCount = 0;
+      g.items.forEach(function (li) {
+        var show = selected === 'all' || li.getAttribute('data-year') === selected;
+        li.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+      var showGroup = visibleCount > 0;
+      g.heading.style.display = showGroup ? '' : 'none';
+      g.list.style.display = showGroup ? '' : 'none';
+    });
+
+    var buttons = bar.querySelectorAll('.pub-filter__btn');
+    for (var i = 0; i < buttons.length; i++) {
+      var isActive = buttons[i].getAttribute('data-filter') === selected;
+      buttons[i].classList.toggle('is-active', isActive);
+      buttons[i].setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    }
+  }
+
+  bar.addEventListener('click', function (e) {
+    var btn = e.target && e.target.closest ? e.target.closest('.pub-filter__btn') : null;
+    if (!btn) return;
+    applyFilter(btn.getAttribute('data-filter'));
+  });
 })();
 </script>

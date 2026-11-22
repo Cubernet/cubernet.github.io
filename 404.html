@@ -10,11 +10,27 @@ sitemap: false
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404 | Xiaolei Liu (刘小垒)</title>
     <style>
-      body { margin: 0; color: #494e52; background: #fff; font: 1rem/1.6 system-ui, sans-serif; }
+      body { margin: 0; color: #494e52; background: #fff; font: 1rem/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "PingFang SC", sans-serif; }
       main { max-width: 36rem; margin: 12vh auto; padding: 1.5rem; }
-      h1 { line-height: 1.2; }
+      h1 { line-height: 1.2; color: #222; }
       a { color: #005ea8; }
+      @media (prefers-color-scheme: dark) {
+        html:not([data-theme="light"]) body { color: #b8c2cc; background: #0f1317; }
+        html:not([data-theme="light"]) h1 { color: #e7edf3; }
+        html:not([data-theme="light"]) a { color: #8ab0e6; }
+      }
+      html[data-theme="dark"] body { color: #b8c2cc; background: #0f1317; }
+      html[data-theme="dark"] h1 { color: #e7edf3; }
+      html[data-theme="dark"] a { color: #8ab0e6; }
     </style>
+    <script>
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <main>

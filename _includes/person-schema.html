@@ -15,6 +15,23 @@
     "name": {{ site.author.name | jsonify }},
     "description": {{ site.seo.description | append: " " | append: site.seo.description_zh | jsonify }},
     "alternateName": {{ site.seo.alternate_names | jsonify }},
+    "jobTitle": "Founder & CEO",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "MAIVER",
+      "alternateName": "极数景明（上海）智能科技有限公司",
+      "url": "https://maiver.ai/"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Electronic Science and Technology of China",
+      "alternateName": "UESTC",
+      "url": "https://www.uestc.edu.cn/"
+    },
+    "homeLocation": {
+      "@type": "Place",
+      "name": "Shanghai, China"
+    },
     "url": {{ profile_url | jsonify }},
     "image": {{ profile_image | jsonify }},
     "sameAs": {{ site.seo.same_as | jsonify }},

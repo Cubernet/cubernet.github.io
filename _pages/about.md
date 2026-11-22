@@ -20,7 +20,9 @@ redirect_from:
 
 **Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I received my Ph.D. degree from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at UC Santa Barbara (2018–2019).
 
-**Openings**: MAIVER is hiring <span style="color:blue">Research Scientists, Research Engineers and Research Interns</span> working on agent behavior governance and LLM post-training. Please drop me an email (xlliu [at] maiver dot ai) for more information.
+<div class="openings-callout" markdown="1">
+**Openings**: MAIVER is hiring <strong class="openings-roles">Research Scientists, Research Engineers and Research Interns</strong> working on agent behavior governance and LLM post-training. Please drop me an email (xlliu [at] maiver dot ai) for more information.
+</div>
 
 <!-- <details>
 <summary>📌 <b>非常欢迎考虑报考我的研究生</b>！在给我写邮件之前，请您先展开并仔细阅读下面的文字，确认我们在科研观念、兴趣上一致。</summary>
@@ -43,6 +45,9 @@ redirect_from:
 - <span style="color:#b3261e">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
 - <span style="color:#b3261e">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
 - <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
+<details class="news-archive" markdown="1">
+<summary>Earlier News (17)</summary>
+
 - <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
 - <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
 - <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
@@ -50,11 +55,25 @@ redirect_from:
 - <span style="color:#b3261e">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
 - <span style="color:#b3261e">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
 - <span style="color:#b3261e">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
+- <span style="color:#b3261e">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
+- <span style="color:#b3261e">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
+- <span style="color:#b3261e">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **USENIX Security 2025**!
+- <span style="color:#b3261e">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **ICCV 2025**!
+- <span style="color:#b3261e">[2025.02]</span> &nbsp;🎉 One survey has been accepted to **计算机研究与发展**!
+- <span style="color:#b3261e">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
+- <span style="color:#b3261e">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **CCS 2024**!
+- <span style="color:#b3261e">[2024.11]</span> &nbsp;🎉 One survey has been accepted to **IEEE TCSS**!
+- <span style="color:#b3261e">[2024.08]</span> &nbsp;🎉 One paper has been accepted to **ASE 2024**!
+- <span style="color:#b3261e">[2024.03]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
+
+</details>
 
 ## 📝 Selected Publications
 {: .section-heading}
 
 Top-tier Conferences and Journal articles <a href='https://scholar.google.com/citations?user=2ahbtVoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citation count"></a>
+
+<div id="pub-year-filter" class="pub-filter" role="group" aria-label="Filter publications by year"></div>
 
 ### Conference
 {: .publication-heading}
@@ -206,6 +225,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 
 ## 🎖 Honors and Awards
 {: .section-heading}
+- <span style="color:#b3261e">[2026.11]</span> 🏆 ACMMM 2026 Best Paper Award
+- <span style="color:#b3261e">[2026.10]</span> 🏆 Inscrypt 2026 Best Student Paper Award (Security Track)
 - <span style="color:#b3261e">[2024.12]</span> 🏆 四川省高层次人才计划
 - <span style="color:#b3261e">[2024.04]</span> 🏆 中国电子学会青年人才托举工程计划
 - <span style="color:#b3261e">[2022.11]</span> 🏆 GeekPWN G-Outstanding Winner
@@ -220,6 +241,7 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 - 中国系统工程学会网络空间安全与治理专委会委员
 - 中国计算机学会第十三届会员代表
 - 四川省人工智能行业协会专家委员会专家
+- 重庆大学企业导师
 - 通信技术期刊执行编委
 - 网络空间安全科学学报青年编委
 - 信息网络安全青年编委

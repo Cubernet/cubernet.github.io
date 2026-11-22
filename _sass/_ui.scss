@@ -31,6 +31,16 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* ---------- 主题色板 ---------- */
 
 :root {
@@ -45,7 +55,7 @@ h1, h2, h3, h4, h5, h6,
   --ui-nav-hover: #{$masthead-link-color-hover};
   --ui-nav-active: #{$darker-gray};
   --ui-accent: #{$link-color};
-  --ui-name-blue: #0000ee; /* 正文里 color:blue 的原始色 */
+  --ui-name-blue: #1d4ed8; /* 作者姓名高亮色（较纯蓝更柔和） */
   --ui-rank-red: #b3261e;  /* CCF 等级 / 奖项的红色 */
 }
 
@@ -95,6 +105,32 @@ hr {
       color: var(--ui-nav-hover);
     }
   }
+
+  .hidden-links {
+    background: var(--ui-bg);
+    border-color: var(--ui-rule);
+
+    &::before {
+      border-color: var(--ui-rule) transparent;
+    }
+
+    &::after {
+      border-color: var(--ui-bg) transparent;
+    }
+
+    li {
+      border-bottom-color: var(--ui-rule);
+    }
+
+    a:hover {
+      color: var(--ui-nav-hover);
+      background: var(--ui-bg-soft);
+    }
+  }
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 /* 正文 */
@@ -115,7 +151,30 @@ hr {
   }
 }
 
+/* 招聘信息提示框 */
+
+.openings-callout {
+  margin: 1.1em 0 1.4em;
+  padding: 0.85em 1.1em;
+  background-color: var(--ui-bg-soft);
+  border-left: 3px solid var(--ui-accent);
+  border-radius: 0 6px 6px 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+.openings-roles {
+  color: var(--ui-heading);
+  font-weight: 600;
+}
+
 .sidebar {
+  .author__avatar img {
+    border-color: var(--ui-rule);
+  }
+
   .author__bio,
   .author__urls {
     color: var(--ui-text);
@@ -254,4 +313,173 @@ html[data-theme="dark"] .page__content li code {
 /* 展开成 × 时中间那条线要隐藏（覆盖上面的 currentColor） */
 .greedy-nav button.close .navicon {
   background-color: transparent;
+}
+
+/* ---------- 4. 侧边栏内联 SVG 图标与间距统一 ---------- */
+
+.sidebar-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: var(--ui-muted);
+}
+
+.sidebar .author__urls {
+  li {
+    margin-bottom: 0.35rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .author__meta-item,
+  .author__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0;
+    padding: 0.12rem 0;
+    font-size: $type-size-5;
+    line-height: 1.5;
+  }
+}
+
+.sidebar .author__link:hover .sidebar-icon {
+  color: var(--ui-link);
+}
+
+/* 移动端：收紧头像姓名区与首段 Research 之间的留白 */
+#main {
+  margin-top: 0.75rem;
+
+  @include breakpoint($large) {
+    margin-top: 1em;
+  }
+}
+
+.sidebar {
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--ui-rule);
+
+  @include breakpoint($large) {
+    margin-bottom: 3em;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+.author__urls_sm {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  @include breakpoint($large) {
+    display: none;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--ui-rule);
+    border-radius: 50%;
+    color: var(--ui-nav);
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: var(--ui-link);
+      border-color: var(--ui-link);
+      text-decoration: none;
+    }
+
+    .sidebar-icon {
+      width: 16px;
+      height: 16px;
+      color: currentColor;
+    }
+  }
+}
+
+/* ---------- 5. News 折叠块 ---------- */
+
+.news-archive {
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.88em;
+    color: var(--ui-muted);
+    background-color: var(--ui-bg-soft);
+    border: 1px solid var(--ui-rule);
+    border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: var(--ui-heading);
+      border-color: var(--ui-nav);
+    }
+  }
+
+  ul {
+    margin-top: 0.65rem;
+  }
+}
+
+/* ---------- 6. 论文按年份筛选标签 ---------- */
+
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.9rem 0 0.5rem;
+}
+
+.pub-filter:empty {
+  display: none;
+}
+
+.pub-filter__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.72rem;
+  font-family: $ui-font;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--ui-text);
+  background-color: var(--ui-bg-soft);
+  border: 1px solid var(--ui-rule);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: var(--ui-heading);
+    border-color: var(--ui-nav);
+  }
+
+  &.is-active {
+    color: #ffffff;
+    background-color: var(--ui-accent);
+    border-color: var(--ui-accent);
+  }
+}
+
+html[data-theme="dark"] .pub-filter__btn.is-active {
+  color: #0f1317;
+}
+
+.pub-filter__count {
+  font-size: 0.76em;
+  opacity: 0.75;
 }
