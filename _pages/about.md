@@ -37,38 +37,38 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 </details> -->
 
 
-## 🔥 News
+## News
 {: .section-heading}
-- <span style="color:#b3261e">[2026.11]</span> &nbsp;🎉 One paper has been accepted to **TMM**!
-- <span style="color:#b3261e">[2026.11]</span> &nbsp;🏆 One of our papers won the **Best Paper Award** at **ACMMM 2026**!
-- <span style="color:#b3261e">[2026.10]</span> &nbsp;🏆 One of our papers won the **Best Student Paper Award (Security Track)** at **Inscrypt 2026**!
-- <span style="color:#b3261e">[2026.09]</span> &nbsp;🎉 Two papers have been accepted to **Inscrypt 2026**!
-- <span style="color:#b3261e">[2026.08]</span> &nbsp;🎉 One paper has been accepted to **TSE**!
-- <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 One paper has been accepted to **TDSC**!
+- <span style="color:#b3261e">[2026.11]</span> One paper has been accepted to **TMM**.
+- <span style="color:#b3261e">[2026.11]</span> 🏆 One of our papers won the **Best Paper Award** at **ACMMM 2026**!
+- <span style="color:#b3261e">[2026.10]</span> 🏆 One of our papers won the **Best Student Paper Award (Security Track)** at **Inscrypt 2026**!
+- <span style="color:#b3261e">[2026.09]</span> Two papers have been accepted to **Inscrypt 2026**.
+- <span style="color:#b3261e">[2026.08]</span> One paper has been accepted to **TSE**.
+- <span style="color:#b3261e">[2026.07]</span> One paper has been accepted to **TDSC**.
 <details class="news-archive" markdown="1">
 <summary>Earlier News · 17</summary>
 
-- <span style="color:#b3261e">[2026.07]</span> &nbsp;🎉 Two papers have been accepted to **ACMMM 2026**!
-- <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:#b3261e">[2026.06]</span> &nbsp;🎉 One paper has been accepted to **计算机学报**!
-- <span style="color:#b3261e">[2026.05]</span> &nbsp;🎉 One paper has been accepted to **ICML 2026**!
-- <span style="color:#b3261e">[2026.04]</span> &nbsp;🎉 One paper has been accepted to **ACL 2026**!
-- <span style="color:#b3261e">[2026.03]</span> &nbsp;🎉 One paper has been accepted to **IoTJ**!
-- <span style="color:#b3261e">[2026.02]</span> &nbsp;🎉 One paper has been accepted to **电子学报**!
-- <span style="color:#b3261e">[2025.11]</span> &nbsp;🎉 Two papers have been accepted to **AAAI 2026**!
-- <span style="color:#b3261e">[2025.07]</span> &nbsp;🎉 One paper has been accepted to **ACMMM 2025**!
-- <span style="color:#b3261e">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **USENIX Security 2025**!
-- <span style="color:#b3261e">[2025.06]</span> &nbsp;🎉 One paper has been accepted to **ICCV 2025**!
-- <span style="color:#b3261e">[2025.02]</span> &nbsp;🎉 One survey has been accepted to **计算机研究与发展**!
-- <span style="color:#b3261e">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
-- <span style="color:#b3261e">[2024.12]</span> &nbsp;🎉 One paper has been accepted to **CCS 2024**!
-- <span style="color:#b3261e">[2024.11]</span> &nbsp;🎉 One survey has been accepted to **IEEE TCSS**!
-- <span style="color:#b3261e">[2024.08]</span> &nbsp;🎉 One paper has been accepted to **ASE 2024**!
-- <span style="color:#b3261e">[2024.03]</span> &nbsp;🎉 One paper has been accepted to **IEEE TIFS**!
+- <span style="color:#b3261e">[2026.07]</span> Two papers have been accepted to **ACMMM 2026**.
+- <span style="color:#b3261e">[2026.06]</span> One paper has been accepted to **电子学报**.
+- <span style="color:#b3261e">[2026.06]</span> One paper has been accepted to **计算机学报**.
+- <span style="color:#b3261e">[2026.05]</span> One paper has been accepted to **ICML 2026**.
+- <span style="color:#b3261e">[2026.04]</span> One paper has been accepted to **ACL 2026**.
+- <span style="color:#b3261e">[2026.03]</span> One paper has been accepted to **IoTJ**.
+- <span style="color:#b3261e">[2026.02]</span> One paper has been accepted to **电子学报**.
+- <span style="color:#b3261e">[2025.11]</span> Two papers have been accepted to **AAAI 2026**.
+- <span style="color:#b3261e">[2025.07]</span> One paper has been accepted to **ACMMM 2025**.
+- <span style="color:#b3261e">[2025.06]</span> One paper has been accepted to **USENIX Security 2025**.
+- <span style="color:#b3261e">[2025.06]</span> One paper has been accepted to **ICCV 2025**.
+- <span style="color:#b3261e">[2025.02]</span> One survey has been accepted to **计算机研究与发展**.
+- <span style="color:#b3261e">[2024.12]</span> One paper has been accepted to **IEEE TIFS**.
+- <span style="color:#b3261e">[2024.12]</span> One paper has been accepted to **CCS 2024**.
+- <span style="color:#b3261e">[2024.11]</span> One survey has been accepted to **IEEE TCSS**.
+- <span style="color:#b3261e">[2024.08]</span> One paper has been accepted to **ASE 2024**.
+- <span style="color:#b3261e">[2024.03]</span> One paper has been accepted to **IEEE TIFS**.
 
 </details>
 
-## 📝 Selected Publications
+## Selected Publications
 {: .section-heading}
 
 Top-tier Conferences and Journal articles <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count" hidden></span></a>
@@ -226,7 +226,7 @@ Top-tier Conferences and Journal articles <a class="scholar-badge" href="https:/
   [[Paper](/publications/KBS21/KBS21-Paper.pdf)]
   [[DOI](https://doi.org/10.1016/j.knosys.2021.107102)]
 
-## 🎖 Honors and Awards
+## Honors and Awards
 {: .section-heading}
 - <span style="color:#b3261e">[2026.11]</span> 🏆 ACMMM 2026 Best Paper Award
 - <span style="color:#b3261e">[2026.10]</span> 🏆 Inscrypt 2026 Best Student Paper Award (Security Track)
@@ -236,7 +236,7 @@ Top-tier Conferences and Journal articles <a class="scholar-badge" href="https:/
 - <span style="color:#b3261e">[2018.05]</span> 🏆 China Scholarship Council (CSC) Scholarship
 - <span style="color:#b3261e">[2016.11]</span> 🏆 首届国家网络安全奖学金
   
-## 👨‍💻 Services
+## Services
 {: .section-heading}
 - 中国计算机学会网络与系统安全专委会执行委员
 - 中国电子学会网络空间安全专委会委员

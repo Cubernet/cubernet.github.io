@@ -13,6 +13,18 @@ $ui-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
 body {
   font-family: $ui-font;
   line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(30, 78, 140, 0.16);
+  color: var(--ui-heading);
+}
+
+html[data-theme="dark"] ::selection {
+  background-color: rgba(138, 176, 230, 0.28);
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -108,6 +120,25 @@ hr {
 
 html[data-theme="dark"] .masthead.is-scrolled {
   background-color: rgba(15, 19, 23, 0.84);
+}
+
+/* 导航栏底边 1.5px 极细阅读进度条 */
+.scroll-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1.5px;
+  background-color: var(--ui-accent);
+  transform-origin: left center;
+  transform: scaleX(0);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.masthead.is-scrolled .scroll-progress {
+  opacity: 0.85;
 }
 
 .masthead__inner-wrap {
@@ -223,6 +254,12 @@ html[data-theme="dark"] .site-nav__item a.is-active {
 /* 正文 */
 
 .page__content {
+
+  .section-heading {
+    margin-top: 2.3rem;
+    letter-spacing: -0.02em;
+    border-bottom-color: var(--ui-rule);
+  }
 
   a {
     color: var(--ui-link);
@@ -1059,7 +1096,7 @@ html[data-theme="dark"] .page__content span.pub-award-badge {
 
 /* ---------- 9. News 现代时间轴 / Honors 日期对齐 / Services 双列 / Visitor Map 卡片 ---------- */
 
-.page__content h2#-news + ul,
+.page__content h2#news + ul,
 .page__content .news-archive ul {
   position: relative;
   list-style: none;
@@ -1121,7 +1158,7 @@ html[data-theme="dark"] .page__content span.pub-award-badge {
   }
 }
 
-html[data-theme="dark"] .page__content h2#-news + ul > li.is-award-news,
+html[data-theme="dark"] .page__content h2#news + ul > li.is-award-news,
 html[data-theme="dark"] .page__content .news-archive ul > li.is-award-news {
   &::before {
     background-color: #fbbf24;
@@ -1133,7 +1170,7 @@ html[data-theme="dark"] .page__content .news-archive ul > li.is-award-news {
   }
 }
 
-.page__content h2#-honors-and-awards + ul {
+.page__content h2#honors-and-awards + ul {
   position: relative;
   list-style: none;
   padding-left: 1.15rem;
@@ -1246,7 +1283,7 @@ html[data-theme="dark"] #map-section #mapmyvisitors-widget {
   }
 }
 
-.page__content h2#-services + ul {
+.page__content h2#services + ul {
   list-style: none;
   padding-left: 0;
   display: grid;

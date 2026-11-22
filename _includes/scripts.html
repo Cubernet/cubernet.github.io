@@ -113,12 +113,18 @@
   var ticking = false;
 
   var masthead = document.querySelector('.masthead');
+  var progress = document.getElementById('scroll-progress');
 
   function update() {
     ticking = false;
 
     if (masthead) {
       masthead.classList.toggle('is-scrolled', window.pageYOffset > 8);
+    }
+    if (progress) {
+      var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = maxScroll > 0 ? Math.min(1, Math.max(0, window.pageYOffset / maxScroll)) : 0;
+      progress.style.transform = 'scaleX(' + ratio.toFixed(4) + ')';
     }
 
     var y = window.pageYOffset + OFFSET;
@@ -452,7 +458,7 @@
 <script>
 /* 自动高亮 News 中的获奖条目节点 */
 (function () {
-  var items = document.querySelectorAll('.page__content h2#-news + ul > li, .page__content .news-archive ul > li');
+  var items = document.querySelectorAll('.page__content h2#news + ul > li, .page__content .news-archive ul > li');
   for (var i = 0; i < items.length; i++) {
     var text = items[i].textContent || '';
     if (/best\s+.*paper|🏆/i.test(text)) {
