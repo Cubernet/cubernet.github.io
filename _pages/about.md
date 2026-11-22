@@ -21,7 +21,7 @@ redirect_from:
 **Previously**: From 2020 to 2025, I led an AI security research team at a national research institute. I received my Ph.D. degree from the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)), advised by Prof. [Xiaosong Zhang](https://sise.uestc.edu.cn/info/1035/13033.htm) and Prof. Qingxin Zhu, and was a CSC-funded visiting Ph.D. student at UC Santa Barbara (2018–2019).
 
 <div class="openings-callout" markdown="1">
-**Openings**: MAIVER is hiring <strong class="openings-roles">Research Scientists, Research Engineers and Research Interns</strong> working on agent behavior governance and LLM post-training. Please drop me an email (xlliu [at] maiver dot ai) for more information.
+**Openings**: MAIVER is hiring <strong class="openings-roles">Research Scientists, Research Engineers and Research Interns</strong> working on agent behavior governance and LLM post-training. Please drop me an email (xlliu [at] maiver dot ai <button type="button" class="copy-email-btn" data-u="xlliu" data-d="maiver.ai" aria-label="Copy email address">Copy</button>) for more information.
 </div>
 
 <!-- <details>
@@ -79,7 +79,8 @@ Top-tier Conferences and Journal articles <a href='https://scholar.google.com/ci
 {: .publication-heading}
 - `ACMMM'26` **DIFPA: Boosting Adversarial Transferability via Diffusion-based Importance-aware Feature Pyramid Attack**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, <span style="color:blue">Xiaolei Liu</span>, Wei Lin, Yuanlong Yu, and Shouling Ji.   
-  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)(<span style="color:#b3261e">Best Paper Award</span>)      
+  In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)(<span style="color:#b3261e">Best Paper Award</span>)   
+  [[DOI](https://doi.org/10.1145/3767308.3835321)]
 - `ACMMM'26` **Boosting Cross-Prompt Adversarial Transferability in VLMs via Anchored Dual-Track Prompt Self-Correction**.  
   Bin Chen, Jia-Li Yin, Zhaozhe Hu, Genna Ba, Wei Lin, <span style="color:blue">Xiaolei Liu</span>, Lichao Su, Yuanlong Yu, and Shouling Ji.   
   In *Proceedings of the 34th ACM International Conference on Multimedia (ACM MM)*, November, 2026.  (<span style="color:#b3261e">CCF-A</span>)   

@@ -309,3 +309,53 @@
   });
 })();
 </script>
+
+<script>
+/* 防爬邮箱一键复制：点击时才在内存中拼接地址，HTML 源码无明文邮箱 */
+(function () {
+  var btns = document.querySelectorAll('.copy-email-btn');
+  if (!btns.length) return;
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', function () {
+      var btn = this;
+      var u = btn.getAttribute('data-u');
+      var d = btn.getAttribute('data-d');
+      if (!u || !d) return;
+      var email = [u, d].join('@');
+
+      var done = function () {
+        btn.textContent = 'Copied ✓';
+        btn.classList.add('is-copied');
+        clearTimeout(btn._copyTimer);
+        btn._copyTimer = setTimeout(function () {
+          btn.textContent = 'Copy';
+          btn.classList.remove('is-copied');
+        }, 2000);
+      };
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(done, function () {
+          fallbackCopy(email);
+          done();
+        });
+      } else {
+        fallbackCopy(email);
+        done();
+      }
+    });
+  }
+})();
+</script>

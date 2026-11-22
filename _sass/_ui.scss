@@ -170,6 +170,29 @@ html[data-theme="dark"] .greedy-nav .hidden-links {
   font-weight: 600;
 }
 
+.copy-email-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.25rem;
+  padding: 0.08rem 0.5rem;
+  font-family: $ui-font;
+  font-size: 0.78em;
+  line-height: 1.45;
+  vertical-align: baseline;
+  color: var(--ui-nav);
+  background-color: var(--ui-bg);
+  border: 1px solid var(--ui-rule);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover,
+  &.is-copied {
+    color: var(--ui-link);
+    border-color: var(--ui-link);
+  }
+}
+
 .sidebar {
   .author__avatar img {
     border-color: var(--ui-rule);
