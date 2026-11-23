@@ -22,7 +22,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 <div class="highlights-strip" data-gs-full-url="{{ gsFullUrl }}" aria-label="Key track record">
   <div class="highlight-item">
     <div class="highlight-item__label">Academic Papers</div>
-    <div class="highlight-item__value"><span data-gs-papers>30</span><span class="highlight-item__plus">+</span></div>
+    <div class="highlight-item__value"><span data-gs-papers>60</span><span class="highlight-item__plus">+</span></div>
     <div class="highlight-item__sub">ICML · ACL · CCS · USENIX · MM</div>
   </div>
   <div class="highlight-item">
