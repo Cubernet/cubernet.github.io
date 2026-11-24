@@ -15,7 +15,7 @@ google_scholar_stats_use_cdn : true
 
 # Search metadata is separate from the short description shown in the sidebar.
 seo:
-  title: "Xiaolei Liu (刘小垒) | MAIVER · AI Agent Security"
+  title: "Xiaolei Liu (刘小垒) · 个人主页 | Founder & CEO, @MAIVER"
   description: "Xiaolei Liu (刘小垒), founder and CEO of MAIVER, is pioneering machine behavior intelligence and AI agent behavior governance."
   description_zh: "刘小垒（Xiaolei Liu），MAIVER（极数景明）创始人兼 CEO，专注机器行为智能与 AI Agent 行为治理：打造与前沿模型同步演进的治理智能，实时判断 AI 行动是否有依据、获得授权、符合人类意图并可安全执行。"
   alternate_names:
@@ -27,7 +27,7 @@ seo:
     - "https://github.com/Cubernet"
   # Social sharing card (Open Graph / Twitter). 1200x630, kept in images/og-card.jpg
   image: "/images/og-card.jpg"
-  image_alt: "Xiaolei Liu (刘小垒) — Founder & CEO of MAIVER, AI Agent Security"
+  image_alt: "Xiaolei Liu (刘小垒) · 个人主页 — Founder & CEO, @MAIVER"
   knows_about:
     - "Machine behavior intelligence"
     - "AI agent security"
