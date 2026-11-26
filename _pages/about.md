@@ -19,7 +19,7 @@ redirect_from:
 
 I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-native company pioneering **machine behavior intelligence**. As autonomous AI moves toward AGI, human oversight alone breaks down—**only intelligence can govern intelligence**. We are building the counterbalance that scales alongside frontier models, starting with **AI agent behavior governance**: models that verify in real time whether every action is grounded, authorized, aligned with human intent, and safe to execute.
 
-<div class="highlights-strip" data-gs-full-url="{{ gsFullUrl }}" aria-label="Key track record">
+<div class="highlights-strip" data-gs-full-url="{{ gsFullUrl }}" data-gs-repo="{{ site.repository }}" aria-label="Key track record">
   <div class="highlight-item">
     <div class="highlight-item__label">Academic Papers</div>
     <div class="highlight-item__value"><span data-gs-papers>60</span><span class="highlight-item__plus">+</span></div>
@@ -37,7 +37,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
   </div>
   <div class="highlight-item">
     <div class="highlight-item__label">Scholar Citations</div>
-    <div class="highlight-item__value" data-gs-citations>—</div>
+    <div class="highlight-item__value" data-gs-citations>1,267</div>
     <div class="highlight-item__sub">ESI Highly Cited</div>
   </div>
 </div>
@@ -95,7 +95,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 ## Publications
 {: .section-heading}
 
-Selected top-venue papers <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count" hidden></span></a>
+Selected top-venue papers <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" data-gs-repo="{{ site.repository }}" aria-label="Google Scholar citations: 1,267"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count">1,267</span></a>
 
 <div id="pub-year-filter" class="pub-filter" role="group" aria-label="Filter publications by year"></div>
 

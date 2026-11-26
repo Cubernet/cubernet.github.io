@@ -505,13 +505,57 @@
 </script>
 
 <script>
-/* 原生 Google Scholar 引用数徽章：直接读取 gs_data_shieldsio.json，绕开 shields.io */
+/* 原生 Google Scholar 引用数与论文数加载：同源优先 + 多 CDN 自动降级 + 超时保护 */
 (function () {
   var badge = document.querySelector('.scholar-badge[data-stats-url]');
   if (!badge) return;
   var countEl = badge.querySelector('.scholar-badge__count');
-  var url = badge.getAttribute('data-stats-url');
-  if (!countEl || !url) return;
+  var primaryUrl = badge.getAttribute('data-stats-url');
+  var repo = badge.getAttribute('data-gs-repo') || '';
+  if (!countEl || !primaryUrl) return;
+
+  function fetchWithTimeout(url, timeoutMs) {
+    if (typeof AbortController === 'function') {
+      var controller = new AbortController();
+      var timer = setTimeout(function () { controller.abort(); }, timeoutMs);
+      return fetch(url, { signal: controller.signal }).then(function (res) {
+        clearTimeout(timer);
+        return res;
+      }, function (err) {
+        clearTimeout(timer);
+        throw err;
+      });
+    }
+    return fetch(url);
+  }
+
+  function fetchJsonWithFallback(urls) {
+    var unique = [];
+    for (var i = 0; i < urls.length; i++) {
+      if (urls[i] && unique.indexOf(urls[i]) === -1) unique.push(urls[i]);
+    }
+    var idx = 0;
+    function next() {
+      if (idx >= unique.length) return Promise.resolve(null);
+      var currentUrl = unique[idx++];
+      return fetchWithTimeout(currentUrl, 4000)
+        .then(function (res) { return res && res.ok ? res.json() : null; })
+        .catch(function () { return null; })
+        .then(function (data) { return data ? data : next(); });
+    }
+    return next();
+  }
+
+  function buildSources(fileName, fallbackUrl) {
+    var list = ['/assets/data/' + fileName];
+    if (repo) {
+      list.push('https://fastly.jsdelivr.net/gh/' + repo + '@google-scholar-stats/' + fileName);
+      list.push('https://cdn.jsdelivr.net/gh/' + repo + '@google-scholar-stats/' + fileName);
+      list.push('https://raw.githubusercontent.com/' + repo + '/google-scholar-stats/' + fileName);
+    }
+    if (fallbackUrl) list.push(fallbackUrl);
+    return list;
+  }
 
   function render(raw) {
     if (!raw) return;
@@ -534,16 +578,14 @@
 
   if (!window.fetch) return;
 
-  fetch(url)
-    .then(function (res) { return res.ok ? res.json() : null; })
+  fetchJsonWithFallback(buildSources('gs_data_shieldsio.json', primaryUrl))
     .then(function (data) {
       if (!data || !data.message) return;
       var msg = String(data.message).trim();
       if (!msg) return;
       try { sessionStorage.setItem('gs-citations', msg); } catch (e) {}
       render(msg);
-    })
-    .catch(function () {});
+    });
 
   /* 同步拉取 gs_data.json 统计 Google Scholar 总论文数，个位向下取整显示为 XX+ */
   var strip = document.querySelector('.highlights-strip[data-gs-full-url]');
@@ -560,8 +602,7 @@
       var cachedPapers = sessionStorage.getItem('gs-papers');
       if (cachedPapers) renderPapers(cachedPapers);
     } catch (e) {}
-    fetch(fullUrl)
-      .then(function (res) { return res.ok ? res.json() : null; })
+    fetchJsonWithFallback(buildSources('gs_data.json', fullUrl))
       .then(function (data) {
         if (!data || !data.publications) return;
         var count = Array.isArray(data.publications)
@@ -570,8 +611,7 @@
         if (!count) return;
         try { sessionStorage.setItem('gs-papers', String(count)); } catch (e) {}
         renderPapers(count);
-      })
-      .catch(function () {});
+      });
   }
 })();
 </script>

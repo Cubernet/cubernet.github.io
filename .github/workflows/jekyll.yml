@@ -11,6 +11,12 @@ on:
   push:
     branches: ["master"]
 
+  # Rebuild after daily Google Scholar stats update so same-origin JSON stays fresh
+  workflow_run:
+    workflows: ["Get Citation Data"]
+    types:
+      - completed
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -34,6 +40,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Bundle same-origin Google Scholar stats
+        run: |
+          mkdir -p assets/data
+          if git fetch --depth=1 origin google-scholar-stats; then
+            git show origin/google-scholar-stats:gs_data_shieldsio.json > assets/data/gs_data_shieldsio.json || true
+            git show origin/google-scholar-stats:gs_data.json > assets/data/gs_data.json || true
+          fi
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
