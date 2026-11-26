@@ -505,14 +505,19 @@
 </script>
 
 <script>
-/* 原生 Google Scholar 引用数与论文数加载：同源优先 + 多 CDN 自动降级 + 超时保护 */
+/* 原生 Google Scholar 引用数与论文数加载：从 0 平滑滚动到真实值 + 同源优先 + 多 CDN 自动降级 + 全链路失效兜底 */
 (function () {
   var badge = document.querySelector('.scholar-badge[data-stats-url]');
   if (!badge) return;
   var countEl = badge.querySelector('.scholar-badge__count');
   var primaryUrl = badge.getAttribute('data-stats-url');
   var repo = badge.getAttribute('data-gs-repo') || '';
+  var fallbackNum = Number(badge.getAttribute('data-fallback') || 0);
   if (!countEl || !primaryUrl) return;
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var currentDisplayNum = 0;
+  var animFrameId = null;
 
   function fetchWithTimeout(url, timeoutMs) {
     if (typeof AbortController === 'function') {
@@ -557,34 +562,83 @@
     return list;
   }
 
-  function render(raw) {
-    if (!raw) return;
-    var num = Number(raw);
-    var formatted = !isNaN(num) && isFinite(num) ? num.toLocaleString('en-US') : String(raw);
-    countEl.textContent = formatted;
+  function setCitationText(text, ariaText) {
+    countEl.textContent = text;
     countEl.hidden = false;
-    badge.setAttribute('aria-label', 'Google Scholar citations: ' + formatted);
-
+    badge.setAttribute('aria-label', 'Google Scholar citations: ' + (ariaText || text));
     var extra = document.querySelectorAll('[data-gs-citations]');
     for (var i = 0; i < extra.length; i++) {
-      extra[i].textContent = formatted;
+      extra[i].textContent = text;
     }
   }
 
+  function renderCitations(raw, suffix) {
+    var suf = suffix || '';
+    var target = Number(raw);
+    if (isNaN(target) || !isFinite(target) || target <= 0) return;
+
+    if (target === currentDisplayNum && !suf) return;
+
+    if (animFrameId) {
+      cancelAnimationFrame(animFrameId);
+      animFrameId = null;
+    }
+
+    if (reduceMotion || !window.requestAnimationFrame) {
+      currentDisplayNum = target;
+      setCitationText(target.toLocaleString('en-US') + suf);
+      return;
+    }
+
+    var startVal = currentDisplayNum;
+    var diff = target - startVal;
+    var duration = startVal === 0 ? 720 : 380;
+    var startTime = null;
+
+    function step(ts) {
+      if (!startTime) startTime = ts;
+      var elapsed = ts - startTime;
+      var progress = Math.min(1, elapsed / duration);
+      // easeOutCubic：起步干脆、收尾柔和
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var val = Math.round(startVal + diff * eased);
+      currentDisplayNum = val;
+      setCitationText(val.toLocaleString('en-US') + (progress >= 1 ? suf : ''));
+      if (progress < 1) {
+        animFrameId = requestAnimationFrame(step);
+      } else {
+        animFrameId = null;
+      }
+    }
+
+    animFrameId = requestAnimationFrame(step);
+  }
+
+  var hasRendered = false;
   try {
     var cached = sessionStorage.getItem('gs-citations');
-    if (cached) render(cached);
+    if (cached) {
+      hasRendered = true;
+      renderCitations(cached);
+    }
   } catch (e) {}
 
-  if (!window.fetch) return;
+  if (!window.fetch) {
+    if (!hasRendered && fallbackNum > 0) renderCitations(fallbackNum, '+');
+    return;
+  }
 
   fetchJsonWithFallback(buildSources('gs_data_shieldsio.json', primaryUrl))
     .then(function (data) {
-      if (!data || !data.message) return;
-      var msg = String(data.message).trim();
-      if (!msg) return;
-      try { sessionStorage.setItem('gs-citations', msg); } catch (e) {}
-      render(msg);
+      var msg = data && data.message ? String(data.message).trim() : '';
+      if (msg) {
+        hasRendered = true;
+        try { sessionStorage.setItem('gs-citations', msg); } catch (e) {}
+        renderCitations(msg);
+      } else if (!hasRendered && fallbackNum > 0) {
+        // 全链路均失败时，平滑滚动到保底值（带 + 号），绝不停在 0
+        renderCitations(fallbackNum, '+');
+      }
     });
 
   /* 同步拉取 gs_data.json 统计 Google Scholar 总论文数，个位向下取整显示为 XX+ */

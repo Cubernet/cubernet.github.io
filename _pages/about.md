@@ -37,7 +37,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
   </div>
   <div class="highlight-item">
     <div class="highlight-item__label">Scholar Citations</div>
-    <div class="highlight-item__value" data-gs-citations>1,267</div>
+    <div class="highlight-item__value" data-gs-citations data-fallback="1200">0</div>
     <div class="highlight-item__sub">ESI Highly Cited</div>
   </div>
 </div>
@@ -95,7 +95,7 @@ I am the founder and CEO of [MAIVER](https://maiver.ai/) (极数景明), an AI-n
 ## Publications
 {: .section-heading}
 
-Selected top-venue papers <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" data-gs-repo="{{ site.repository }}" aria-label="Google Scholar citations: 1,267"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count">1,267</span></a>
+Selected top-venue papers <a class="scholar-badge" href="https://scholar.google.com/citations?user=2ahbtVoAAAAJ" data-stats-url="{{ url }}" data-gs-repo="{{ site.repository }}" data-fallback="1200" aria-label="Google Scholar citations"><svg class="scholar-badge__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path></svg><span class="scholar-badge__label">Citations</span><span class="scholar-badge__count">0</span></a>
 
 <div id="pub-year-filter" class="pub-filter" role="group" aria-label="Filter publications by year"></div>
 
