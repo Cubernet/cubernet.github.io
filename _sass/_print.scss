@@ -53,4 +53,10 @@
   .page__content li {
     break-inside: avoid;
   }
+
+  .reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }

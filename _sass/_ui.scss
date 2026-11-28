@@ -1413,3 +1413,30 @@ html[data-theme="dark"] #map-section #mapmyvisitors-widget {
     }
   }
 }
+
+/* ---------- 10. 克制级微动效（滚动渐显 / 折叠展开） ---------- */
+
+html.reveal-ready .reveal-item {
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.reveal-ready .reveal-item.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.news-archive > ul {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.reveal-ready .reveal-item {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

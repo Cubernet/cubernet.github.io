@@ -425,12 +425,14 @@
         if (show) {
           visibleCount++;
           lastVisible = li;
+          li.classList.add('is-revealed');
         }
       });
       if (lastVisible) lastVisible.classList.add('is-last-visible');
       var showGroup = visibleCount > 0;
       g.heading.style.display = showGroup ? '' : 'none';
       g.list.style.display = showGroup ? '' : 'none';
+      if (showGroup) g.heading.classList.add('is-revealed');
     });
 
     var buttons = bar.querySelectorAll('.pub-filter__btn');
@@ -721,5 +723,133 @@
   }
   window.addEventListener('resize', fitMap);
   window.addEventListener('load', fitMap);
+})();
+</script>
+
+<script>
+/* 克制级滚动渐显（仅首次进入视口触发，支持系统减少动态效果设置） */
+(function () {
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion || !('IntersectionObserver' in window)) return;
+
+  var selectors = [
+    '.highlights-strip .highlight-item',
+    '.openings-callout',
+    '.page__content .section-heading',
+    '.page__content h2#news + ul > li',
+    '.page__content .publication-heading',
+    '.page__content .publication-heading + ul > li',
+    '.page__content h2#honors-and-awards + ul > li',
+    '.page__content h2#services + ul > li'
+  ];
+
+  var targets = [].slice.call(document.querySelectorAll(selectors.join(',')));
+  if (!targets.length) return;
+
+  document.documentElement.classList.add('reveal-ready');
+
+  var vh = window.innerHeight || document.documentElement.clientHeight || 800;
+  var highlightIdx = 0;
+
+  targets.forEach(function (el) {
+    el.classList.add('reveal-item');
+    if (el.classList.contains('highlight-item')) {
+      el.style.transitionDelay = (highlightIdx * 65) + 'ms';
+      highlightIdx++;
+    }
+  });
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      var el = entry.target;
+      el.classList.add('is-revealed');
+      observer.unobserve(el);
+      if (el.style.transitionDelay) {
+        setTimeout(function () { el.style.transitionDelay = ''; }, 700);
+      }
+    });
+  }, {
+    rootMargin: '0px 0px -28px 0px',
+    threshold: 0.04
+  });
+
+  targets.forEach(function (el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < vh * 0.96 && rect.bottom > 0) {
+      // 首屏可见元素在下一帧顺滑入场
+      requestAnimationFrame(function () {
+        el.classList.add('is-revealed');
+        if (el.style.transitionDelay) {
+          setTimeout(function () { el.style.transitionDelay = ''; }, 700);
+        }
+      });
+    } else {
+      observer.observe(el);
+    }
+  });
+})();
+</script>
+
+<script>
+/* Earlier News 折叠块的平滑遮罩展开与收起 */
+(function () {
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion) return;
+
+  var archives = document.querySelectorAll('details.news-archive');
+  for (var i = 0; i < archives.length; i++) {
+    (function (details) {
+      var summary = details.querySelector('summary');
+      var list = details.querySelector('ul');
+      if (!summary || !list) return;
+      var animating = false;
+
+      summary.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (animating) return;
+        animating = true;
+
+        if (!details.open) {
+          details.open = true;
+          var targetH = list.scrollHeight;
+          list.style.maxHeight = '0px';
+          list.style.opacity = '0';
+          list.style.transform = 'translateY(-4px)';
+          list.style.transition = 'max-height 0.36s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.28s ease, transform 0.32s cubic-bezier(0.22, 1, 0.36, 1)';
+          void list.offsetHeight;
+          list.style.maxHeight = targetH + 'px';
+          list.style.opacity = '1';
+          list.style.transform = 'translateY(0)';
+
+          setTimeout(function () {
+            list.style.maxHeight = '';
+            list.style.opacity = '';
+            list.style.transform = '';
+            list.style.transition = '';
+            animating = false;
+          }, 380);
+        } else {
+          list.style.maxHeight = list.scrollHeight + 'px';
+          list.style.opacity = '1';
+          list.style.transform = 'translateY(0)';
+          list.style.transition = 'max-height 0.26s ease, opacity 0.2s ease, transform 0.24s ease';
+          void list.offsetHeight;
+          list.style.maxHeight = '0px';
+          list.style.opacity = '0';
+          list.style.transform = 'translateY(-4px)';
+
+          setTimeout(function () {
+            details.open = false;
+            list.style.maxHeight = '';
+            list.style.opacity = '';
+            list.style.transform = '';
+            list.style.transition = '';
+            animating = false;
+          }, 270);
+        }
+      });
+    })(archives[i]);
+  }
 })();
 </script>
